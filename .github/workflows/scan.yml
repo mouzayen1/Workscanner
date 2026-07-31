@@ -1,0 +1,82 @@
+name: Scan for jobs
+
+on:
+  schedule:
+    # Times are UTC. 14:30 UTC = 6:30/7:30 am PT; 23:30 UTC = 3:30/4:30 pm PT.
+    - cron: "30 14 * * *"
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "Probe sources only (check health, change nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Probe sources (health check only)
+        if: ${{ inputs.probe }}
+        run: python -m scanner.main probe
+
+      - name: Scan
+        if: ${{ !inputs.probe }}
+        env:
+          # All optional — sources without a key just skip themselves.
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          JOOBLE_KEY: ${{ secrets.JOOBLE_KEY }}
+          USAJOBS_KEY: ${{ secrets.USAJOBS_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+        run: python -m scanner.main scan --verbose
+
+      - name: Commit updated data
+        if: ${{ !inputs.probe }}
+        run: |
+          git config user.name "workscanner-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "scan: update job data ($(date -u +%Y-%m-%d) run) [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Open issue if new jobs were found
+        if: ${{ !inputs.probe }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s data/new_jobs.md ]; then
+            n=$(grep -o '[0-9]\+ new position' data/new_jobs.md | grep -o '[0-9]\+' | head -1)
+            gh label create new-jobs --color 0E8A16 \
+              --description "New job matches from the daily scan" 2>/dev/null || true
+            gh issue create \
+              --title "🆕 ${n:-New} NM/PET job(s) found — $(date -u +%Y-%m-%d)" \
+              --body-file data/new_jobs.md \
+              --label new-jobs
+          else
+            echo "No new jobs this run."
+          fi

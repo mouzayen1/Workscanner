@@ -1,0 +1,160 @@
+# Every place the scanner looks, in one file.
+#
+# Fields:
+#   id        unique name (shows up in health reports)
+#   kind      which scraper to use (see scanner/sources/__init__.py)
+#   setting   'outpatient' | 'hospital' | omit — employer-level prior for scoring
+#   travel    true = everything from this source goes to the Travel category
+#   aggregator true = listings here may duplicate direct sources (deduped)
+#   queries   search terms (defaults to ["nuclear medicine", "PET"])
+#   disabled  true = skip (keep the entry for reference)
+#
+# Research notes (July 2026): RadNet's OC brand is WaveImaging (RadNet–MemorialCare
+# joint venture; techs hired through RadNet). SimonMed hires via Lever. Hoag posts
+# NM roles AT its outpatient Newport Beach/Huntington Beach imaging centers.
+# City of Hope Irvine (Lennar Foundation Cancer Center) posts PET/CT + molecular
+# imaging roles, new-grad friendly. Kaiser NM roles are often in outpatient
+# medical office buildings. Cardiology offices (nuclear stress tests) mostly post
+# on Indeed/ZipRecruiter -> covered by the aggregator lane once keys are added.
+
+sources:
+  # ---------- direct employers: outpatient imaging chains (highest priority) ----------
+  - id: radnet
+    kind: jibe
+    name: RadNet / WaveImaging
+    base: https://careers.radnet.com
+    setting: outpatient
+    queries: ["nuclear medicine", "PET"]
+
+  - id: simonmed
+    kind: lever
+    name: SimonMed Imaging
+    company: simonmed
+    setting: outpatient
+
+  # ---------- direct employers: health systems with outpatient imaging in-region ----------
+  - id: hoag
+    kind: auto
+    name: Hoag
+    base: https://careers.hoag.org
+    queries: ["nuclear medicine", "PET"]
+
+  - id: memorialcare
+    kind: auto
+    name: MemorialCare
+    base: https://careers.memorialcare.org
+    queries: ["nuclear medicine", "PET"]
+
+  - id: cityofhope
+    kind: auto
+    name: City of Hope
+    base: https://www.cityofhopejobs.org
+    queries: ["nuclear medicine", "PET", "molecular imaging"]
+
+  - id: providence
+    kind: auto
+    name: Providence (Mission/St. Joseph/St. Jude)
+    base: https://providence.jobs
+    queries: ["nuclear medicine", "PET"]
+
+  - id: kaiser
+    kind: auto
+    name: Kaiser Permanente
+    base: https://www.kaiserpermanentejobs.org
+    queries: ["nuclear medicine", "PET"]
+
+  - id: pih
+    kind: auto
+    name: PIH Health
+    base: https://jobs.pihhealth.org
+    queries: ["nuclear medicine", "PET"]
+
+  - id: uhs
+    kind: jibe
+    name: UHS (Corona Regional et al.)
+    base: https://jobs.uhsinc.com
+    setting: hospital
+    queries: ["nuclear medicine"]
+
+  - id: prime
+    kind: icims-classic
+    name: Prime Healthcare (Chino Valley MC et al.)
+    base: https://careers-primehealthcare.icims.com
+    setting: hospital
+    queries: ["nuclear medicine"]
+
+  - id: uci
+    kind: auto
+    name: UCI Health
+    base: https://careersucirvine.ttcportals.com
+    setting: hospital
+    queries: ["nuclear medicine"]
+
+  # ---------- specialty boards (permanent, all-NM) ----------
+  - id: snmmi
+    kind: ymcareers
+    name: SNMMI Career Center
+    base: https://careercenter.snmmi.org
+    paths:
+      - "/jobs/?keywords=&location=California"
+    aggregator: true
+
+  - id: asrt
+    kind: ymcareers
+    name: ASRT JobBank
+    base: https://careers.asrt.org
+    paths:
+      - "/jobs/?keywords=nuclear+medicine&location=California"
+      - "/jobs/?keywords=PET&location=California"
+    aggregator: true
+
+  # ---------- travel / contract (separate category) ----------
+  - id: vivian
+    kind: vivian
+    name: Vivian Health
+    travel: true
+    aggregator: true
+    urls:
+      - "https://www.vivian.com/allied-health/nuclear-medicine-tech/travel/california/"
+      - "https://www.vivian.com/allied-health/nuclear-medicine-tech/staff/california/"
+
+  - id: aya
+    kind: aya
+    name: Aya Healthcare
+    travel: true
+    urls:
+      - "https://www.ayahealthcare.com/healthcare-jobs/allied/radiology-cardiology/nuclear-medicine-tech/state/california/"
+
+  # ---------- aggregator APIs (each activates only when its key exists) ----------
+  # These catch what direct scans miss: cardiology offices (Pacific Cardiovascular
+  # Associates), mobile PET (Akumin, Shared Imaging, Digirad), Loma Linda, San
+  # Antonio Regional, Pomona Valley, and anything new. See README for free keys.
+  - id: adzuna          # developer.adzuna.com — free, 250 calls/day
+    kind: adzuna
+    name: Adzuna
+    aggregator: true
+    queries: ["nuclear medicine technologist", "PET CT technologist"]
+    wheres: ["Costa Mesa, CA", "Chino Hills, CA", "Mission Viejo, CA"]
+    distance_km: 60
+    max_days_old: 45
+
+  - id: jsearch         # rapidapi.com JSearch — Google-for-Jobs index (sees Indeed/LinkedIn)
+    kind: jsearch
+    name: JSearch (Google Jobs)
+    aggregator: true
+    searches:
+      - "nuclear medicine technologist in Orange County, CA"
+      - "PET CT technologist in Orange County, CA"
+      - "nuclear medicine technologist near Corona, CA"
+
+  - id: jooble          # jooble.org/api/about — free key, strong staffing inventory
+    kind: jooble
+    name: Jooble
+    aggregator: true
+    queries: ["nuclear medicine technologist", "PET CT technologist"]
+    locations: ["Irvine, CA", "Corona, CA"]
+
+  - id: usajobs         # developer.usajobs.gov — VA outpatient clinics hire NM techs
+    kind: usajobs
+    name: USAJobs (VA/federal)
+    aggregator: true

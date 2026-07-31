@@ -1,0 +1,81 @@
+# What "close to home" means for this search.
+# Tier 1 = target cities (Orange County + the Chino/Chino Hills/Corona corridor).
+# Tier 2 = acceptable nearby (worth seeing, slightly lower rank).
+# Anchors + max_miles catch listings that only give coordinates.
+
+target:
+  tier1_cities:
+    # Orange County
+    - Newport Beach
+    - Costa Mesa
+    - Huntington Beach
+    - Mission Viejo
+    - San Clemente
+    - Irvine
+    - Orange
+    - Anaheim
+    - Anaheim Hills
+    - Fullerton
+    - Brea
+    - Tustin
+    - Santa Ana
+    - Fountain Valley
+    - Garden Grove
+    - Westminster
+    - Laguna Hills
+    - Laguna Niguel
+    - Laguna Beach
+    - Laguna Woods
+    - Aliso Viejo
+    - Lake Forest
+    - Foothill Ranch
+    - Rancho Santa Margarita
+    - Ladera Ranch
+    - San Juan Capistrano
+    - Dana Point
+    - Yorba Linda
+    - Placentia
+    - Buena Park
+    - Cypress
+    - Los Alamitos
+    - Seal Beach
+    - Stanton
+    - La Habra
+    - La Palma
+    - Fountain Valley
+    # Chino / Corona corridor
+    - Chino
+    - Chino Hills
+    - Corona
+    - Eastvale
+    - Norco
+  tier2_cities:
+    - Ontario
+    - Upland
+    - Montclair
+    - Rancho Cucamonga
+    - Pomona
+    - Claremont
+    - Diamond Bar
+    - Walnut
+    - Riverside
+    - Whittier
+    - La Mirada
+    - Cerritos
+    - Lakewood
+    - Long Beach
+    - Fontana
+    - Rialto
+    - Moreno Valley
+    - Temecula
+    - Murrieta
+    - Oceanside
+  anchors:               # used when a source only provides coordinates
+    - { name: Costa Mesa, lat: 33.6411, lon: -117.9187 }
+    - { name: Mission Viejo, lat: 33.6000, lon: -117.6720 }
+    - { name: Chino, lat: 34.0122, lon: -117.6889 }
+    - { name: Corona, lat: 33.8753, lon: -117.5664 }
+  max_miles: 35
+
+travel:
+  states: [CA]           # travel/contract listings kept only in these states
