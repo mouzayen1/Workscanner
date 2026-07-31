@@ -5,6 +5,12 @@ on:
     # Times are UTC. 14:30 UTC = 6:30/7:30 am PT; 23:30 UTC = 3:30/4:30 pm PT.
     - cron: "30 14 * * *"
     - cron: "30 23 * * *"
+  push:
+    paths:
+      - "scanner/**"
+      - "config/**"
+      - ".github/workflows/scan.yml"
+      - "requirements.txt"
   workflow_dispatch:
     inputs:
       probe:
