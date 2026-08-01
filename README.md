@@ -23,31 +23,39 @@ You don't run anything by hand. GitHub runs it for you, for free, on a schedule.
 
 ## What it scans
 
-**Direct employer career sites** (checked every run, no keys needed):
+**Direct employer career sites** (checked every run, no keys needed — all
+verified live and returning real postings):
 
 | Employer | Why it matters |
 |---|---|
-| RadNet / WaveImaging | Biggest outpatient imaging chain in SoCal; PET/CT in Orange, Santa Ana, Newport Beach. Verified active NM/PET postings. |
+| RadNet / WaveImaging | Biggest outpatient imaging chain in SoCal; PET/CT in Orange, Santa Ana, Newport Beach. Live "Nuclear Medicine/PET Technologist" postings found on the first scan. |
 | SimonMed Imaging | Pure outpatient chain — Irvine & Santa Ana centers with NM + PET/CT |
-| Hoag | Posts NM tech roles *at its outpatient imaging centers* (Newport Beach, Huntington Beach) |
-| City of Hope Orange County | Outpatient cancer center in Irvine — heavy PET/molecular imaging, sign-on bonuses |
-| MemorialCare | Orange Coast (Fountain Valley) + Saddleback (Laguna Hills) + imaging centers |
+| City of Hope Orange County | Outpatient cancer center in Irvine — heavy PET/molecular imaging, "new grads welcome," sign-on bonuses |
+| MemorialCare | Orange Coast (Fountain Valley) + Saddleback (Laguna Hills) + Long Beach + imaging centers |
 | Providence | Mission Viejo, Orange, Fullerton hospitals + Heritage medical-group nuclear cardiology |
 | Kaiser Permanente | Many NM roles sit in outpatient medical office buildings (Anaheim, Irvine, Ontario, Riverside) |
-| UCI Health | Academic center in Orange |
 | PIH Health | Whittier/Downey — commutable from Chino Hills/Brea |
-| Prime Healthcare | Chino Valley Medical Center (Chino) |
-| UHS | Corona Regional Medical Center |
-| SNMMI Career Center + ASRT JobBank | The two professional-society boards for this exact field |
+| UHS | Corona Regional Medical Center (found its live Corona NM openings on the first scan) |
 
 **Travel/contract** (separate category): Vivian Health — which aggregates
-Aya, LanceSoft, Host Healthcare, Cross Country, TotalMed, Triage and more —
-plus Aya's own board. Research found live OC-area contracts (Orange, Mission
-Viejo, Fullerton) at $2,900–$3,300/week.
+LanceSoft, Host Healthcare, Cross Country, TotalMed, Triage, Stability and
+more — plus Aya's own board. The first live scans already surfaced contracts
+in **Orange, Irvine, Los Alamitos, and Upland** at travel rates.
 
 **Aggregator APIs** (optional, free keys — see below): cover everything else —
-cardiology offices doing nuclear stress tests, mobile PET companies (Akumin,
-Shared Imaging, Digirad), smaller hospitals, and brand-new postings anywhere.
+cardiology offices doing nuclear stress tests (e.g. Pacific Cardiovascular
+Associates), mobile PET companies (Akumin, Shared Imaging, Digirad), Hoag,
+UCI, Prime/Chino Valley, Loma Linda, San Antonio Regional (Upland), Pomona
+Valley, and brand-new postings anywhere.
+
+**Four sites block automated readers** (their career portals reject
+non-browser traffic). Their postings still reach you through the aggregator
+APIs above, but they're worth a quick manual look every week or two:
+
+- Hoag: <https://careers.hoag.org/search-jobs/> (search "nuclear")
+- UCI Health: <https://careersucirvine.ttcportals.com/search/jobs>
+- Prime Healthcare (Chino Valley MC): <https://careers-primehealthcare.icims.com/jobs/search?ss=1&searchKeyword=nuclear>
+- SNMMI Career Center: <https://careercenter.snmmi.org/jobs/> · ASRT: <https://careers.asrt.org/jobs/>
 
 ## Optional but recommended: add 2 free API keys (10 minutes)
 

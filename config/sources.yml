@@ -33,10 +33,16 @@ sources:
     setting: outpatient
 
   # ---------- direct employers: health systems with outpatient imaging in-region ----------
+  # Hoag's careers site is a JS app with no scrapeable API, Radancy endpoint,
+  # or job sitemap (verified in live runs: /api/jobs 404, /search-jobs/results
+  # 404, sitemap has no job URLs). Hoag postings syndicate to Google Jobs ->
+  # covered by JSearch/Adzuna once keys are added.
+  # Manual check: https://careers.hoag.org/search-jobs/
   - id: hoag
     kind: auto
     name: Hoag
     base: https://careers.hoag.org
+    disabled: true
     queries: ["nuclear medicine", "PET"]
 
   - id: memorialcare
@@ -76,11 +82,16 @@ sources:
     setting: hospital
     queries: ["nuclear medicine"]
 
+  # Prime's iCIMS portal 405s requests from datacenter IPs (worked once, then
+  # the WAF blocked GitHub's runners — search AND sitemap). Prime postings
+  # syndicate to Indeed/Google Jobs -> covered by JSearch/Adzuna with keys.
+  # Manual check: https://careers-primehealthcare.icims.com/jobs/search?ss=1&searchKeyword=nuclear
   - id: prime
     kind: icims-classic
     name: Prime Healthcare (Chino Valley MC et al.)
     base: https://careers-primehealthcare.icims.com
     setting: hospital
+    disabled: true
     queries: ["nuclear medicine"]
 
   # UCI's ttcportals site hard-403s non-browser clients (verified in live

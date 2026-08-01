@@ -68,6 +68,19 @@ def _str(v) -> Optional[str]:
     return v if isinstance(v, str) and v else None
 
 
+def _city_from_blob(candidate: str) -> Optional[str]:
+    """'...Nuclear Medicine Technologist Los Alamitos' -> 'Los Alamitos'.
+
+    Card text runs the title straight into the city; drop everything through
+    the last role word, then keep at most the trailing three words.
+    """
+    cleaned = re.sub(
+        r".*\b(?:Technologist|Technician|Tech|Nurse|RN|II|I)\b", "", candidate
+    ).strip(" -–·|")
+    words = (cleaned or candidate).strip().split()
+    return " ".join(words[-3:]).title() if words else None
+
+
 class VivianSource(Source):
     kind = "vivian"
 
@@ -95,16 +108,15 @@ class VivianSource(Source):
                 text = re.sub(r"\s+", " ", card.get_text(" ")).strip()
                 title_el = a.select_one("h1,h2,h3,h4,[class*='title']") or a
                 title = re.sub(r"\s+", " ", title_el.get_text(" ")).strip()
+                title = re.sub(r"^View job details for\s+", "", title, flags=re.I)
                 if not title or not re.search(r"nuclear|pet", title + " " + text[:120], re.I):
                     continue
                 href = a["href"]
                 jurl = href if href.startswith("http") else "https://www.vivian.com" + href
                 m_id = re.search(r"/job/(?:v/)?([A-Za-z0-9-]+)", href)
-                m_city = re.search(r"([A-Za-z .'-]{3,25}),\s*(?:CA|California)\b", text)
+                m_city = re.search(r"([A-Za-z .'-]{3,40}),\s*(?:CA|California)\b", text)
                 m_pay = re.search(r"\$[\d,]+(?:\.\d+)?\s*/(?:wk|week|hr|hour)", text)
-                city = None
-                if m_city:
-                    city = " ".join(m_city.group(1).strip().split()[-3:]).title()
+                city = _city_from_blob(m_city.group(1)) if m_city else None
                 jobs.append(Job(
                     source=self.id,
                     source_job_id=m_id.group(1) if m_id else jurl,
