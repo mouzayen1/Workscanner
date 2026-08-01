@@ -63,19 +63,67 @@ def fetch_radancy_ajax(base: str, queries: List[str], source_id: str, name: str)
             if not re.search(r"/job/", href):
                 continue
             url = href if href.startswith("http") else base + href
-            title = _clean(a.get_text(" ")) or _clean(a.get("title"))
-            # Radancy cards put title in a heading and location in a sibling span
+            # Radancy anchors usually wrap a heading (title) + a location span;
+            # a.get_text() alone concatenates everything into one blob.
+            heading = a.select_one("h1, h2, h3, h4, [class*='title']")
+            title = _clean(heading.get_text(" ")) if heading else ""
             card = a.find_parent("li") or a.find_parent("div") or a
-            loc_m = _LOC_RE.search(_clean(card.get_text(" ")))
+            loc_el = a.select_one("[class*='location']") or \
+                card.select_one("[class*='location']")
+            loc = _clean(loc_el.get_text(" ")) if loc_el else ""
+            if not loc:
+                loc_m = _LOC_RE.search(_clean(card.get_text(" ")))
+                loc = loc_m.group(1) if loc_m else ""
+            if not title:
+                title = _clean(a.get_text(" ")) or _clean(a.get("title"))
+            u_title, u_city, u_state = _radancy_url_parts(href)
+            if not title:
+                title = u_title or ""
             if not title:
                 continue
             jobs.append(Job(
                 source=source_id, source_job_id=href,
                 title=title[:160], company=name, url=url,
-                location_raw=loc_m.group(1) if loc_m else "",
+                location_raw=loc,
+                city=u_city, state=u_state,
             ))
         polite_pause(0.8)
     return jobs
+
+
+_URL_CITY_ST = re.compile(r"^([a-z][a-z-]+)-([a-z]{2})$")
+
+
+def _radancy_url_parts(href: str):
+    """Derive (title, city, state) from Radancy-style paths.
+
+    providence.jobs/burbank-ca/nuclear-medicine-technologist/GUID/job
+    careers.x.org/job/fountain-valley/nuclear-medicine-technologist/743/123
+    """
+    try:
+        path = href.split("//")[-1].split("/", 1)[1] if "//" in href else href.lstrip("/")
+    except IndexError:
+        return None, None, None
+    segs = [s for s in path.split("/") if s]
+    if not segs:
+        return None, None, None
+    if segs[0] == "job":
+        segs = segs[1:]
+    if not segs:
+        return None, None, None
+    city = state = None
+    m = _URL_CITY_ST.match(segs[0])
+    if m:
+        city = m.group(1).replace("-", " ").title()
+        state = m.group(2).upper()
+        segs = segs[1:]
+    elif re.fullmatch(r"[a-z-]+", segs[0]) and len(segs) > 1:
+        city = segs[0].replace("-", " ").title()
+        segs = segs[1:]
+    title = None
+    if segs and re.fullmatch(r"[a-z0-9-]+", segs[0]) and not segs[0].isdigit():
+        title = segs[0].replace("-", " ").title()
+    return title, city, state
 
 
 # ---------------------------------------------------------------- strategy 2
@@ -129,6 +177,7 @@ def fetch_sitemap_jsonld(base: str, queries: List[str], source_id: str, name: st
     kws = _SLUG_KEYWORDS + [q.lower().replace(" ", "-") for q in queries]
     picked = [u for u in urls
               if inc.search(u) and any(k in u.lower() for k in kws)]
+    print(f"[{source_id}] sitemap: {len(urls)} urls, {len(picked)} keyword matches")
     jobs: List[Job] = []
     for u in picked[:_DETAIL_CAP]:
         try:
@@ -156,15 +205,23 @@ def fetch_sitemap_jsonld(base: str, queries: List[str], source_id: str, name: st
                 description=desc, posted_at=str(jp.get("datePosted") or ""),
             ))
         else:
-            # No JSON-LD: fall back to <title> + location regex on the page
+            # No JSON-LD (JS-rendered shell): derive from the URL itself
+            # (providence.jobs/burbank-ca/nuclear-medicine-technologist/...),
+            # falling back to the page <title> when the URL is opaque.
+            u_title, u_city, u_state = _radancy_url_parts(u.replace(base, ""))
             soup = BeautifulSoup(r.text, "lxml")
             t = _clean(soup.title.get_text()) if soup.title else ""
+            generic = not t or "|" in t and len(t.split("|")[0].strip()) < 6 \
+                or t.lower().startswith(("jobs", "careers", "search"))
+            title = (u_title if (u_title and generic) else t) or u_title or ""
             m = _LOC_RE.search(soup.get_text(" ")[:4000])
-            if t:
+            loc = ", ".join(x for x in [u_city, u_state] if x) \
+                or (m.group(1) if m else "")
+            if title:
                 jobs.append(Job(
-                    source=source_id, source_job_id=u, title=t[:160],
+                    source=source_id, source_job_id=u, title=title[:160],
                     company=name, url=u,
-                    location_raw=m.group(1) if m else "",
+                    location_raw=loc, city=u_city, state=u_state,
                 ))
         polite_pause(0.5)
     return jobs
@@ -204,7 +261,7 @@ class AutoSource(Source):
     def fetch(self) -> List[Job]:
         from .jibe import fetch_jibe  # local import to avoid a cycle
         base = self.cfg["base"]
-        errors = []
+        outcomes = []
         for label, fn in [
             ("jibe", lambda: fetch_jibe(base, self.queries, self.id, self.name)),
             ("radancy", lambda: fetch_radancy_ajax(base, self.queries, self.id, self.name)),
@@ -215,8 +272,9 @@ class AutoSource(Source):
                 if jobs:
                     print(f"[{self.id}] strategy '{label}' -> {len(jobs)} postings")
                     return self.dedupe(jobs)
+                outcomes.append(f"{label}: 0")
             except Exception as e:
-                errors.append(f"{label}: {type(e).__name__}")
+                outcomes.append(f"{label}: {type(e).__name__}: {str(e)[:80]}")
                 continue
-        print(f"[{self.id}] all strategies empty ({'; '.join(errors) or 'no errors, no jobs'})")
+        print(f"[{self.id}] all strategies empty ({'; '.join(outcomes)})")
         return []

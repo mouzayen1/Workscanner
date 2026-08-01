@@ -89,6 +89,14 @@ def classify(job: Job, region: Region, source_cfg: dict) -> Job:
         job.city = job.city or city
         job.state = job.state or normalize_state(state)
     job.location_tier = region.tier_for(job.city, job.state, job.latitude, job.longitude)
+    # Messy concatenated location text (Radancy cards): rescue by scanning for a
+    # known target city, but never override a clearly non-CA posting.
+    if job.location_tier == 0 and job.state in (None, "CA"):
+        found = region.find_city_in_text(f"{job.location_raw} {job.title}")
+        if found:
+            job.city = found
+            job.state = job.state or "CA"
+            job.location_tier = region.tier_for(job.city, job.state)
 
     # signals
     pet = bool(_PET.search(text))

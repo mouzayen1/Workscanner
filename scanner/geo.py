@@ -78,6 +78,22 @@ class Region:
         ]
         self.max_miles = float(target.get("max_miles", 40))
         self.travel_states = {s.upper() for s in cfg.get("travel", {}).get("states", ["CA"])}
+        # For messy location text ("...Orange Coast Medical Center Fountain
+        # Valley, California"): scan for any known target city, longest last
+        # occurrence wins ("Orange Coast ... Fountain Valley" -> Fountain Valley).
+        all_cities = sorted(self.tier1 | self.tier2, key=len, reverse=True)
+        self._city_rx = re.compile(
+            r"\b(" + "|".join(re.escape(c) for c in all_cities) + r")\b",
+            re.IGNORECASE,
+        ) if all_cities else None
+
+    def find_city_in_text(self, text: str) -> Optional[str]:
+        if not self._city_rx or not text:
+            return None
+        matches = list(self._city_rx.finditer(text))
+        if not matches:
+            return None
+        return matches[-1].group(1).title()
 
     def tier_for(self, city: Optional[str], state: Optional[str],
                  lat: Optional[float] = None, lon: Optional[float] = None) -> int:

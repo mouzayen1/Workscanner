@@ -35,9 +35,12 @@ def fetch_jibe(base: str, queries: List[str], source_id: str, name: str) -> List
                 slug = d.get("slug") or ""
                 req_id = str(d.get("req_id") or d.get("requisition_id")
                              or slug or d.get("title", ""))
-                url = d.get("apply_url") or d.get("canonical_url") or ""
-                if not url and slug:
-                    url = f"{base}/careers-home/jobs/{slug}"
+                # Prefer the canonical careers-site page: apply_url often goes
+                # straight to an iCIMS login wall.
+                url = ""
+                if slug:
+                    url = f"{base}/careers-home/jobs/{slug}?lang=en-us"
+                url = url or d.get("canonical_url") or d.get("apply_url") or ""
                 loc = d.get("full_location") or ", ".join(
                     x for x in [d.get("city"), d.get("state")] if x
                 )

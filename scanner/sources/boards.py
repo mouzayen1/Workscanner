@@ -86,14 +86,27 @@ class ICIMSClassicSource(Source):
         base = self.cfg["base"].rstrip("/")           # e.g. https://careers-primehealthcare.icims.com
         jobs: List[Job] = []
         seen_ids = set()
+        search_broken = False
         for q in self.queries:
+            if search_broken:
+                break
             for page in range(0, 3):                  # pr= is 0-based, ~20-30 rows/page
-                r = session().get(
-                    f"{base}/jobs/search",
-                    params={"ss": 1, "searchKeyword": q, "pr": page, "in_iframe": 1},
-                    timeout=30,
-                )
-                r.raise_for_status()
+                try:
+                    r = session().get(
+                        f"{base}/jobs/search",
+                        params={"ss": 1, "searchKeyword": q, "pr": page,
+                                "in_iframe": 1},
+                        headers={"Referer": f"{base}/jobs/search?ss=1"},
+                        timeout=30,
+                    )
+                    r.raise_for_status()
+                except Exception as e:
+                    # Portal WAFs intermittently 405 the search page; the
+                    # sitemap lists every job URL and rarely gets blocked.
+                    print(f"[{self.id}] search page failed ({type(e).__name__}); "
+                          f"falling back to sitemap")
+                    search_broken = True
+                    break
                 soup = BeautifulSoup(r.text, "lxml")
                 anchors = soup.find_all("a", href=re.compile(r"/jobs/\d+/[^/]+/job"))
                 if not anchors:
@@ -128,6 +141,15 @@ class ICIMSClassicSource(Source):
                         city=city, state=state,
                     ))
                 polite_pause(0.8)
+
+        if search_broken and not jobs:
+            from .radancy import fetch_sitemap_jsonld
+            jobs = fetch_sitemap_jsonld(
+                base, self.queries, self.id, self.name,
+                url_include=r"/jobs/\d+/",
+            )
+            for j in jobs:  # sitemap paths carry no city; JSON-LD filled what it could
+                j.city = j.city if j.city and j.state else None
 
         # enrich locations from detail-page JSON-LD for our role matches
         fetched = 0

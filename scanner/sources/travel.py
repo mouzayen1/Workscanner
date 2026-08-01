@@ -31,18 +31,37 @@ def _walk(node: Any, out: List[dict]) -> None:
     """Collect dicts that look like job postings from an arbitrary JSON tree."""
     if isinstance(node, dict):
         keys = set(node.keys())
-        looks_like_job = ("title" in keys or "jobTitle" in keys) and (
-            "payRate" in keys or "weeklyPay" in keys or "facility" in keys
-            or "specialty" in keys or "jobUrl" in keys or "vivReqId" in keys
-            or "shift" in keys or "duration" in keys
-        )
-        if looks_like_job:
+        title_key = keys & {"title", "jobTitle", "name", "positionTitle"}
+        signal_keys = keys & {
+            "payRate", "weeklyPay", "weeklyPayCents", "payAmountMax", "maxPay",
+            "facility", "facilityName", "specialty", "jobUrl", "vivReqId",
+            "shift", "duration", "durationWeeks", "employmentType", "agency",
+            "agencyName", "startDate", "payDisplay",
+        }
+        if title_key and len(signal_keys) >= 2:
             out.append(node)
         for v in node.values():
             _walk(v, out)
     elif isinstance(node, list):
         for v in node:
             _walk(v, out)
+
+
+def _debug_tree(tree: dict) -> str:
+    """One line describing where the data likely lives, for remote debugging."""
+    try:
+        props = tree.get("props", {}).get("pageProps", {})
+        parts = []
+        for k, v in list(props.items())[:12]:
+            if isinstance(v, list):
+                parts.append(f"{k}[{len(v)}]")
+            elif isinstance(v, dict):
+                parts.append(f"{k}{{{','.join(list(v.keys())[:6])}}}")
+            else:
+                parts.append(k)
+        return "; ".join(parts)[:400]
+    except Exception:
+        return "unreadable"
 
 
 def _str(v) -> Optional[str]:
@@ -71,9 +90,13 @@ class VivianSource(Source):
             tree = json.loads(m.group(1))
             found: List[dict] = []
             _walk(tree, found)
+            if not found:
+                print(f"[vivian] 0 job-shaped dicts at {url}; "
+                      f"pageProps: {_debug_tree(tree)}")
             for d in found:
                 jid = str(d.get("id") or d.get("vivReqId") or "")
-                title = _str(d.get("title")) or _str(d.get("jobTitle")) or ""
+                title = _str(d.get("title")) or _str(d.get("jobTitle")) \
+                    or _str(d.get("name")) or ""
                 if not jid or not title:
                     continue
                 loc = d.get("location") if isinstance(d.get("location"), dict) else {}
@@ -99,15 +122,26 @@ class VivianSource(Source):
                     url=job_url or url,
                     location_raw=", ".join(x for x in [city, state] if x),
                     city=city,
-                    state=state if state and len(state) == 2 else None,
+                    state=(state if state and len(state) == 2
+                           else self.cfg.get("default_state")),
                     salary_raw=pay_txt,
                 ))
             polite_pause(1.0)
         return self.dedupe(jobs)
 
 
+_AYA_ROLE = re.compile(r"nuclear|pet[\s/-]?ct", re.I)
+_AYA_SKIP = re.compile(r"register|login|sign-?in|/state/|/type/|/search", re.I)
+_CITY_CA = re.compile(r"([A-Za-z .'-]{3,30}),\s*(?:CA|California)\b")
+_JOB_IN = re.compile(r"\bjob in ([A-Z][A-Za-z .'-]{2,28}?)(?:,|\s*$|\s+\$)", re.I)
+_PAY = re.compile(r"\$[\d,]+(?:\.\d+)?\s*(?:/|per\s*)(?:week|wk|hour|hr)", re.I)
+
+
 class AyaSource(Source):
     kind = "aya"
+    # Aya's SEO listing pages are server-rendered job cards. Markup shifts, so
+    # we anchor on headings/cards whose text names the role, then find the
+    # card's job link.
 
     def fetch(self) -> List[Job]:
         urls = self.cfg.get("urls", [
@@ -118,30 +152,43 @@ class AyaSource(Source):
             r = session().get(url, timeout=30)
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "lxml")
-            # Aya SEO pages list jobs as cards with links into the job flow and
-            # "City, CA" + "$N,NNN/week" strings; structure shifts, so anchor on text.
-            for a in soup.find_all("a", href=re.compile(r"/(healthcare-jobs|job)/", re.I)):
-                card = a.find_parent("li") or a.find_parent("article") or a.find_parent("div")
-                if card is None:
-                    continue
+            cards = []
+            for h in soup.select("h1, h2, h3, h4, [class*='title'], [class*='card']"):
+                if _AYA_ROLE.search(h.get_text(" ")):
+                    cards.append(h.find_parent("li") or h.find_parent("article")
+                                 or h.find_parent("div") or h)
+            n_links = 0
+            for card in cards:
                 text = re.sub(r"\s+", " ", card.get_text(" ")).strip()
-                if not re.search(r"nuclear|pet", text, re.I):
+                a = None
+                for cand in card.find_all("a", href=True):
+                    if not _AYA_SKIP.search(cand["href"]):
+                        a = cand
+                        break
+                m_loc = _CITY_CA.search(text) or _JOB_IN.search(text)
+                m_pay = _PAY.search(text)
+                m_title = re.search(
+                    r"((?:Travel|Local|Locum)?\s*(?:Senior )?"
+                    r"(?:Nuclear Med(?:icine)?|PET[/ -]?CT)[A-Za-z /-]{0,25})",
+                    text, re.I)
+                if not m_title:
                     continue
-                m_loc = re.search(r"([A-Za-z .'-]+,\s*CA)\b", text)
-                m_pay = re.search(r"\$[\d,]+(?:\.\d+)?\s*/\s*(?:week|wk|hour|hr)", text)
-                title = re.sub(r"\s+", " ", a.get_text(" ")).strip()
-                if not title or len(title) < 8 or not m_loc:
-                    continue
-                href = a["href"]
-                jurl = href if href.startswith("http") else "https://www.ayahealthcare.com" + href
+                city = m_loc.group(1).strip().title() if m_loc else None
+                href = a["href"] if a else url
+                jurl = href if href.startswith("http") \
+                    else "https://www.ayahealthcare.com" + href
+                n_links += 1
                 jobs.append(Job(
                     source=self.id,
-                    source_job_id=jurl,
-                    title=title[:160],
+                    source_job_id=f"{m_title.group(1)}|{city or ''}|{m_pay.group(0) if m_pay else ''}",
+                    title=re.sub(r"\s+", " ", m_title.group(1)).strip()[:160],
                     company="Aya Healthcare",
                     url=jurl,
-                    location_raw=m_loc.group(1),
+                    location_raw=f"{city}, CA" if city else "California",
+                    city=city,
+                    state="CA",
                     salary_raw=m_pay.group(0) if m_pay else "",
                 ))
+            print(f"[aya] {len(cards)} role cards -> {n_links} extracted at {url[:80]}")
             polite_pause(1.0)
         return self.dedupe(jobs)

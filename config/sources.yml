@@ -91,10 +91,17 @@ sources:
     queries: ["nuclear medicine"]
 
   # ---------- specialty boards (permanent, all-NM) ----------
+  # Both SNMMI and ASRT career centers sit behind a WAF that hard-403s any
+  # non-browser client regardless of headers (verified in live runs). Their
+  # inventory is small and mostly syndicates to Google Jobs (covered by the
+  # JSearch source once a key is added). Worth a manual look once a month:
+  #   https://careercenter.snmmi.org/jobs/state/California/
+  #   https://careers.asrt.org/jobs/
   - id: snmmi
     kind: ymcareers
     name: SNMMI Career Center
     base: https://careercenter.snmmi.org
+    disabled: true
     paths:
       - "/jobs/?keywords=&location=California"
     aggregator: true
@@ -103,6 +110,7 @@ sources:
     kind: ymcareers
     name: ASRT JobBank
     base: https://careers.asrt.org
+    disabled: true
     paths:
       - "/jobs/?keywords=nuclear+medicine&location=California"
       - "/jobs/?keywords=PET&location=California"
@@ -114,6 +122,7 @@ sources:
     name: Vivian Health
     travel: true
     aggregator: true
+    default_state: CA
     urls:
       - "https://www.vivian.com/allied-health/nuclear-medicine-tech/travel/california/"
 
