@@ -20,26 +20,41 @@ from .geo import Region, parse_city_state, normalize_state
 # A job is "ours" if the title clearly names the role...
 _TITLE_ROLE = re.compile(
     r"nuclear\s*med|nuc\s*med\b|\bnmt\b|\bcnmt\b"
-    r"|pet[\s/\-]*ct|\bpet\b.{0,20}(tech|imaging|scan)|positron|molecular imaging",
+    r"|pet[\s/\-]*ct|\bpet\b.{0,20}(tech|imaging|scan)|positron|molecular imaging"
+    r"|nuclear\s*(cardiology|stress)|cardiac\s*nuclear|\bnm\b[\s/,-]*(pet|tech)",
     re.IGNORECASE,
 )
-# ...and is NOT one of the classic "PET" false positives.
+# ...and is NOT one of the classic "PET" false positives or a non-tech role.
+# "physician office" stays allowed (that's the user's target setting); a
+# physician *role* is vetoed.
 _TITLE_VETO = re.compile(
     r"veterinar|\bpet\s*(care|groom|sitt|hotel|resort|food|insurance|stylist)"
-    r"|petroleum|carpet|animal|\bvet\b|pharmacist|physician\b|\bmd\b|nurse\b|\brn\b"
-    r"|sales|recruiter|radiopharmac(?!.*tech)|courier|driver",
+    r"|petroleum|carpet|animal|\bvet\b|pharmacist|physician(?![’']?s?\s+(office|practice))"
+    r"|nurse\b|\brn\b|sales|recruiter|radiopharmac(?!.*tech)|courier|driver"
+    r"|scheduler|receptionist|front\s*desk|radiologist|transport(er|ation)"
+    r"|\baide\b|instructor|professor|faculty|billing|\bcoder\b",
     re.IGNORECASE,
 )
 # Description-level match as a fallback when the title is generic
-# (e.g. "Imaging Technologist" that turns out to be NM).
+# (e.g. "Imaging Technologist" that turns out to be NM). Bare cert acronyms
+# need a "required/certified" context so multi-cert laundry lists in x-ray or
+# ultrasound ads don't sneak in.
 _DESC_ROLE = re.compile(
-    r"nuclear medicine technologist|\bcnmt\b|\bnmtcb\b|pet[\s/\-]*ct technologist",
+    r"nuclear medicine technologist|pet[\s/\-]*ct technologist"
+    r"|\b(cnmt|nmtcb)\b[\s\w()]{0,25}(required|preferred|certified)"
+    r"|(required|preferred|certified)[\s\w:,()]{0,25}\b(cnmt|nmtcb)\b",
     re.IGNORECASE,
 )
 
 # ---- setting / modality / schedule signals --------------------------------
 
-_PET = re.compile(r"pet[\s/\-]*ct|\bpet\b|positron|theranostic|pluvicto|lutetium|psma", re.IGNORECASE)
+# No bare \bpet\b: "pet insurance" / "pet-friendly" benefits boilerplate must
+# not promote a plain-NM job into the PET category.
+_PET = re.compile(
+    r"\bpet[\s/\-]*ct\b|\bpet\s+(scan|imaging|tech)|positron"
+    r"|theranostic|pluvicto|lutetium|\bpsma\b|\bfdg\b",
+    re.IGNORECASE,
+)
 _SPECT = re.compile(r"\bspect\b|gamma camera|cardiac stress|myocardial|cardiolite|lexiscan", re.IGNORECASE)
 
 _OUTPATIENT = re.compile(
@@ -55,14 +70,29 @@ _INPATIENT = re.compile(
     re.IGNORECASE,
 )
 _NICE_SCHEDULE = re.compile(
-    r"no\s+(call|weekends|nights)|monday\s*(-|through|thru|to)\s*(friday|thursday)"
+    r"no\s+(on[\s-]?call|call|weekends?|nights?)"
+    r"|monday\s*(-|through|thru|to)\s*(friday|thursday)"
     r"|m\s*-\s*f\b|weekdays only|day shift|4[\s-]?(day|/)\s*(work)?\s*week|4x10|4\s*x\s*10",
+    re.IGNORECASE,
+)
+# Negated schedule perks ("no call required", "no weekend rotation") must be
+# removed before counting inpatient signals — they mean the opposite.
+_NEGATED_SCHED = re.compile(
+    r"\bno\s+(?:on[\s-]?call|call|weekends?|nights?|holidays?)"
+    r"(?:\s+(?:required|rotation|shifts?|coverage|duty))?",
     re.IGNORECASE,
 )
 
 _TRAVEL = re.compile(
     r"\btravel\b|\blocum|13[\s-]?week|8[\s-]?week|contract assignment|travel assignment"
     r"|allied travel|interim\b",
+    re.IGNORECASE,
+)
+# Description-level contract markers (narrow on purpose: no bare "travel",
+# which would false-positive on "no travel required").
+_TRAVEL_DESC = re.compile(
+    r"\b(?:8|1[0-9]|2[0-6])[\s-]?week|contract assignment|travel assignment"
+    r"|weekly (gross|pay|stipend)",
     re.IGNORECASE,
 )
 _PER_DIEM = re.compile(r"per[\s-]?diem|\bprn\b|registry\b|on[\s-]?demand", re.IGNORECASE)
@@ -89,10 +119,14 @@ def classify(job: Job, region: Region, source_cfg: dict) -> Job:
         job.city = job.city or city
         job.state = job.state or normalize_state(state)
     job.location_tier = region.tier_for(job.city, job.state, job.latitude, job.longitude)
-    # Messy concatenated location text (Radancy cards): rescue by scanning for a
-    # known target city, but never override a clearly non-CA posting.
-    if job.location_tier == 0 and job.state in (None, "CA"):
-        found = region.find_city_in_text(f"{job.location_raw} {job.title}")
+    # Messy concatenated location text (Radancy cards): rescue by scanning for
+    # a known target city. Guard rails: never when coordinates already answered
+    # the question, never override a non-CA posting, and a title-only match is
+    # trusted only when the state is already known to be CA.
+    if job.location_tier == 0 and job.latitude is None and job.state in (None, "CA"):
+        found = region.find_city_in_text(job.location_raw)
+        if not found and job.state == "CA":
+            found = region.find_city_in_text(job.title)
         if found:
             job.city = found
             job.state = job.state or "CA"
@@ -102,9 +136,11 @@ def classify(job: Job, region: Region, source_cfg: dict) -> Job:
     pet = bool(_PET.search(text))
     spect = bool(_SPECT.search(text))
     outpatient_hits = len(_OUTPATIENT.findall(text))
-    inpatient_hits = len(_INPATIENT.findall(text))
+    inpatient_hits = len(_INPATIENT.findall(_NEGATED_SCHED.sub("", text)))
     nice_sched = bool(_NICE_SCHEDULE.search(text))
-    travel = src_travel or bool(_TRAVEL.search(job.title)) or bool(_TRAVEL.search(job.company))
+    travel = (src_travel or bool(_TRAVEL.search(job.title))
+              or bool(_TRAVEL.search(job.company))
+              or bool(_TRAVEL_DESC.search(job.description or "")))
     per_diem = bool(_PER_DIEM.search(job.title)) or bool(_PER_DIEM.search(text[:400]))
 
     tags = []

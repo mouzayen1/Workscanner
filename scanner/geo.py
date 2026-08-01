@@ -87,13 +87,23 @@ class Region:
             re.IGNORECASE,
         ) if all_cities else None
 
+    # A "city" immediately followed by one of these is a street/place name
+    # ("Orange County", "Orange Grove Ave", "Corona Pointe Ct"), not a city.
+    _NOT_CITY_SUFFIX = re.compile(
+        r"^\s+(county|coast|grove|crest|pointe?|plaza|hills? (?:pkwy|parkway|rd|road))\b"
+        r"|^\s+(ave|avenue|blvd|boulevard|st|street|rd|road|dr|drive|ln|lane"
+        r"|hwy|highway|fwy|freeway|pkwy|parkway|cir|circle|ct|court|way)\b\.?",
+        re.IGNORECASE,
+    )
+
     def find_city_in_text(self, text: str) -> Optional[str]:
         if not self._city_rx or not text:
             return None
-        matches = list(self._city_rx.finditer(text))
-        if not matches:
+        good = [m for m in self._city_rx.finditer(text)
+                if not self._NOT_CITY_SUFFIX.match(text[m.end():m.end() + 24])]
+        if not good:
             return None
-        return matches[-1].group(1).title()
+        return good[-1].group(1).title()
 
     def tier_for(self, city: Optional[str], state: Optional[str],
                  lat: Optional[float] = None, lon: Optional[float] = None) -> int:

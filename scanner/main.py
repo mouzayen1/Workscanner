@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 import traceback
 from typing import Dict, List
@@ -59,10 +60,23 @@ def scan_sources(sources_cfg: List[dict], only: set | None = None,
                     print(f"    · {j.title[:60]!r} | {j.company[:30]} | "
                           f"{j.location_raw[:40]!r} | {j.url[:70]}")
         except Exception as e:  # a broken source must never sink the scan
-            health[sid] = f"error: {type(e).__name__}: {e}"[:200]
-            print(f"[{sid}] FAILED: {e}", file=sys.stderr)
+            health[sid] = f"error: {_safe_error(e)}"
+            print(f"[{sid}] FAILED: {_safe_error(e)}", file=sys.stderr)
             traceback.print_exc()
     return all_jobs, health
+
+
+def _safe_error(e: Exception) -> str:
+    """Error text safe to publish: no query strings or path tokens.
+
+    requests puts the full URL in HTTPError messages — including api keys
+    passed as query params (Adzuna) or path segments (Jooble). Health strings
+    end up in the committed dashboard, so scrub anything secret-shaped.
+    """
+    msg = f"{type(e).__name__}: {e}"
+    msg = re.sub(r"\?\S*", "?…", msg)                       # query strings
+    msg = re.sub(r"(jooble\.org/api/)\S+", r"\1…", msg)     # key-in-path APIs
+    return msg[:160]
 
 
 def run_scan(dry_run: bool = False, only: set | None = None, verbose: bool = False) -> int:
