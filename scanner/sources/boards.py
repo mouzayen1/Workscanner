@@ -68,12 +68,24 @@ def _guess_company(card_text: str, title: str) -> str:
     return guess[:80] if 3 < len(guess) < 80 else ""
 
 
+_ICIMS_LOC = re.compile(r"\bUS-([A-Z]{2})-([A-Za-z .'-]+)")
+
+
 class ICIMSClassicSource(Source):
     kind = "icims-classic"
+    # List rows label fields ("Title Nuclear Medicine Tech", "US-CA-Chino"), and
+    # locations are often only on the detail page — so for rows that look like
+    # our role, we fetch the detail page and read its JSON-LD JobPosting block.
+
+    _DETAIL_CAP = 25
 
     def fetch(self) -> List[Job]:
+        from ..scoring import is_role_match
+        from .radancy import _jsonld_jobposting
+
         base = self.cfg["base"].rstrip("/")           # e.g. https://careers-primehealthcare.icims.com
         jobs: List[Job] = []
+        seen_ids = set()
         for q in self.queries:
             for page in range(0, 3):                  # pr= is 0-based, ~20-30 rows/page
                 r = session().get(
@@ -90,19 +102,65 @@ class ICIMSClassicSource(Source):
                     href = a["href"].split("?")[0]
                     url = href if href.startswith("http") else base + href
                     m_id = re.search(r"/jobs/(\d+)/", href)
-                    title = _clean(a.get_text(" "))
+                    jid = m_id.group(1) if m_id else href
+                    if jid in seen_ids:
+                        continue
+                    seen_ids.add(jid)
+                    title = re.sub(r"^(Job\s+)?Title\s+", "", _clean(a.get_text(" ")),
+                                   flags=re.IGNORECASE)
                     if not title:
                         continue
                     card = a.find_parent("div", class_=re.compile("row|iCIMS")) \
                         or a.find_parent("li") or a.parent
-                    m_loc = _LOC.search(_clean(card.get_text(" ")))
+                    card_text = _clean(card.get_text(" "))
+                    m_loc = _ICIMS_LOC.search(card_text)
+                    loc_raw, city, state = "", None, None
+                    if m_loc:
+                        state, city = m_loc.group(1), _clean(m_loc.group(2))
+                        loc_raw = f"{city}, {state}"
                     jobs.append(Job(
                         source=self.id,
-                        source_job_id=m_id.group(1) if m_id else href,
+                        source_job_id=jid,
                         title=title[:160],
                         company=self.name,
                         url=url,
-                        location_raw=m_loc.group(1) if m_loc else "",
+                        location_raw=loc_raw,
+                        city=city, state=state,
                     ))
                 polite_pause(0.8)
+
+        # enrich locations from detail-page JSON-LD for our role matches
+        fetched = 0
+        for job in jobs:
+            if job.location_raw or fetched >= self._DETAIL_CAP:
+                continue
+            if not is_role_match(job.title):
+                continue
+            try:
+                rd = session().get(job.url, timeout=30)
+                rd.raise_for_status()
+                fetched += 1
+                jp = _jsonld_jobposting(rd.text)
+            except Exception:
+                continue
+            if not jp:
+                m = _ICIMS_LOC.search(rd.text)
+                if m:
+                    job.state, job.city = m.group(1), _clean(m.group(2))
+                    job.location_raw = f"{job.city}, {job.state}"
+                continue
+            loc = jp.get("jobLocation") or {}
+            if isinstance(loc, list):
+                loc = loc[0] if loc else {}
+            addr = loc.get("address") or {} if isinstance(loc, dict) else {}
+            if isinstance(addr, dict):
+                job.city = addr.get("addressLocality") or job.city
+                job.state = addr.get("addressRegion") or job.state
+                if job.city:
+                    job.location_raw = ", ".join(
+                        x for x in [job.city, job.state] if x)
+            job.description = re.sub(
+                r"<[^>]+>", " ", str(jp.get("description") or ""))[:2000]
+            job.posted_at = str(jp.get("datePosted") or "")
+            polite_pause(0.5)
         return self.dedupe(jobs)

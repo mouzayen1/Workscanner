@@ -116,7 +116,6 @@ sources:
     aggregator: true
     urls:
       - "https://www.vivian.com/allied-health/nuclear-medicine-tech/travel/california/"
-      - "https://www.vivian.com/allied-health/nuclear-medicine-tech/staff/california/"
 
   - id: aya
     kind: aya

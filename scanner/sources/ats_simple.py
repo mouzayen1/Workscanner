@@ -8,6 +8,7 @@ from __future__ import annotations
 from typing import List
 
 from ..models import Job
+from ..geo import normalize_state
 from .base import Source, get_json
 
 
@@ -91,7 +92,7 @@ class SmartRecruitersSource(Source):
                     url=f"https://jobs.smartrecruiters.com/{company}/{j.get('id', '')}",
                     location_raw=", ".join(x for x in [city, region] if x),
                     city=city or None,
-                    state=(region or "")[:2].upper() or None,
+                    state=normalize_state(region),
                     posted_at=j.get("releasedDate", ""),
                 ))
         return self.dedupe(jobs)

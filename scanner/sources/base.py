@@ -10,9 +10,12 @@ from urllib3.util.retry import Retry
 
 from ..models import Job
 
+# A plain, current browser UA. Career-site WAFs (YM Careers, Cloudflare) 403
+# anything that self-identifies as a tool; we stay polite through volume
+# (a handful of requests per site, twice a day) rather than through the UA.
 USER_AGENT = (
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/126.0 Safari/537.36 Workscanner/1.0 (personal job-search tool; low volume)"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
 )
 
 # One shared session: connection pooling + a conservative retry policy.

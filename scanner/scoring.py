@@ -13,7 +13,7 @@ import re
 from .models import (
     Job, CAT_OUTPATIENT_PET, CAT_OUTPATIENT_NM, CAT_HOSPITAL_OTHER, CAT_TRAVEL,
 )
-from .geo import Region, parse_city_state
+from .geo import Region, parse_city_state, normalize_state
 
 # ---- role filter -----------------------------------------------------------
 
@@ -83,10 +83,11 @@ def classify(job: Job, region: Region, source_cfg: dict) -> Job:
     src_travel = bool((source_cfg or {}).get("travel", False))   # travel agency/board source
 
     # location
+    job.state = normalize_state(job.state)
     if not job.city or not job.state:
         city, state = parse_city_state(job.location_raw)
         job.city = job.city or city
-        job.state = job.state or state
+        job.state = job.state or normalize_state(state)
     job.location_tier = region.tier_for(job.city, job.state, job.latitude, job.longitude)
 
     # signals

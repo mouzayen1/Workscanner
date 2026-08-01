@@ -33,7 +33,8 @@ def load_cfg():
     return search, sources
 
 
-def scan_sources(sources_cfg: List[dict], only: set | None = None):
+def scan_sources(sources_cfg: List[dict], only: set | None = None,
+                 verbose: bool = False):
     """Fetch every enabled source. Returns (jobs, health)."""
     all_jobs: List[Job] = []
     health: Dict[str, str] = {}
@@ -52,6 +53,11 @@ def scan_sources(sources_cfg: List[dict], only: set | None = None):
             jobs = src.fetch()
             health[sid] = f"ok ({len(jobs)} raw)"
             all_jobs.extend(jobs)
+            if verbose:
+                print(f"[{sid}] {len(jobs)} raw; samples:")
+                for j in jobs[:4]:
+                    print(f"    · {j.title[:60]!r} | {j.company[:30]} | "
+                          f"{j.location_raw[:40]!r} | {j.url[:70]}")
         except Exception as e:  # a broken source must never sink the scan
             health[sid] = f"error: {type(e).__name__}: {e}"[:200]
             print(f"[{sid}] FAILED: {e}", file=sys.stderr)
@@ -64,7 +70,7 @@ def run_scan(dry_run: bool = False, only: set | None = None, verbose: bool = Fal
     region = Region(search_cfg)
     src_by_id = {c["id"]: c for c in sources_cfg}
 
-    raw, health = scan_sources(sources_cfg, only)
+    raw, health = scan_sources(sources_cfg, only, verbose=verbose)
     print(f"fetched {len(raw)} raw postings from "
           f"{sum(1 for v in health.values() if v.startswith('ok'))} sources")
 

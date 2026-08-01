@@ -8,6 +8,35 @@ from typing import Optional, Tuple
 _CITY_STATE = re.compile(r"([A-Za-z .'-]+?)\s*,\s*(CA|California)\b", re.IGNORECASE)
 _STATE_ONLY = re.compile(r"\b(CA|California)\b", re.IGNORECASE)
 
+_STATE_NAMES = {
+    "alabama": "AL", "alaska": "AK", "arizona": "AZ", "arkansas": "AR",
+    "california": "CA", "colorado": "CO", "connecticut": "CT", "delaware": "DE",
+    "florida": "FL", "georgia": "GA", "hawaii": "HI", "idaho": "ID",
+    "illinois": "IL", "indiana": "IN", "iowa": "IA", "kansas": "KS",
+    "kentucky": "KY", "louisiana": "LA", "maine": "ME", "maryland": "MD",
+    "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+    "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+    "nevada": "NV", "new hampshire": "NH", "new jersey": "NJ",
+    "new mexico": "NM", "new york": "NY", "north carolina": "NC",
+    "north dakota": "ND", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+    "pennsylvania": "PA", "rhode island": "RI", "south carolina": "SC",
+    "south dakota": "SD", "tennessee": "TN", "texas": "TX", "utah": "UT",
+    "vermont": "VT", "virginia": "VA", "washington": "WA",
+    "west virginia": "WV", "wisconsin": "WI", "wyoming": "WY",
+    "district of columbia": "DC",
+}
+_STATE_ABBRS = set(_STATE_NAMES.values())
+
+
+def normalize_state(val) -> Optional[str]:
+    """'California'/'CA'/'ca' -> 'CA'; anything unrecognized -> None."""
+    if not val:
+        return None
+    v = str(val).strip()
+    if len(v) == 2 and v.upper() in _STATE_ABBRS:
+        return v.upper()
+    return _STATE_NAMES.get(v.lower())
+
 
 def parse_city_state(location_raw: str) -> Tuple[Optional[str], Optional[str]]:
     """Best-effort parse of 'City, CA'-style location text."""
@@ -53,14 +82,15 @@ class Region:
     def tier_for(self, city: Optional[str], state: Optional[str],
                  lat: Optional[float] = None, lon: Optional[float] = None) -> int:
         """1 = core target city, 2 = nearby/in-radius, 0 = outside or unknown."""
+        # State first: "Westminster, Maryland" must not match Westminster (OC).
+        if state and state.upper() != "CA":
+            return 0
         if city:
             c = city.strip().lower()
             if c in self.tier1:
                 return 1
             if c in self.tier2:
                 return 2
-        if state and state.upper() != "CA":
-            return 0
         if lat is not None and lon is not None and self.anchors:
             dist = min(haversine_miles(lat, lon, a[0], a[1]) for a in self.anchors)
             if dist <= self.max_miles * 0.5:

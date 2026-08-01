@@ -14,18 +14,10 @@ from __future__ import annotations
 from typing import List, Optional
 
 from ..models import Job
+from ..geo import normalize_state
 from .base import Source, get_json, polite_pause
 
 _MAX_PAGES = 8
-
-
-def _state_2(val: Optional[str]) -> Optional[str]:
-    if not val:
-        return None
-    v = str(val).strip()
-    if len(v) == 2:
-        return v.upper()
-    return "CA" if v.lower() == "california" else v[:2].upper()
 
 
 def fetch_jibe(base: str, queries: List[str], source_id: str, name: str) -> List[Job]:
@@ -57,7 +49,7 @@ def fetch_jibe(base: str, queries: List[str], source_id: str, name: str) -> List
                     url=url,
                     location_raw=loc or "",
                     city=d.get("city") or None,
-                    state=_state_2(d.get("state")),
+                    state=normalize_state(d.get("state")),
                     description=(d.get("description") or "")[:2000],
                     posted_at=d.get("posted_date") or d.get("create_date") or "",
                 ))

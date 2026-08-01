@@ -22,6 +22,7 @@ from typing import List, Optional
 from bs4 import BeautifulSoup
 
 from ..models import Job
+from ..geo import normalize_state
 from .base import Source, session, polite_pause
 
 _SLUG_KEYWORDS = ["nuclear", "pet-ct", "petct", "pet_ct", "molecular-imaging", "nuc-med"]
@@ -151,7 +152,7 @@ def fetch_sitemap_jsonld(base: str, queries: List[str], source_id: str, name: st
                 title=_clean(str(jp.get("title", ""))), company=org_name or name,
                 url=jp.get("url") or u,
                 location_raw=", ".join(x for x in [city, region] if x),
-                city=city or None, state=(region or "")[:2].upper() or None,
+                city=city or None, state=normalize_state(region),
                 description=desc, posted_at=str(jp.get("datePosted") or ""),
             ))
         else:

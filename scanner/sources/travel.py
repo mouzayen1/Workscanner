@@ -55,14 +55,18 @@ class VivianSource(Source):
     def fetch(self) -> List[Job]:
         urls = self.cfg.get("urls", [
             "https://www.vivian.com/allied-health/nuclear-medicine-tech/travel/california/",
-            "https://www.vivian.com/allied-health/nuclear-medicine-tech/staff/california/",
         ])
         jobs: List[Job] = []
         for url in urls:
-            r = session().get(url, timeout=30)
-            r.raise_for_status()
+            try:
+                r = session().get(url, timeout=30)
+                r.raise_for_status()
+            except Exception as e:  # one bad URL must not sink the others
+                print(f"[vivian] {url} failed: {type(e).__name__}: {e}")
+                continue
             m = _NEXT_DATA.search(r.text)
             if not m:
+                print(f"[vivian] no __NEXT_DATA__ blob at {url}")
                 continue
             tree = json.loads(m.group(1))
             found: List[dict] = []
