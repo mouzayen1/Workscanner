@@ -56,6 +56,9 @@ def fetch_radancy_ajax(base: str, queries: List[str], source_id: str, name: str)
         data = r.json()
         html_blob = data.get("results") or ""
         if not isinstance(html_blob, str) or "/job/" not in html_blob:
+            print(f"[{source_id}] radancy-ajax: no /job/ links; "
+                  f"keys={list(data)[:8] if isinstance(data, dict) else type(data).__name__}; "
+                  f"blob head: {str(html_blob)[:180]!r}")
             continue
         soup = BeautifulSoup(html_blob, "lxml")
         for a in soup.select("a[href*='/job/']"):
@@ -134,7 +137,8 @@ def _sitemap_urls(base: str) -> List[str]:
     try:
         r = session().get(f"{base}/sitemap.xml", timeout=30)
         r.raise_for_status()
-    except Exception:
+    except Exception as e:
+        print(f"[sitemap] {base}/sitemap.xml failed: {type(e).__name__}: {str(e)[:100]}")
         return out
     locs = re.findall(r"<loc>\s*(.*?)\s*</loc>", r.text)
     child_maps = [u for u in locs if u.endswith(".xml")]

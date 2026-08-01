@@ -91,20 +91,27 @@ class ICIMSClassicSource(Source):
             if search_broken:
                 break
             for page in range(0, 3):                  # pr= is 0-based, ~20-30 rows/page
-                try:
-                    r = session().get(
-                        f"{base}/jobs/search",
-                        params={"ss": 1, "searchKeyword": q, "pr": page,
-                                "in_iframe": 1},
-                        headers={"Referer": f"{base}/jobs/search?ss=1"},
-                        timeout=30,
-                    )
-                    r.raise_for_status()
-                except Exception as e:
+                r = None
+                for params in (
+                    {"ss": 1, "searchKeyword": q, "pr": page, "in_iframe": 1},
+                    {"ss": 1, "searchKeyword": q, "pr": page},
+                ):
+                    try:
+                        resp = session().get(
+                            f"{base}/jobs/search", params=params,
+                            headers={"Referer": f"{base}/jobs/search?ss=1"},
+                            timeout=30,
+                        )
+                        resp.raise_for_status()
+                        r = resp
+                        break
+                    except Exception as e:
+                        last_err = e
+                if r is None:
                     # Portal WAFs intermittently 405 the search page; the
                     # sitemap lists every job URL and rarely gets blocked.
-                    print(f"[{self.id}] search page failed ({type(e).__name__}); "
-                          f"falling back to sitemap")
+                    print(f"[{self.id}] search page failed "
+                          f"({type(last_err).__name__}); falling back to sitemap")
                     search_broken = True
                     break
                 soup = BeautifulSoup(r.text, "lxml")

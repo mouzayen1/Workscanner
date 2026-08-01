@@ -83,11 +83,15 @@ sources:
     setting: hospital
     queries: ["nuclear medicine"]
 
+  # UCI's ttcportals site hard-403s non-browser clients (verified in live
+  # runs). UCI postings syndicate to Google Jobs -> covered by JSearch once a
+  # key is added. Manual check: https://careersucirvine.ttcportals.com/search/jobs
   - id: uci
     kind: auto
     name: UCI Health
     base: https://careersucirvine.ttcportals.com
     setting: hospital
+    disabled: true
     queries: ["nuclear medicine"]
 
   # ---------- specialty boards (permanent, all-NM) ----------

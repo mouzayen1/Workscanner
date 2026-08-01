@@ -83,6 +83,43 @@ class VivianSource(Source):
             except Exception as e:  # one bad URL must not sink the others
                 print(f"[vivian] {url} failed: {type(e).__name__}: {e}")
                 continue
+            # Strategy 1: server-rendered job cards in the listing HTML.
+            # (Vivian's __NEXT_DATA__ only carries SEO page config; the list
+            # itself is rendered into the HTML for crawlers.)
+            soup = BeautifulSoup(r.text, "lxml")
+            card_links = [a for a in soup.find_all("a", href=True)
+                          if re.search(r"/job/", a["href"])]
+            for a in card_links:
+                card = a.find_parent("li") or a.find_parent("article") \
+                    or a.find_parent("div") or a
+                text = re.sub(r"\s+", " ", card.get_text(" ")).strip()
+                title_el = a.select_one("h1,h2,h3,h4,[class*='title']") or a
+                title = re.sub(r"\s+", " ", title_el.get_text(" ")).strip()
+                if not title or not re.search(r"nuclear|pet", title + " " + text[:120], re.I):
+                    continue
+                href = a["href"]
+                jurl = href if href.startswith("http") else "https://www.vivian.com" + href
+                m_id = re.search(r"/job/(?:v/)?([A-Za-z0-9-]+)", href)
+                m_city = re.search(r"([A-Za-z .'-]{3,25}),\s*(?:CA|California)\b", text)
+                m_pay = re.search(r"\$[\d,]+(?:\.\d+)?\s*/(?:wk|week|hr|hour)", text)
+                city = None
+                if m_city:
+                    city = " ".join(m_city.group(1).strip().split()[-3:]).title()
+                jobs.append(Job(
+                    source=self.id,
+                    source_job_id=m_id.group(1) if m_id else jurl,
+                    title=title[:160],
+                    company="via Vivian",
+                    url=jurl,
+                    location_raw=f"{city}, CA" if city else "California",
+                    city=city,
+                    state=self.cfg.get("default_state"),
+                    salary_raw=m_pay.group(0) if m_pay else "",
+                ))
+            print(f"[vivian] html cards: {len(card_links)} job links, "
+                  f"{len(jobs)} parsed at {url[:80]}")
+
+            # Strategy 2: any job objects that do ship in __NEXT_DATA__.
             m = _NEXT_DATA.search(r.text)
             if not m:
                 print(f"[vivian] no __NEXT_DATA__ blob at {url}")
@@ -90,7 +127,7 @@ class VivianSource(Source):
             tree = json.loads(m.group(1))
             found: List[dict] = []
             _walk(tree, found)
-            if not found:
+            if not found and not jobs:
                 print(f"[vivian] 0 job-shaped dicts at {url}; "
                       f"pageProps: {_debug_tree(tree)}")
             for d in found:
@@ -157,31 +194,45 @@ class AyaSource(Source):
                 if _AYA_ROLE.search(h.get_text(" ")):
                     cards.append(h.find_parent("li") or h.find_parent("article")
                                  or h.find_parent("div") or h)
-            n_links = 0
+            n_kept = 0
             for card in cards:
                 text = re.sub(r"\s+", " ", card.get_text(" ")).strip()
+                if re.search(r"FAQ|General|Overview|Why Aya|Related", text[:60], re.I):
+                    continue
+                # only real job cards link to a numbered job page
                 a = None
                 for cand in card.find_all("a", href=True):
-                    if not _AYA_SKIP.search(cand["href"]):
+                    if _AYA_SKIP.search(cand["href"]):
+                        continue
+                    if re.search(r"/\d{5,}", cand["href"]):
                         a = cand
                         break
-                m_loc = _CITY_CA.search(text) or _JOB_IN.search(text)
+                if a is None:
+                    continue
+                m_in = _JOB_IN.search(text)
+                m_ca = _CITY_CA.search(text)
+                city = None
+                if m_in:
+                    city = m_in.group(1).strip().title()
+                elif m_ca:
+                    # keep only the trailing words that look like a city name
+                    words = m_ca.group(1).strip().split()
+                    city = " ".join(words[-3:]).title()
                 m_pay = _PAY.search(text)
                 m_title = re.search(
-                    r"((?:Travel|Local|Locum)?\s*(?:Senior )?"
-                    r"(?:Nuclear Med(?:icine)?|PET[/ -]?CT)[A-Za-z /-]{0,25})",
+                    r"((?:Travel|Local|Locum)\s+(?:Senior )?"
+                    r"(?:Nuclear Med(?:icine)?( Tech(nologist)?)?|PET[/ -]?CT( Tech(nologist)?)?))",
                     text, re.I)
-                if not m_title:
-                    continue
-                city = m_loc.group(1).strip().title() if m_loc else None
-                href = a["href"] if a else url
+                title = m_title.group(1) if m_title else "Travel Nuclear Medicine Tech"
+                href = a["href"]
                 jurl = href if href.startswith("http") \
                     else "https://www.ayahealthcare.com" + href
-                n_links += 1
+                m_id = re.search(r"/(\d{5,})", jurl)
+                n_kept += 1
                 jobs.append(Job(
                     source=self.id,
-                    source_job_id=f"{m_title.group(1)}|{city or ''}|{m_pay.group(0) if m_pay else ''}",
-                    title=re.sub(r"\s+", " ", m_title.group(1)).strip()[:160],
+                    source_job_id=m_id.group(1) if m_id else jurl,
+                    title=re.sub(r"\s+", " ", title).strip().title()[:160],
                     company="Aya Healthcare",
                     url=jurl,
                     location_raw=f"{city}, CA" if city else "California",
@@ -189,6 +240,6 @@ class AyaSource(Source):
                     state="CA",
                     salary_raw=m_pay.group(0) if m_pay else "",
                 ))
-            print(f"[aya] {len(cards)} role cards -> {n_links} extracted at {url[:80]}")
+            print(f"[aya] {len(cards)} role cards -> {n_kept} job links at {url[:80]}")
             polite_pause(1.0)
         return self.dedupe(jobs)
