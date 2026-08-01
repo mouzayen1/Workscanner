@@ -1,5 +1,28 @@
 {
  "jobs": {
+  "000e49eef43bfd68": {
+   "active": true,
+   "category": "travel",
+   "city": "Los Alamitos",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "000e49eef43bfd68",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Icine Tech Job In Los Alamitos, CA",
+   "location_tier": 1,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 55,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in LOS ALAMITOS|Icine Tech Job In Los Alamitos|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in LOS ALAMITOS",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3268656/"
+  },
   "116d23e6b80d7223": {
    "active": true,
    "category": "outpatient-pet",
@@ -8,7 +31,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Leading Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a PET Technologist you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Perform complex specialized tasks associated with the operation of PET scanners and relate…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "116d23e6b80d7223",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "Newport Beach, California",
    "location_tier": 1,
@@ -23,7 +46,7 @@
     "PET"
    ],
    "title": "PET Technologist",
-   "url": "https://careers-radnet.icims.com/jobs/16377/login"
+   "url": "https://careers.radnet.com/careers-home/jobs/16377?lang=en-us"
   },
   "12ff56d92986ba6f": {
    "active": true,
@@ -51,6 +74,31 @@
    "title": "Title Nuclear Medicine Tech",
    "url": "https://careers-primehealthcare.icims.com/jobs/270762/nuclear-medicine-tech/job"
   },
+  "1499aefdbd0685cc": {
+   "active": true,
+   "category": "travel",
+   "city": null,
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "1499aefdbd0685cc",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "California",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 40,
+   "source": "aya",
+   "source_job_id": " Nuclear Medicine Tech ||",
+   "state": "CA",
+   "tags": [
+    "location-unverified"
+   ],
+   "title": "Nuclear Medicine Tech",
+   "url": "https://www.ayahealthcare.com/"
+  },
   "1a5dce2d4ee3758b": {
    "active": true,
    "category": "hospital-other",
@@ -76,6 +124,29 @@
    ],
    "title": "Title Nuclear Medicine Tech",
    "url": "https://careers-primehealthcare.icims.com/jobs/268391/nuclear-medicine-tech/job"
+  },
+  "20b9a795a2a9e5ca": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Fountain Valley",
+   "company": "MemorialCare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "20b9a795a2a9e5ca",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Fountain Valley, CA",
+   "location_tier": 1,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 55,
+   "source": "memorialcare",
+   "source_job_id": "/job/fountain-valley/nuclear-medicine-technologist/28372/94833400976",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Technologist",
+   "url": "https://careers.memorialcare.org/job/fountain-valley/nuclear-medicine-technologist/28372/94833400976"
   },
   "2b48482294e9cb40": {
    "active": true,
@@ -103,6 +174,29 @@
    "title": "Title Nuclear Medicine Tech",
    "url": "https://careers-primehealthcare.icims.com/jobs/269534/nuclear-medicine-tech/job"
   },
+  "3bd600899e5a6eba": {
+   "active": true,
+   "category": "travel",
+   "city": "Dicine Tech Job In Los Angeles",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "3bd600899e5a6eba",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Dicine Tech Job In Los Angeles, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in Los Angeles|Dicine Tech Job In Los Angeles|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in Los Angeles",
+   "url": "https://www.ayahealthcare.com#get-started"
+  },
   "3e6b8e45cc1433f8": {
    "active": true,
    "category": "hospital-other",
@@ -128,6 +222,29 @@
    ],
    "title": "Title Nuclear Medicine Technologist",
    "url": "https://careers-primehealthcare.icims.com/jobs/268744/nuclear-medicine-technologist/job"
+  },
+  "43bad95fd5e1f4fd": {
+   "active": true,
+   "category": "travel",
+   "city": "Dicine Tech Job In Los Angeles",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "43bad95fd5e1f4fd",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Dicine Tech Job In Los Angeles, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in LOS ANGELES|Dicine Tech Job In Los Angeles|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in LOS ANGELES",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3405938/"
   },
   "47b36e99d318d14f": {
    "active": true,
@@ -181,6 +298,54 @@
    ],
    "title": "Title Nuclear Medicine Tech - Per Diem",
    "url": "https://careers-primehealthcare.icims.com/jobs/266649/nuclear-medicine-tech---per-diem/job"
+  },
+  "4f0718e0b403b48c": {
+   "active": true,
+   "category": "travel",
+   "city": "Upland",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "4f0718e0b403b48c",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Ar Medicine Tech Job In Upland, CA",
+   "location_tier": 2,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 48,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in UPLAND|Ar Medicine Tech Job In Upland|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in UPLAND",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3402746/"
+  },
+  "618508bea1474654": {
+   "active": true,
+   "category": "travel",
+   "city": null,
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "618508bea1474654",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "California",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 40,
+   "source": "aya",
+   "source_job_id": "Nuclear Medicine Tech Job FAQs General FA||",
+   "state": "CA",
+   "tags": [
+    "location-unverified"
+   ],
+   "title": "Nuclear Medicine Tech Job FAQs General FA",
+   "url": "https://www.ayahealthcare.com/allied-professionals/housing/"
   },
   "64a43be200b83397": {
    "active": true,
@@ -268,7 +433,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine Technologist, you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Performs high quality nuclear medicine and/or positron emission tomography/computed …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "6cea43cef7dafdc5",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "Orange, California",
    "location_tier": 1,
@@ -283,7 +448,7 @@
     "PET"
    ],
    "title": "Nuclear Medicine Technologist",
-   "url": "https://careers-radnet.icims.com/jobs/18809/login"
+   "url": "https://careers.radnet.com/careers-home/jobs/18809?lang=en-us"
   },
   "73bea50fa78217e7": {
    "active": true,
@@ -310,6 +475,75 @@
    ],
    "title": "Title Nuclear Medicine Technologist (NMT)",
    "url": "https://careers-primehealthcare.icims.com/jobs/267309/nuclear-medicine-technologist-%28nmt%29/job"
+  },
+  "758d0afa223420c5": {
+   "active": true,
+   "category": "travel",
+   "city": "Medicine Tech Job In Encinitas",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "758d0afa223420c5",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Medicine Tech Job In Encinitas, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in ENCINITAS|Medicine Tech Job In Encinitas|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in ENCINITAS",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3370318/"
+  },
+  "780b8860cf530651": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Whittier",
+   "company": "PIH Health",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "780b8860cf530651",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Whittier, California",
+   "location_tier": 2,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 48,
+   "source": "pih",
+   "source_job_id": "/job/whittier/nuclear-med-technologist-full-time-32-hours-days/912/87069748720",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Med Technologist, Full Time, 32 Hours, Days",
+   "url": "https://jobs.pihhealth.org/job/whittier/nuclear-med-technologist-full-time-32-hours-days/912/87069748720"
+  },
+  "7d280514566693fc": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Long Beach",
+   "company": "MemorialCare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "7d280514566693fc",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Long Beach, CA",
+   "location_tier": 2,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 48,
+   "source": "memorialcare",
+   "source_job_id": "/job/long-beach/nuclear-medicine-technologist/28372/91960315504",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Technologist",
+   "url": "https://careers.memorialcare.org/job/long-beach/nuclear-medicine-technologist/28372/91960315504"
   },
   "862f0be995e98dd1": {
    "active": true,
@@ -389,6 +623,29 @@
    "title": "Title Nuclear Medicine Technologist (NMT)",
    "url": "https://careers-primehealthcare.icims.com/jobs/269834/nuclear-medicine-technologist-%28nmt%29/job"
   },
+  "921d00c33fd10cfe": {
+   "active": true,
+   "category": "travel",
+   "city": "Cine Tech Job In Rancho Mirage",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "921d00c33fd10cfe",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Cine Tech Job In Rancho Mirage, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in RANCHO MIRAG|Cine Tech Job In Rancho Mirage|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in RANCHO MIRAG",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3384247/"
+  },
   "939eaff1f6049d26": {
    "active": true,
    "category": "hospital-other",
@@ -441,6 +698,52 @@
    "title": "Title Nuclear Medicine Technologist (NMT)",
    "url": "https://careers-primehealthcare.icims.com/jobs/268461/nuclear-medicine-technologist-%28nmt%29/job"
   },
+  "9aeaa57f0882b43f": {
+   "active": true,
+   "category": "travel",
+   "city": "Medicine Tech Job In Palo Alto",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "9aeaa57f0882b43f",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Medicine Tech Job In Palo Alto, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in PALO ALTO|Medicine Tech Job In Palo Alto|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in PALO ALTO",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3360019/"
+  },
+  "9eac82d2e68f0cbe": {
+   "active": true,
+   "category": "travel",
+   "city": "R Medicine Tech Job In La Mesa",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "9eac82d2e68f0cbe",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "R Medicine Tech Job In La Mesa, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in LA MESA|R Medicine Tech Job In La Mesa|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in LA MESA",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3374990/"
+  },
   "a81ba04d6e8437e0": {
    "active": true,
    "category": "hospital-other",
@@ -467,6 +770,29 @@
    "title": "Title Nuclear Medicine Tech",
    "url": "https://careers-primehealthcare.icims.com/jobs/270517/nuclear-medicine-tech/job"
   },
+  "a92c78816f4de342": {
+   "active": true,
+   "category": "travel",
+   "city": "Ine Tech Job In Marina Del Rey",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "a92c78816f4de342",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Ine Tech Job In Marina Del Rey, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in MARINA DEL R|Ine Tech Job In Marina Del Rey|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in MARINA DEL R",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3398875/"
+  },
   "ad4d47354fc8e6cb": {
    "active": true,
    "category": "hospital-other",
@@ -475,7 +801,7 @@
    "description": "Responsibilities Come Join the Team! Nuclear Medicine Technician (Med Tech) position This is a per diem position located at Corona Regional Medical Center in Corona, CA Reporting to the Director of Diagnostic Imaging this positions operates all nuclear equipment leading to the diagnosis of designated portions of the body as ordered by physician. The technologist then instructs the patient of all nuclear medicine procedures, protocols, as well as preps. The technologist is responsible for proper computer operation and computer knowledge, use of gamma and SPEC T software, and provides the best patient care possible to enhance quality and professionalism in their tasks. The tradition of caring …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "ad4d47354fc8e6cb",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "CORONA, California",
    "location_tier": 1,
@@ -491,7 +817,7 @@
     "hospital"
    ],
    "title": "Nuclear Medicine Technician - Per Diem",
-   "url": "https://careers-uhsinc.icims.com/jobs/353282/login"
+   "url": "https://jobs.uhsinc.com/careers-home/jobs/353282?lang=en-us"
   },
   "b4fec8b73052aee3": {
    "active": true,
@@ -501,7 +827,7 @@
    "description": "     Molecular Imaging Technologist (Nuc Med Tech) I/II - Nuclear Medicine (Irvine)       ***Eligible for Sign-On Bonus***      Join the transformative team at    City of Hope   , where we're changing lives and making a real difference in the fight against cancer, diabetes, and other life-threatening illnesses. City of Hope’s growing national system includes its Los Angeles campus, a network of clinical care locations across Southern California, a new cancer center in Orange County, California, and treatment facilities in Atlanta, Chicago and Phoenix. Our dedicated and compassionate employees are driven by a common mission: To deliver the cures of tomorrow to the people who need them today. …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "b4fec8b73052aee3",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "Irvine, CA",
    "location_tier": 1,
@@ -554,7 +880,7 @@
    "description": "Responsibilities Come Join the Team! Nuclear Medicine Technician (Med Tech) position This is a Part Time position located at Corona Regional Medical Center in Corona, CA Reporting to the Director of Diagnostic Imaging this positions operates all nuclear equipment leading to the diagnosis of designated portions of the body as ordered by physician. The technologist then instructs the patient of all nuclear medicine procedures, protocols, as well as preps. The technologist is responsible for proper computer operation and computer knowledge, use of gamma and SPEC T software, and provides the best patient care possible to enhance quality and professionalism in their tasks. The tradition of caring…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "b6eb29cff4b8aaac",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "CORONA, California",
    "location_tier": 1,
@@ -569,7 +895,32 @@
     "hospital"
    ],
    "title": "Nuclear Medicine Technician - Part Time",
-   "url": "https://careers-uhsinc.icims.com/jobs/353283/login"
+   "url": "https://jobs.uhsinc.com/careers-home/jobs/353283?lang=en-us"
+  },
+  "bdc29f4d82173f6c": {
+   "active": true,
+   "category": "outpatient-pet",
+   "city": "Santa Ana",
+   "company": "RadNet / WaveImaging",
+   "description": "Responsibilities *This job is located in California (see specific locations below) with a sign on bonus or relocation assistance up to $20,000* Locations with Openings: Anaheim Bakersfield Beverly Hills Inglewood Lancaster Los Angeles Murrieta Newport Beach Orange Oxnard Pasadena Rancho Cucamonga Tarzana Temecula Thousand Oaks Santa Clarita Signal Hill Simi Valley Ventura Shifts Available: Full-Time, Part-Time and Per-Diem You Will: Perform high quality nuclear medicine and/or positron emission tomography/computed tomography images on patients while providing excellent care. Follow company established nuclear medicine protocols and procedures. Under the direction of the radiologist, administ…",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "bdc29f4d82173f6c",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Beverly Hills, California; Bakersfield, California; Riverside, California; Murrieta, California; Victorville, California; Santa Ana, California; Thousand Oaks, California",
+   "location_tier": 1,
+   "longitude": null,
+   "posted_at": "2024-11-01T16:59:00+0000",
+   "salary_raw": "",
+   "score": 100,
+   "source": "radnet",
+   "source_job_id": "8099",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Nuclear Medicine/PET Technologist (Paid Relocation Up to $20,000)",
+   "url": "https://careers.radnet.com/careers-home/jobs/8099?lang=en-us"
   },
   "c09afe1e1ecf9ece": {
    "active": true,
@@ -579,7 +930,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine Technologist, you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Performs high quality nuclear medicine and/or positron emission tomography/computed …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "c09afe1e1ecf9ece",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "Rancho Cucamonga, California",
    "location_tier": 2,
@@ -594,7 +945,7 @@
     "PET"
    ],
    "title": "Nuclear Medicine Technologist",
-   "url": "https://careers-radnet.icims.com/jobs/19260/login"
+   "url": "https://careers.radnet.com/careers-home/jobs/19260?lang=en-us"
   },
   "cb69ff9d55420d4e": {
    "active": true,
@@ -630,7 +981,7 @@
    "description": "Responsibilities Southwest Healthcare Inland Valley Hospital in Wildomar, California, is a licensed 122-bed facility accredited by the Joint Commission. It is Southwest Riverside County's only designated Trauma Center and a county-designated Paramedic Base Station. The hospital performs more than 4,000 surgeries a year, and has an average of 4,000 Emergency Department visits per month. The hospital features a Bariatric Weight-Loss Surgery Center of Excellence and the region’s only Total Joint Center. Southwest Healthcare Rancho Springs Hospital in Murrieta, California, is a 120 bed acute-care hospital with the region's only Pediatric Emergency Services team (for children 14 and under) provid…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "ceed7fd4a4c4415b",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "MURRIETA, California",
    "location_tier": 2,
@@ -645,7 +996,7 @@
     "hospital"
    ],
    "title": "Nuclear Medicine Technician",
-   "url": "https://careers-uhsinc.icims.com/jobs/348889/login"
+   "url": "https://jobs.uhsinc.com/careers-home/jobs/348889?lang=en-us"
   },
   "d889d672c8866993": {
    "active": true,
@@ -655,7 +1006,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a PET/ CT Technologist, you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Perform high quality nuclear medicine and/or positron emission tomography/computed tomography…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "d889d672c8866993",
-   "last_seen": "2026-08-01T00:03:32Z",
+   "last_seen": "2026-08-01T00:12:20Z",
    "latitude": null,
    "location_raw": "Riverside, California",
    "location_tier": 2,
@@ -670,7 +1021,7 @@
     "PET"
    ],
    "title": "PET/CT Technologist",
-   "url": "https://careers-radnet.icims.com/jobs/20178/login"
+   "url": "https://careers.radnet.com/careers-home/jobs/20178?lang=en-us"
   },
   "d8fb14e705a7d6da": {
    "active": true,
@@ -698,6 +1049,29 @@
    "title": "Title Nuclear Medicine Technologist (NMT)",
    "url": "https://careers-primehealthcare.icims.com/jobs/267825/nuclear-medicine-technologist-%28nmt%29/job"
   },
+  "dea8484d344e6f03": {
+   "active": true,
+   "category": "travel",
+   "city": "Dicine Tech Job In Bakersfield",
+   "company": "Aya Healthcare",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "dea8484d344e6f03",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Dicine Tech Job In Bakersfield, CA",
+   "location_tier": 0,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 25,
+   "source": "aya",
+   "source_job_id": "Travel Nuclear Medicine Tech job in BAKERSFIELD|Dicine Tech Job In Bakersfield|",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Tech job in BAKERSFIELD",
+   "url": "https://www.ayahealthcare.com/travel-nursing-job/3297296/"
+  },
   "f23482ca8984bbb5": {
    "active": true,
    "category": "hospital-other",
@@ -723,6 +1097,29 @@
    ],
    "title": "Title Nuclear Medicine Technologist",
    "url": "https://careers-primehealthcare.icims.com/jobs/267197/nuclear-medicine-technologist/job"
+  },
+  "f2926f7be0609967": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Mission Viejo",
+   "company": "Providence (Mission/St. Joseph/St. Jude)",
+   "description": "",
+   "first_seen": "2026-08-01T00:12:20Z",
+   "key": "f2926f7be0609967",
+   "last_seen": "2026-08-01T00:12:20Z",
+   "latitude": null,
+   "location_raw": "Mission Viejo, CA",
+   "location_tier": 1,
+   "longitude": null,
+   "posted_at": "",
+   "salary_raw": "",
+   "score": 55,
+   "source": "providence",
+   "source_job_id": "https://providence.jobs/mission-viejo-ca/senior-nuclear-medicine-technologist-imaging-admin/5C9C9BA114074B38B80FD996C6CE8750/job/",
+   "state": "CA",
+   "tags": [],
+   "title": "Senior Nuclear Medicine Technologist Imaging Admin",
+   "url": "https://providence.jobs/mission-viejo-ca/senior-nuclear-medicine-technologist-imaging-admin/5C9C9BA114074B38B80FD996C6CE8750/job/"
   },
   "f943e35b69a46d87": {
    "active": true,
@@ -777,7 +1174,7 @@
    "url": "https://careers-primehealthcare.icims.com/jobs/267196/nuclear-medicine-technologist/job"
   },
   "ff4e2724be2e2f8c": {
-   "active": true,
+   "active": false,
    "category": "outpatient-pet",
    "city": "Westminster",
    "company": "RadNet / WaveImaging",
@@ -803,7 +1200,28 @@
   }
  },
  "misses": {
-  "ff4e2724be2e2f8c": 1
+  "12ff56d92986ba6f": 1,
+  "1a5dce2d4ee3758b": 1,
+  "2b48482294e9cb40": 1,
+  "3e6b8e45cc1433f8": 1,
+  "47b36e99d318d14f": 1,
+  "4bb98a03946b814c": 1,
+  "64a43be200b83397": 1,
+  "67fcb074071d9600": 1,
+  "6aa4b203589b17cb": 1,
+  "73bea50fa78217e7": 1,
+  "862f0be995e98dd1": 1,
+  "88781959fd56352e": 1,
+  "8e50bc769059397a": 1,
+  "939eaff1f6049d26": 1,
+  "98d66f7e1812d3e8": 1,
+  "a81ba04d6e8437e0": 1,
+  "b552534a6a02cef7": 1,
+  "cb69ff9d55420d4e": 1,
+  "d8fb14e705a7d6da": 1,
+  "f23482ca8984bbb5": 1,
+  "f943e35b69a46d87": 1,
+  "fd50b5556d8e80c0": 1
  },
- "updated": "2026-08-01T00:03:32Z"
+ "updated": "2026-08-01T00:12:20Z"
 }
