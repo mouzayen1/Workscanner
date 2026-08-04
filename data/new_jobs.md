@@ -3,8 +3,8 @@
 
 #### Travel / Contract (1)
 
-- **[Nuclear Medicine Tech](https://www.vivian.com/job/v/wARwkaRQpLINmV5p16k/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Marina Del Rey, CA · $2,887/wk · score 25
+- **[Travel Nuclear Medicine Tech](https://www.ayahealthcare.com/travel-nursing-job/3265780/)** — Aya Healthcare  
+  Los Angeles, CA · score 25
 
 
 ---
