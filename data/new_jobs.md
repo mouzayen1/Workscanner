@@ -1,14 +1,18 @@
-### 3 new position(s) found — 2026-08-07
+### 5 new position(s) found — 2026-08-07
 
 
-#### Travel / Contract (3)
+#### Travel / Contract (5)
 
-- **[Nuclear Medicine / PET-CT Technologist](https://www.vivian.com/job/1170-P-740607/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Los Angeles, CA · $3,693/week · `PET` · score 50
-- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/jp-63192712/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Modesto, CA · $3,646/week · score 25
-- **[Travel Nuclear Medicine Tech](https://www.ayahealthcare.com/travel-nursing-job/3418234/)** — Aya Healthcare  
-  Saint Helena, CA · score 25
+- **[Nuclear Medicine Tech](https://www.vivian.com/job/v/axqk75qlwmH22X7oaoy/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  Torrance, CA · $3,087/wk · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/2398-j97d3qhc4qwemypdns73a9e9wd86shyp/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $4,400/week · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/2398-j9757gky441rdrzzadh4kjmnsh86nrqw/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $4,400/week · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/2398-j97bh1hk6d0sbvjz1bwy680ra586smnk/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $4,200/week · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/2398-j97d8wyzpf8e632p77pckvp83h86mj6d/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  Eureka, CA · $3,700/week · score 25
 
 
 ---
