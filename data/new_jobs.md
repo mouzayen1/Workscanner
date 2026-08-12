@@ -3,8 +3,8 @@
 
 #### Travel / Contract (1)
 
-- **[Nuclear Medicine / PET CT Technologist](https://www.vivian.com/job/v/LO7o3Z7Ny1fjV6P9bvr/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  El Centro, CA · $3,153/wk · `PET` · score 50
+- **[Travel Nuclear Medicine Tech](https://www.ayahealthcare.com/travel-nursing-job/3422354/)** — Aya Healthcare  
+  El Centro, CA · score 25
 
 
 ---
