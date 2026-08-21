@@ -3,10 +3,10 @@
 
 #### Travel / Contract (2)
 
-- **[Nuclear Medicine Tech](https://www.vivian.com/job/v/qDR8xLRKZWfDDQ2egKK/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Rancho Mirage, CA · $3,014/wk · score 25
-- **[Travel Nuclear Medicine Tech](https://www.ayahealthcare.com/travel-nursing-job/3421717/)** — Aya Healthcare  
-  Bakersfield, CA · score 25
+- **[Nuclear Medicine Technologist](https://www.vivian.com/job/v/79ORD8rpa6S02n3dynJvhNRo0QbM6MIRpKrxxOO8/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Luis Obispo, CA · $3,102/wk · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/13896-50621/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  Vacaville, CA · $3,861/week · score 25
 
 
 ---
