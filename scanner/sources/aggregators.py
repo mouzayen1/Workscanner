@@ -68,7 +68,12 @@ class JSearchSource(Source):
     def enabled(self) -> bool:
         return bool(os.environ.get("RAPIDAPI_KEY"))
 
+    # The endpoint path has moved across JSearch versions (/search,
+    # /search-v2); probe candidates once per run and remember what worked.
+    _PATHS = ["/search", "/search-v2", "/job-search"]
+
     def fetch(self) -> List[Job]:
+        import requests as _rq
         headers = {
             "X-RapidAPI-Key": os.environ["RAPIDAPI_KEY"],
             "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
@@ -78,13 +83,39 @@ class JSearchSource(Source):
             "PET CT technologist in Orange County, CA",
             "nuclear medicine technologist in Corona, CA",
         ])
+        path = None
+        probe_q = searches[0]
+        for cand in self.cfg.get("paths_try", self._PATHS):
+            try:
+                first = get_json(
+                    f"https://jsearch.p.rapidapi.com{cand}",
+                    params={"query": probe_q, "num_pages": 1, "date_posted": "month"},
+                    headers=headers,
+                )
+                path = cand
+                print(f"[{self.id}] endpoint {cand} works")
+                break
+            except _rq.exceptions.HTTPError as e:
+                status = getattr(e.response, "status_code", None)
+                print(f"[{self.id}] endpoint {cand} -> HTTP {status}")
+                if status in (401, 403):
+                    raise RuntimeError(
+                        "RapidAPI rejected the key (not subscribed to JSearch? "
+                        "subscribe to the free Basic plan on rapidapi.com)") from e
+                continue
+        if path is None:
+            raise RuntimeError("no JSearch endpoint path worked (tried "
+                               + ", ".join(self._PATHS) + ")")
         jobs: List[Job] = []
-        for q in searches:
-            data = get_json(
-                "https://jsearch.p.rapidapi.com/search",
-                params={"query": q, "num_pages": 1, "date_posted": "month"},
-                headers=headers,
-            )
+        for i, q in enumerate(searches):
+            if i == 0:
+                data = first
+            else:
+                data = get_json(
+                    f"https://jsearch.p.rapidapi.com{path}",
+                    params={"query": q, "num_pages": 1, "date_posted": "month"},
+                    headers=headers,
+                )
             for j in data.get("data", []):
                 jobs.append(Job(
                     source=self.id,

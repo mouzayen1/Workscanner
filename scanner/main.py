@@ -125,19 +125,37 @@ def _norm_title(t: str) -> str:
     return "".join(ch for ch in t.lower() if ch.isalnum())
 
 
+def _company_token(c: str) -> str:
+    """First word of the company name: 'Providence (Mission/...)' and
+    'Providence' must collide, as must 'Medical Solutions [Allied]'."""
+    words = re.findall(r"[a-z0-9]+", (c or "").lower())
+    return words[0] if words else ""
+
+
 def _cross_source_dedupe(jobs: List[Job], src_by_id: dict) -> List[Job]:
-    """Drop aggregator copies when a direct source has the same title+city."""
-    direct_keys = set()
-    for j in jobs:
-        if not src_by_id.get(j.source, {}).get("aggregator"):
-            direct_keys.add((_norm_title(j.title), (j.city or "").lower(), j.company.lower()))
-    out = []
+    """Drop aggregator copies of jobs a direct source already carries, and
+    collapse syndicated duplicates within the aggregators themselves (the same
+    req often reaches Adzuna several times via different boards)."""
+    def key(j: Job):
+        return (_norm_title(j.title), (j.city or "").lower(), _company_token(j.company))
+
+    direct_keys = {key(j) for j in jobs
+                   if not src_by_id.get(j.source, {}).get("aggregator")}
+    out: List[Job] = []
+    best_agg: dict = {}
     for j in jobs:
         if src_by_id.get(j.source, {}).get("aggregator"):
-            k = (_norm_title(j.title), (j.city or "").lower(), j.company.lower())
+            k = key(j)
             if k in direct_keys:
                 continue
-        out.append(j)
+            if k in best_agg:
+                if j.score > best_agg[k].score:
+                    best_agg[k] = j
+                continue
+            best_agg[k] = j
+        else:
+            out.append(j)
+    out.extend(best_agg.values())
     return out
 
 
