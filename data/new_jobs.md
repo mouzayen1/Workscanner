@@ -33,17 +33,17 @@
   Huntington Park, California · score 48
 - **[Nuclear Medicine Technologist: Advanced Imaging & Patient Care](https://us.jobrapido.com/jobpreview/6444158655209144320)** — University of California, Irvine  
   Los Alamitos, California · `per-diem` · score 47
-- **[Nuclear Medicine Technologist — Cardiac & General Imaging](https://www.learn4good.com/jobs/anaheim/california/healthcare/5376897924/e/)** — Providence  
-  Anaheim, California · `per-diem` · score 47
 - **[Nuclear Medicine Technologist](https://bebee.com/us/jobs/nuclear-medicine-technologist-corona-regional-medical-center-corona--pureheal-28528_25300_b790f62ed4c78f564eb55a15e8cb95e3)** — Corona Regional Medical Center  
   Corona, California · `per-diem` · score 47
+- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-walnut-park-ca--e5f28d24-e717-4827-9e8a-8e1d8febd821)** — Providence  
+  Walnut Park, California · `per-diem` · score 40
 
 #### Travel / Contract (1)
 
 - **[Travel Nuclear Medicine Technologist (NMT) - Corona, California](https://www.soliant.com/jobs/imaging-nuclear-medicine-corona-ca/9530621-92880/?detail_cat=5602)** — Soliant Health  
   Corona, California · score 55
 
-**Still open (not new, still apply-able):** 51 permanent (5 outpatient PET/CT) · 50 travel — see the dashboard.
+**Still open (not new, still apply-able):** 50 permanent (5 outpatient PET/CT) · 50 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
