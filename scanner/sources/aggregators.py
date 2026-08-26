@@ -68,9 +68,9 @@ class JSearchSource(Source):
     def enabled(self) -> bool:
         return bool(os.environ.get("RAPIDAPI_KEY"))
 
-    # The endpoint path has moved across JSearch versions (/search,
-    # /search-v2); probe candidates once per run and remember what worked.
-    _PATHS = ["/search", "/search-v2", "/job-search"]
+    # The endpoint path has moved across JSearch versions; /search-v2 is
+    # current (verified live 2026-08), older paths kept as fallbacks.
+    _PATHS = ["/search-v2", "/search", "/job-search"]
 
     def fetch(self) -> List[Job]:
         import requests as _rq
@@ -116,22 +116,30 @@ class JSearchSource(Source):
                     params={"query": q, "num_pages": 1, "date_posted": "month"},
                     headers=headers,
                 )
-            for j in data.get("data", []):
+            items = _jsearch_items(data)
+            if not items:
+                shape = list(data)[:8] if isinstance(data, dict) else type(data).__name__
+                print(f"[{self.id}] 0 items for {q!r}; response shape: {shape}")
+            for j in items:
+                city = j.get("job_city") or j.get("city")
+                st = j.get("job_state") or j.get("state")
                 jobs.append(Job(
                     source=self.id,
-                    source_job_id=str(j.get("job_id", "")),
-                    title=j.get("job_title", ""),
-                    company=j.get("employer_name", ""),
-                    url=j.get("job_apply_link", ""),
-                    location_raw=", ".join(
-                        x for x in [j.get("job_city"), j.get("job_state")] if x
-                    ),
-                    city=j.get("job_city") or None,
-                    state=j.get("job_state") or None,
-                    latitude=j.get("job_latitude"),
-                    longitude=j.get("job_longitude"),
-                    description=(j.get("job_description") or "")[:2000],
-                    posted_at=j.get("job_posted_at_datetime_utc") or "",
+                    source_job_id=str(j.get("job_id") or j.get("id") or ""),
+                    title=j.get("job_title") or j.get("title") or "",
+                    company=j.get("employer_name") or j.get("employer") or "",
+                    url=j.get("job_apply_link") or j.get("apply_link")
+                    or j.get("job_url") or j.get("url") or "",
+                    location_raw=", ".join(x for x in [city, st] if x)
+                    or (j.get("job_location") or j.get("location") or ""),
+                    city=city or None,
+                    state=st or None,
+                    latitude=j.get("job_latitude") or j.get("latitude"),
+                    longitude=j.get("job_longitude") or j.get("longitude"),
+                    description=(j.get("job_description")
+                                 or j.get("description") or "")[:2000],
+                    posted_at=j.get("job_posted_at_datetime_utc")
+                    or j.get("job_posted_at") or j.get("posted_at") or "",
                 ))
             polite_pause(1.0)
         return self.dedupe(jobs)
@@ -212,6 +220,25 @@ class USAJobsSource(Source):
                 posted_at=d.get("PublicationStartDate", ""),
             ))
         return self.dedupe(jobs)
+
+
+def _jsearch_items(data) -> list:
+    """Normalize JSearch responses across versions.
+
+    v1: {"data": [ {...job...}, ... ]}
+    v2: {"data": {"jobs": [ {...job...}, ... ], "cursor": ...}} (and variants)
+    """
+    raw = data.get("data") if isinstance(data, dict) else None
+    if isinstance(raw, dict):
+        for key in ("jobs", "results", "job_results", "items"):
+            if isinstance(raw.get(key), list):
+                raw = raw[key]
+                break
+        else:
+            raw = []
+    if not isinstance(raw, list):
+        raw = []
+    return [x for x in raw if isinstance(x, dict)]
 
 
 def _salary(lo, hi) -> str:
