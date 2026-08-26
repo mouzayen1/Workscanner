@@ -181,3 +181,5 @@ sources:
     kind: usajobs
     name: USAJobs (VA/federal)
     aggregator: true
+
+# Aggregator API keys added 2026-08-26 (ADZUNA_APP_ID/ADZUNA_APP_KEY/RAPIDAPI_KEY).
