@@ -1,14 +1,14 @@
-### 3 new position(s) found — 2026-08-25
+### 1 new position(s) found — 2026-08-26
 
 
-#### Travel / Contract (3)
+#### Travel / Contract (1)
 
-- **[Nuclear Medical Tech](https://www.vivian.com/job/3769-467050/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Los Angeles, CA · $3,836/week · score 25
-- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/880-a0Fcx00000ab017EAA/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Los Angeles, CA · $3,828/week · score 25
-- **[Travel Nuclear Medicine Tech](https://www.ayahealthcare.com/travel-nursing-job/3443061/)** — Aya Healthcare  
-  Bakersfield, CA · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/93-MJ7JUPPA/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  Los Angeles, CA · $3,780/week · score 25
+
+**Still open (not new, still apply-able):** 13 permanent (3 outpatient PET/CT) · 33 travel — see the dashboard.
+
+> ⚠️ **Coverage gap:** adzuna, jooble, jsearch, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
 
 ---
