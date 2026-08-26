@@ -32,7 +32,7 @@ _TITLE_VETO = re.compile(
     r"|petroleum|carpet|animal|\bvet\b|pharmacist|physician(?![’']?s?\s+(office|practice))"
     r"|nurse\b|\brn\b|sales|recruiter|radiopharmac(?!.*tech)|courier|driver"
     r"|scheduler|receptionist|front\s*desk|radiologist|transport(er|ation)"
-    r"|\baide\b|instructor|professor|faculty|billing|\bcoder\b"
+    r"|\baide\b|instructor|professor|faculty|program\s+director|billing|\bcoder\b"
     r"|ultrasound|sonograph|\bmri\b|mammograph",  # other-modality titles whose
     re.IGNORECASE,                                # ads mention NM in passing
 )
