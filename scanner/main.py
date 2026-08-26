@@ -113,7 +113,7 @@ def run_scan(dry_run: bool = False, only: set | None = None, verbose: bool = Fal
     healthy = {sid for sid, v in health.items() if v.startswith("ok")}
     state, new_jobs = merge(state, kept, healthy)
     save_state(state)
-    n_new = write_digest(new_jobs)
+    n_new = write_digest(new_jobs, state, health)
     write_dashboard(state, health)
     write_ci_summary(state, new_jobs, health)
     print(f"state saved: {sum(1 for d in state['jobs'].values() if d.get('active'))} active, "

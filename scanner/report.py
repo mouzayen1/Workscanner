@@ -26,7 +26,9 @@ def _fmt_job_md(d: dict) -> str:
     return "- " + "".join(bits)
 
 
-def write_digest(new_jobs: List[Job], path: str = DIGEST_PATH) -> int:
+def write_digest(new_jobs: List[Job], state: dict | None = None,
+                 health: Dict[str, str] | None = None,
+                 path: str = DIGEST_PATH) -> int:
     """Markdown digest of newly-seen jobs, grouped by category. Returns count."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
     if not new_jobs:
@@ -45,10 +47,32 @@ def write_digest(new_jobs: List[Job], path: str = DIGEST_PATH) -> int:
             continue
         lines.append(f"\n#### {CATEGORY_LABELS[cat]} ({len(items)})\n")
         lines.extend(_fmt_job_md(d) for d in items)
+    # "New" is not "all": remind the reader what is still open, so a
+    # travel-only alert never reads like the permanent market went dark.
+    if state:
+        active = [d for d in state["jobs"].values() if d.get("active")]
+        perm = [d for d in active if d.get("category") != "travel"]
+        n_pet = sum(1 for d in perm if d.get("category") == "outpatient-pet")
+        lines.append(f"\n**Still open (not new, still apply-able):** "
+                     f"{len(perm)} permanent ({n_pet} outpatient PET/CT) · "
+                     f"{len(active) - len(perm)} travel — see the dashboard.")
+    lines.extend(_key_warnings(health))
     lines.append("\n\n---\n_Open the dashboard (docs/index.html) for the full live list._\n")
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
     return len(new_jobs)
+
+
+def _key_warnings(health: Dict[str, str] | None) -> List[str]:
+    if not health:
+        return []
+    missing = sorted(k for k, v in health.items() if "no API key" in v)
+    if not missing:
+        return []
+    return [f"\n> ⚠️ **Coverage gap:** {', '.join(missing)} are switched off "
+            f"(no API key configured), so postings that only appear on "
+            f"Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT "
+            f"being scanned. Fix: README → 'add 2 free API keys'."]
 
 
 def write_ci_summary(state: dict, new_jobs: List[Job], health: Dict[str, str]) -> None:
@@ -58,6 +82,7 @@ def write_ci_summary(state: dict, new_jobs: List[Job], health: Dict[str, str]) -
         return
     active = [d for d in state["jobs"].values() if d.get("active")]
     lines = ["## Workscanner run\n"]
+    lines.extend(_key_warnings(health))
     lines.append(f"**Active listings:** {len(active)} · **New this run:** {len(new_jobs)}\n")
     lines.append("| Category | Active |")
     lines.append("|---|---|")
@@ -134,6 +159,9 @@ _TEMPLATE = r"""<!doctype html>
   .chip.new { background:var(--new); color:#fff; font-weight:700; }
   .chip.score { border:1px solid var(--border); background:transparent; }
   .empty { color:var(--muted); text-align:center; padding:40px 0; }
+  .warnbar { background:#b45309; color:#fff; border-radius:10px; padding:10px 14px;
+             font-size:.85rem; margin:4px 0 12px; display:none; }
+  .warnbar a { color:#fff; }
   details.health { margin-top:24px; color:var(--muted); font-size:.85rem; }
   details.health td { padding:2px 10px 2px 0; }
 </style>
@@ -144,6 +172,7 @@ _TEMPLATE = r"""<!doctype html>
   <div class="sub" id="updated"></div>
 </header>
 <main>
+  <div class="warnbar" id="warnbar"></div>
   <div class="tabs" id="tabs"></div>
   <div class="filters">
     <input id="q" type="search" placeholder="Filter by city, employer, keyword…">
@@ -230,6 +259,15 @@ document.getElementById('updated').textContent =
 const ht = document.getElementById('health');
 for (const [src, st] of Object.entries(DATA.health || {})) {
   ht.innerHTML += `<tr><td>${esc(src)}</td><td>${esc(st)}</td></tr>`;
+}
+const noKey = Object.entries(DATA.health || {})
+  .filter(([, st]) => st.includes('no API key')).map(([src]) => src);
+if (noKey.length) {
+  const wb = document.getElementById('warnbar');
+  wb.style.display = 'block';
+  wb.textContent = '⚠️ ' + noKey.join(', ') + ' switched off (no API key) — '
+    + 'Indeed/Google-only postings such as small doctor-office jobs are NOT '
+    + 'being scanned. Fix: README → "add 2 free API keys".';
 }
 render();
 </script>
