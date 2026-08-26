@@ -1,4 +1,4 @@
-### 16 new position(s) found — 2026-08-26
+### 15 new position(s) found — 2026-08-26
 
 
 #### Outpatient PET/CT (1)
@@ -15,7 +15,7 @@
 - **[Nuclear Med Technologist](https://medicalhirings.talentrushhq.com/joblistingpage/wr2laqns62bl-d93983-67a0e4c369-43a6fb-1f22060d68)** — PIH Health  
   Laguna Niguel, California · score 75
 
-#### Hospital / Other (11)
+#### Hospital / Other (10)
 
 - **[Nuclear Medicine Technologist II](https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-irvine--lensa-7428_63786d44455c2da6bb782bbaf97997ccf8f6939848ce0898e29f5179a8c33938)** — City of Hope  
   Irvine, California · `PET` `SPECT` · score 80
@@ -23,8 +23,6 @@
   Downey, California · `PET` · score 73
 - **[Nuclear Medicine Technologist II](https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-duarte--lensa-2365_ee704e464144a3c852b5605537ba3b15471f18fce3edec8eec4e510450bbf2e4)** — City of Hope  
   Duarte, California · `PET` · score 73
-- **[Program Director, Nuclear Medicine Technician](https://jobs.womenforhire.com/job/usa/corona-ca/program-director-nuclear-medicine-technician-120768/)** — American Career College  
-  Corona, California · score 55
 - **[Nuclear Medicine Technologist - Nuclear](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-yorba-linda-ca--aaa94480-83f9-4727-b44d-2691da00515d)** — Providence  
   Yorba Linda, California · `good-schedule` `per-diem` · score 52
 - **[Nuclear Medicine Technologist - Nuclear in Huntington Beach](https://lensa.com/job-v1/energy-jobline-zr/huntington-beach-ca/nuclear-medicine-technologist/9fe2788c46e8eade7bc528034b1d8bc6)** — Energy Jobline ZR  
@@ -45,7 +43,7 @@
 - **[Travel Nuclear Medicine Technologist (NMT) - Corona, California](https://www.soliant.com/jobs/imaging-nuclear-medicine-corona-ca/9530621-92880/?detail_cat=5602)** — Soliant Health  
   Corona, California · score 55
 
-**Still open (not new, still apply-able):** 37 permanent (4 outpatient PET/CT) · 49 travel — see the dashboard.
+**Still open (not new, still apply-able):** 51 permanent (5 outpatient PET/CT) · 50 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
