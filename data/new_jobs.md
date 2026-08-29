@@ -1,25 +1,19 @@
-### 33 new position(s) found — 2026-08-29
+### 57 new position(s) found — 2026-08-29
 
 
-#### Outpatient Nuclear Med (2)
+#### Outpatient Nuclear Med (1)
 
-- **[Nuclear Med Technologist, Full Time, 32 Hours, Days](https://jobs.womenforhire.com/job/usa/fullerton-ca/nuclear-med-technologist-full-time-32-hours-days-810720/)** — PIH Health  
-  Fullerton, California · score 75
 - **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.careerbuilder.com/job-details/senior-nuclear-medicine-technologist-imaging-admin-laguna-beach-ca--c6936ff5-adeb-45f8-84a8-2d97e58a539f)** — Providence  
   Laguna Beach, California · score 75
 
-#### Hospital / Other (13)
+#### Hospital / Other (11)
 
 - **[Nuclear Medicine Technologist II](https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-irvine--lensa-7428_63786d44455c2da6bb782bbaf97997ccf8f6939848ce0898e29f5179a8c33938)** — City of Hope  
   Irvine, California · `PET` `SPECT` · score 80
 - **[PET/ CT Technologist- Float PET/CET Technologist- South Los Angeles](https://www.theladders.com/job/pet-ct-technologist-float-pet-cet-technologist-south-los-angeles-shared-imaging-downey-ca_88315320)** — Shared Imaging  
   Downey, California · `PET` · score 73
-- **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.adzuna.com/land/ad/5860469264?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=55BF948A8D3E0C3934553DC179D627A6768F3888)** — Providence  
-  Villa Park, Orange County · $83,188–$83,188/yr · score 55
-- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.adzuna.com/land/ad/5860561391?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=0EB82FD7786C46D1E4508256A53B8D3BCF1D48DD)** — Providence  
-  East Long Beach, Los Angeles County · $114,030–$114,030/yr · `good-schedule` · score 53
-- **[Nuclear Medicine Technologist - Nuclear](https://www.adzuna.com/land/ad/5860468288?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=EAA1AE18E836B8D5496C30016E59870AAC4D7409)** — Providence  
-  East Irvine, Orange County · $153,203–$153,203/yr · `good-schedule` `per-diem` · score 52
+- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.adzuna.com/land/ad/5861051730?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=8B28E325B0476EBB575835883747534669655735)** — Providence  
+  Torrance, Los Angeles County · $117,862–$117,862/yr · `good-schedule` · score 53
 - **[Nuclear Medicine Technologist - Nuclear](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-yorba-linda-ca--aaa94480-83f9-4727-b44d-2691da00515d)** — Providence  
   Yorba Linda, California · `good-schedule` `per-diem` · score 52
 - **[Nuclear Medicine Technologist - Nuclear in Huntington Beach](https://lensa.com/job-v1/energy-jobline-zr/huntington-beach-ca/nuclear-medicine-technologist/9fe2788c46e8eade7bc528034b1d8bc6)** — Energy Jobline ZR  
@@ -37,46 +31,100 @@
 - **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-walnut-park-ca--e5f28d24-e717-4827-9e8a-8e1d8febd821)** — Providence  
   Walnut Park, California · `per-diem` · score 40
 
-#### Travel / Contract (18)
+#### Travel / Contract (45)
 
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860616355?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=819294D42C2FE615D13011FA446AD2321524F681)** — Medical Solutions Allied  
-  Los Alamitos, Orange County · $207,499–$207,499/yr · score 55
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860531969?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=C94607716A94A7EF0E12D0B7384548B4108ED90C)** — TNAA TotalMed Allied  
-  Upland, San Bernardino County · $209,318–$209,318/yr · score 55
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860549996?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=292AF409DCD3A9F722FB906B14E33A3E7AA76EC4)** — LanceSoft  
-  Los Alamitos, Orange County · $227,287–$227,287/yr · score 55
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5852048873?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=472D86EC742585EAFFFFE55D782BDAA9E45CB9B0)** — Triage Staffing  
-  Los Alamitos, Orange County · $200,829–$200,829/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860937958?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=D6DCB72A1BACAEA1CE251F60A8293D5BD9B57578)** — American Traveler  
+  Mission Viejo, Orange County · $239,389–$239,389/yr · `good-schedule` · score 60
+- **[Local Contract Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860980062?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=D524FB193ABFDDE469D04A54262F375CBF76F3EB)** — Catalytic Solutions  
+  Mission Viejo, Orange County · $259,187–$259,187/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860951166?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=C3A622B952A9645431511AD381845BFAC6FD91C3)** — MedPro Healthcare Allied Staffing  
+  Mission Viejo, Orange County · $323,485–$323,485/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860962539?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=D9A4263E86E9B9F0D33E91EBFC0B8828373AD30E)** — TravSource  
+  Mission Viejo, Orange County · $485,911–$485,911/yr · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860960644?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=2DC29A90293C2869B7143E627443744E20679913)** — Triage Staffing  
+  Mission Viejo, Orange County · $238,823–$238,823/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860958430?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=927B628ED7D2B2487EF6D4BDA5F7AC6321EF96DE)** — TNAA TotalMed Allied  
+  Mission Viejo, Orange County · $355,153–$355,153/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860956996?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=D864A6B5701050B1F31438E87EFA52FCC13A615A)** — Medical Solutions Allied  
+  Mission Viejo, Orange County · $399,726–$399,726/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860953458?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=54463FECBD3056E77E7E575150C78C38A7FC7EB0)** — Focus Staff  
+  Mission Viejo, Orange County · $227,831–$227,831/yr · score 55
+- **[Local Contract Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860952714?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=079FAAE50284A65CC18063E3F296BBDEAF6960D0)** — Assured Nursing  
+  Mission Viejo, Orange County · $271,246–$271,246/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860952320?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=93FBE50D4F41C9AB14501FA81F4253327D8C5F73)** — Healthcare Support  
+  Mission Viejo, Orange County · $355,010–$355,010/yr · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860951775?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=01C7AF84CE8A4D7091E94101A97D7019CC7D70FE)** — Health Advocates Network - Allied  
+  Mission Viejo, Orange County · $136,406–$136,406/yr · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860951088?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=F2DE212C207ADABF4BF5572982795D4950EC5877)** — Fusion Medical Staffing-Radiology  
+  Mission Viejo, Orange County · $121,395–$121,395/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860950670?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=19DC8EAB52480138EB28CD337526B1A40B5CC3B3)** — Catalytic Solutions  
+  Mission Viejo, Orange County · $337,055–$337,055/yr · score 55
+- **[Travel Nuclear Medicine Technician](https://www.adzuna.com/land/ad/5860950438?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=73E4D08AAC57BC0DD8755799D704CC42D240CEBC)** — Slate Healthcare  
+  Mission Viejo, Orange County · $261,566–$261,566/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860950233?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=8C61942A34498CE2CD409034E6610B855841722B)** — HCS 247  
+  Mission Viejo, Orange County · $391,973–$391,973/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860948733?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=2BD230558E0FF651FBA712906D627EE45079B8AE)** — Solomon Page  
+  Mission Viejo, Orange County · $374,650–$374,650/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860948178?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=9EA4EF0E616C9F9EAEEC809E85A0ACCBB15DDC06)** — Host Healthcare  
+  Mission Viejo, Orange County · $449,713–$449,713/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860945346?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=688CB47E0BB6F12A56C9660E100E72DDAFDBE4BD)** — GetMed Staffing, Inc.  
+  Mission Viejo, Orange County · $218,468–$218,468/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860945330?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=FABF8311F2E19287AE60F7692028BC37E6EEB226)** — Stability Healthcare  
+  Mission Viejo, Orange County · $272,892–$272,892/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860944347?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=87CC4042D0B46F07F06E6576458A0A6EE20D954F)** — Anders Group  
+  Mission Viejo, Orange County · $321,258–$321,258/yr · score 55
+- **[Local Contract Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860944014?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=7A2E9279BDD7E2516A3EE99F03E22B5C8E247A67)** — Medical Solutions Allied  
+  Mission Viejo, Orange County · $279,627–$279,627/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860940955?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=86EBC8DB96662760829391E27E02A8E965B91710)** — LeaderStat  
+  Mission Viejo, Orange County · $414,107–$414,107/yr · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860939447?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=8943BB798BD205D0847CC0917EB6641FAEB38215)** — Trustaff Allied  
+  Mission Viejo, Orange County · $194,422–$194,422/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860937779?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=37D0280293D862DA389F155BA802EFF5250A3C5F)** — Uniti Med  
+  Mission Viejo, Orange County · $433,577–$433,577/yr · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860937302?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=CA34504A81D80FE37C644ECA388D86F07FCB4535)** — ALOIS Healthcare  
+  Mission Viejo, Orange County · $193,764–$193,764/yr · score 55
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860936708?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=DE559A0507DC2BE4A5168F6F3889F73F68C54A08)** — Voca Healthcare  
+  Mission Viejo, Orange County · $294,839–$294,839/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,594 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860896063?utm_medium=api&utm_source=23a30878)** — Coast Medical Service  
+  Mission Viejo, Orange County · $124,512–$124,512/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,240 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860895472?utm_medium=api&utm_source=23a30878)** — Infojini Healthcare  
+  Mission Viejo, Orange County · $107,500–$107,500/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,991 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860895475?utm_medium=api&utm_source=23a30878)** — Infojini Healthcare  
+  Mission Viejo, Orange County · $143,548–$143,548/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,555 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860894303?utm_medium=api&utm_source=23a30878)** — GetMed Staffing  
+  Mission Viejo, Orange County · $122,640–$122,640/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,221 to $2,553 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860892735?utm_medium=api&utm_source=23a30878)** — Fusion Medical Staffing  
+  Mission Viejo, Orange County · $106,608–$122,544/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,762 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860892126?utm_medium=api&utm_source=23a30878)** — MedPro Healthcare Staffing  
+  Ladera Ranch, Orange County · $132,576–$132,576/yr · score 55
+- **[Travel Nuclear Medicine Tech - $2,766 per week in Mission Viejo, CA](https://www.adzuna.com/details/5860891239?utm_medium=api&utm_source=23a30878)** — Medical Solutions  
+  Mission Viejo, Orange County · $132,768–$132,768/yr · score 55
 - **[Travel Nuclear Medicine Technologist (NMT) - Corona, California](https://bebee.com/us/jobs/travel-nuclear-medicine-technologist-nmt-corona-california-soliant-health-eastvale--lensa-2365_50ee14bd991cf67ecd096c45bff037df00dac68217169b1a32bd80d3db80efda)** — Soliant Health  
   Eastvale, California · score 55
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860577880?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=7741D1693A41B34C82ABE4A800C86133E73A6A73)** — Anders Group  
-  Textile Finance, Los Angeles County · $154,115–$154,115/yr · `good-schedule` · score 53
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860618749?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=119BCB88AF22C032801521107D7FC7D749AFF2DA)** — Care Career  
-  Textile Finance, Los Angeles County · $162,880–$162,880/yr · score 48
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860584726?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=4F76F6D177DE6BD91DFF8F1B111C2E84945F519E)** — Fusion Medical Staffing-Radiology  
-  Textile Finance, Los Angeles County · $140,837–$140,837/yr · score 48
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860574799?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=9CE8BF526965A6220C8DD803C969ED824B4EF462)** — Prime Time Healthcare  
-  Textile Finance, Los Angeles County · $152,669–$152,669/yr · score 48
-- **[Travel Nuclear Medicine Technologist - $2,551 per week](https://www.adzuna.com/land/ad/5860574517?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=F34D37E5F833B85F0ACD95B5B86F52F441847A24)** — Medical Solutions Allied  
-  San Pedro, Los Angeles County · ?–$132,652/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5860506400?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=047A81B12529581C95D44077BF3A5A7A3E55A2C0)** — TNAA TotalMed Allied  
-  Textile Finance, Los Angeles County · $432,134–$432,134/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5852082026?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=6A077F290FC20799BA5F3329F82BCEC587325CF8)** — Prime Staffing  
-  Textile Finance, Los Angeles County · $241,877–$241,877/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5852075276?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=0EF91D885C9CDD866173EC1822BE9EFF562F7BBF)** — LeaderStat  
-  Textile Finance, Los Angeles County · $448,206–$448,206/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5852045113?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=EA43EDA13CD4260181256C75D5E73AF9D5DE4A22)** — Bestica  
-  Textile Finance, Los Angeles County · $336,128–$336,128/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5852034932?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=2ECDDE90C76C49021DB0863B90A5E4A256F96C23)** — Catalytic Solutions  
-  Textile Finance, Los Angeles County · $297,574–$297,574/yr · score 48
-- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5852002010?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=BE43CDD8DC1B57BD78F632543C54F777CA2701EC)** — GetMed Staffing, Inc.  
-  Textile Finance, Los Angeles County · $267,625–$267,625/yr · score 48
-- **[Travel Nuclear Medicine Technician](https://www.adzuna.com/land/ad/5851978920?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=298E8A65D6319CA73996149245BE0D173C2C06CC)** — Slate Healthcare  
-  Textile Finance, Los Angeles County · $322,209–$322,209/yr · score 48
-- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860548216?se=RFQzVmCj8RGS1aigIWvs2w&utm_medium=api&utm_source=23a30878&v=DD5C9F2893E7B8CAE3523DA51C80334DAEEF60F6)** — AMN Healthcare Allied  
-  Encinitas, San Diego County · $100,537–$100,537/yr · score 25
+- **[Travel Nuclear Medicine Tech](https://www.adzuna.com/land/ad/5861020128?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=208339884DDDB2DF73A91BE4296A02A1A293056F)** — Assured Nursing  
+  San Pedro, Los Angeles County · $509,338–$509,338/yr · score 48
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5861000998?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=44666DE0F7AA9A67A4DE2B665769735509C60397)** — Healthcare Support  
+  San Pedro, Los Angeles County · $177,195–$177,195/yr · score 48
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860957170?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=9CDE178100C9BD4203486DADE4194DDFEEEF4D7D)** — Coast Medical Service  
+  Mission Viejo, Orange County · $109,976–$109,976/yr · score 48
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860953638?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=AB035A5E53E70279C27551E4F314B72F021FC443)** — Slate Healthcare  
+  San Pedro, Los Angeles County · $175,956–$175,956/yr · score 48
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860944941?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=30DD13D086E44437FE0E7101CE141A215999B8CB)** — HCS 247  
+  San Pedro, Los Angeles County · $200,820–$200,820/yr · score 48
+- **[Travel Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860943637?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=B8ACFE6E8F4527D5C78275FEBD6A5DBC31A2A2B1)** — Medical Solutions Allied  
+  San Pedro, Los Angeles County · $201,460–$201,460/yr · score 48
+- **[Local Contract Nuclear Medicine Technologist](https://www.adzuna.com/land/ad/5860937137?se=ohpsyNGj8RGcfKYe_cIpvA&utm_medium=api&utm_source=23a30878&v=D5DE56DF3FABA62BD02EB79F95365D277F38257C)** — Medical Solutions Allied  
+  San Pedro, Los Angeles County · $153,842–$153,842/yr · score 48
+- **[Travel Nuclear Medicine Tech - $2,628 per week in San Pedro, CA](https://www.adzuna.com/details/5860896072?utm_medium=api&utm_source=23a30878)** — Coast Medical Service  
+  San Pedro, Los Angeles County · $126,144–$126,144/yr · score 48
+- **[Travel Nuclear Medicine Tech - $2,995 per week in San Pedro, CA](https://www.adzuna.com/details/5860895470?utm_medium=api&utm_source=23a30878)** — Infojini Healthcare  
+  San Pedro, Los Angeles County · $143,760–$143,760/yr · score 48
+- **[Travel Nuclear Medicine Tech - $2,638 per week in San Pedro, CA](https://www.adzuna.com/details/5860894309?utm_medium=api&utm_source=23a30878)** — GetMed Staffing  
+  San Pedro, Los Angeles County · $126,624–$126,624/yr · score 48
+- **[Travel Nuclear Medicine Tech - $2,906 per week in San Pedro, CA](https://www.adzuna.com/details/5860892123?utm_medium=api&utm_source=23a30878)** — MedPro Healthcare Staffing  
+  San Pedro, Los Angeles County · $139,488–$139,488/yr · score 48
 
-**Still open (not new, still apply-able):** 45 permanent (5 outpatient PET/CT) · 56 travel — see the dashboard.
+**Still open (not new, still apply-able):** 48 permanent (4 outpatient PET/CT) · 88 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
