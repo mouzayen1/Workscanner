@@ -1,44 +1,51 @@
-### 14 new position(s) found — 2026-09-06
+### 19 new position(s) found — 2026-09-06
 
 
-#### Outpatient Nuclear Med (3)
+#### Hospital / Other (12)
 
-- **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.careerbuilder.com/job-details/senior-nuclear-medicine-technologist-imaging-admin-laguna-beach-ca--c6936ff5-adeb-45f8-84a8-2d97e58a539f)** — Providence  
-  Laguna Beach, California · score 75
-- **[Senior Nuclear Medicine Technologist - Cardiology](https://lensa.com/job-v1/providence-service/rosemead-ca/senior-nuclear-medicine-technologist/744d4931998ea2f4163d63c2b9374b80)** — Providence Service  
-  Rosemead, California · score 68
-- **[Senior Nuclear Medicine Technologist - Cardiology](https://www.linkedin.com/jobs/view/senior-nuclear-medicine-technologist-cardiology-at-providence-4453903597)** — Providence  
-  Los Angeles, California · score 68
+- **[Nuclear Medicine Technologist](https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-at-vip-imaging-4417895807?trk=bingjobs)** — VIP Imaging  
+  Anaheim, California · `PET` `SPECT` · score 80
+- **[Nuclear Medicine Technologist - Highest Paid In Southern California](https://www.glassdoor.com/job-listing/nuclear-medicine-technologist-highest-paid-in-southern-california-vip-imaging-JV_IC1146743_KO0,65_KE66,77.htm?jl=1010167943201&trk=bingjobs)** — VIP Imaging  
+  Anaheim, California · `PET` `SPECT` · score 80
+- **[Imaging Supervisor NM/PET/CT - Nuclear Medicine IP - Orange - FT - Day](https://www.linkedin.com/jobs/view/imaging-supervisor-nm-pet-ct-nuclear-medicine-ip-orange-ft-day-at-uc-irvine-4441296332?trk=bingjobs)** — University of California, Irvine  
+  CA · `PET` · score 66
+- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.adzuna.com/land/ad/5872870060?se=Si_nsxaq8RGzT9cS1SBmfA&utm_medium=api&utm_source=23a30878&v=3B5C27F2F704C74E7C6256455E6A9043FBA4339F)** — Providence  
+  Huntington Beach, Orange County · $102,267–$102,267/yr · `good-schedule` · score 60
+- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-orange-ca--d761ce71-79c0-46bc-8937-6c43ac143c2c?trk=bingjobs)** — Providence  
+  Orange, California · `good-schedule` · score 60
+- **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.adzuna.com/land/ad/5872880372?se=Si_nsxaq8RGzT9cS1SBmfA&utm_medium=api&utm_source=23a30878&v=E1FF387C7501C27EA55A38211D0900FDEF9981F1)** — Providence  
+  Garden Grove, Orange County · $66,208–$66,208/yr · score 55
+- **[Allied / Tech - Nuclear Med Tech](https://www.adzuna.com/details/5871678025?utm_medium=api&utm_source=23a30878)** — AYA-Providence Mission Hospital Mission Viejo  
+  Mission Viejo, Orange County · $155,948–$155,948/yr · score 55
+- **[Radiology - Nuclear Medicine Tech](https://www.adzuna.com/details/5867136828?utm_medium=api&utm_source=23a30878)** — Providence Little Company of Mary Medical Center San Pedro  
+  San Pedro, Los Angeles County · $139,620–$139,620/yr · score 48
+- **[Nuclear Medicine Technician - Part Time](https://www.linkedin.com/jobs/view/nuclear-medicine-technician-part-time-at-corona-regional-medical-center-4459158463?trk=bingjobs)** — Corona Regional Medical Center  
+  Corona, California · score 41
+- **[Nuclear Medicine Technician](https://www.glassdoor.com/job-listing/nuclear-medicine-technician-corona-regional-medical-center-JV_IC1147072_KO0,27_KE28,58.htm?jl=1010172289754&trk=bingjobs)** — Corona Regional Medical Center  
+  Corona, California · score 41
+- **[Per Diem-Nuclear Medicine Technologist-Nuclear Medicine-Variable](https://www.linkedin.com/jobs/view/per-diem-nuclear-medicine-technologist-nuclear-medicine-variable-at-uc-irvine-4441290470?trk=bingjobs)** — University of California, Irvine  
+  Fountain Valley, California · `SPECT` `per-diem` · score 33
+- **[Nuclear Medicine Technician - Per Diem](https://www.linkedin.com/jobs/view/nuclear-medicine-technician-per-diem-at-corona-regional-medical-center-4459143448?trk=bingjobs)** — Corona Regional Medical Center  
+  Corona, California · `per-diem` · score 33
 
-#### Hospital / Other (10)
+#### Travel / Contract (7)
 
-- **[Nuclear Medicine Technologist II](https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-irvine--lensa-7428_63786d44455c2da6bb782bbaf97997ccf8f6939848ce0898e29f5179a8c33938)** — City of Hope  
-  Irvine, California · `PET` `SPECT` · score 80
-- **[PET/ CT Technologist- Float PET/CET Technologist- South Los Angeles](https://www.theladders.com/job/pet-ct-technologist-float-pet-cet-technologist-south-los-angeles-shared-imaging-downey-ca_88315320)** — Shared Imaging  
-  Downey, California · `PET` · score 73
-- **[Nuclear Medicine Technologist - Regional Staffing Manager](https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-regional-staffing-manager-at-cdl-nuclear-technologies-4453126503)** — CDL Nuclear Technologies  
-  Arcadia, California · `PET` · score 73
-- **[Nuclear Medicine Technologist - Nuclear](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-yorba-linda-ca--aaa94480-83f9-4727-b44d-2691da00515d)** — Providence  
-  Yorba Linda, California · `good-schedule` `per-diem` · score 52
-- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-huntington-park-ca--749f2266-7791-4145-9b83-c98a7020e28d)** — Providence  
-  Huntington Park, California · score 48
-- **[Nuclear Medicine Technologist](https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-at-live-well-homecare-4458707287)** — Live Well Homecare  
-  Downey, California · score 48
-- **[Nuclear Medicine Technologist: Advanced Imaging & Patient Care](https://us.jobrapido.com/jobpreview/6444158655209144320)** — University of California, Irvine  
-  Los Alamitos, California · `per-diem` · score 47
-- **[Nuclear Medicine Technologist](https://bebee.com/us/jobs/nuclear-medicine-technologist-corona-regional-medical-center-corona--pureheal-28528_25300_b790f62ed4c78f564eb55a15e8cb95e3)** — Corona Regional Medical Center  
-  Corona, California · `per-diem` · score 47
-- **[Nuclear Medicine Technologist (NMT)](https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-nmt-at-st-francis-medical-center-4453367643)** — St. Francis Medical Center  
-  Lynwood, California · score 41
-- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-walnut-park-ca--e5f28d24-e717-4827-9e8a-8e1d8febd821)** — Providence  
-  Walnut Park, California · `per-diem` · score 40
+- **[Nuclear Medicine Technologist In Irvine, CA](https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-in-irvine-ca-at-soliant-4436907751?trk=bingjobs)** — Soliant  
+  Irvine, California · `PET` · score 80
+- **[Travel Nuclear Medicine Tech - $3,133 per week in Mission Viejo, CA](https://www.adzuna.com/land/ad/5872204563?se=Si_nsxaq8RGzT9cS1SBmfA&utm_medium=api&utm_source=23a30878&v=42C24C09B0A59ACDED5490CD7C01E5F6FAF1C472)** — Health Advocates Network  
+  Mission Viejo, Orange County · $150,384–$150,384/yr · `good-schedule` · score 60
+- **[Nuclear Med Tech](https://www.adzuna.com/land/ad/5870581090?se=Si_nsxaq8RGzT9cS1SBmfA&utm_medium=api&utm_source=23a30878&v=20A2A959A3F05095F07C16318CAB41264FDDA58C)** — Health Advocates Network  
+  Mission Viejo, Orange County · $142,057–$142,057/yr · `good-schedule` · score 60
+- **[Nuclear Medicine Technologist - Travel - Mission Viejo, CA Pay Up To $3,080.00 Per Week](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-travel-mission-viejo-ca-pay-up-to-3-080-00-per-week-mission-viejo-ca--de0889d0-4a6f-4961-a099-1ae8209742f8?trk=bingjobs)** — Arise CareStaff  
+  Mission Viejo, California · `good-schedule` · score 60
+- **[Nuclear Medicine Tech](https://www.vivian.com/job/3769-469447/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $4,013/week · score 25
+- **[Nuclear Medicine Technologist](https://www.vivian.com/job/780-1312383/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $3,860/week · score 25
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/1262-2182540/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  San Francisco, CA · $3,795/week · score 25
 
-#### Travel / Contract (1)
-
-- **[Travel ALLIED-NMT-Nuclear Medicine Technologist in Torrance, California](https://www.adzuna.com/land/ad/5872211877?se=sKaZtY-p8RGgKaSQAHNwUQ&utm_medium=api&utm_source=23a30878&v=B9FD1800FB44754A5EC38C3704E5BF5FAE7D3C96)** — Voyage Health  
-  Torrance, Los Angeles County · $167,097–$167,097/yr · score 48
-
-**Still open (not new, still apply-able):** 48 permanent (4 outpatient PET/CT) · 61 travel — see the dashboard.
+**Still open (not new, still apply-able):** 49 permanent (4 outpatient PET/CT) · 74 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
