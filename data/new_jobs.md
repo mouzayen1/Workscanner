@@ -1,26 +1,28 @@
-### 5 new position(s) found — 2026-09-12
+### 6 new position(s) found — 2026-09-12
 
 
-#### Outpatient PET/CT (1)
+#### Outpatient Nuclear Med (1)
 
-- **[Nuclear Medicine/PET Technolog](https://careers.radnet.com/careers-home/jobs/21741?lang=en-us)** — RadNet / WaveImaging  
-  Orange, California · `PET` · score 100
+- **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.careerbuilder.com/job-details/senior-nuclear-medicine-technologist-imaging-admin-orange-ca--05594229-a7de-463b-9c43-d8a97be38d80?trk=bingjobs)** — Providence  
+  Orange, California · score 75
 
-#### Hospital / Other (1)
+#### Hospital / Other (2)
 
-- **[Nuclear Medicine Technologist - Radiology - Special - FT - Day](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-radiology-special-ft-day-orange-ca--bf35e0f8-a268-43c0-a1be-ba9d1abb73dd?trk=bingjobs)** — University of California, Irvine  
-  Orange, California · `SPECT` · score 35
+- **[PET/ CT Technologist- Float PET/CET Technologist- South Los Angeles](https://www.adzuna.com/details/5880833299?utm_medium=api&utm_source=23a30878)** — Shared Imaging  
+  Paramount, Los Angeles County · $145,600–$156,000/yr · `PET` · score 73
+- **[Nuclear Medicine Tech](https://www.adzuna.com/details/5880442801?utm_medium=api&utm_source=23a30878)** — Redlands Community Hospital - RADIOLOGY - NUCLEAR MEDICINE  
+  Redlands, San Bernardino County · $199,596–$199,596/yr · score 48
 
 #### Travel / Contract (3)
 
-- **[Travel Nuclear Medicine Technologist - $4,083 per week](https://www.adzuna.com/land/ad/5880230942?se=Kpf7DUiu8RGWadVedP1vLw&utm_medium=api&utm_source=23a30878&v=18B4F509CB61B2B7A56EE2BF584F7B805EAF243B)** — Medical Solutions Allied  
-  Textile Finance, Los Angeles County · ?–$212,316/yr · score 48
-- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/14754-1178764/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Los Angeles, CA · $4,083/week · score 25
-- **[Nuclear Medicine Technologist](https://www.vivian.com/job/20520-26-11567/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
-  Eureka, CA · $3,557/week · score 25
+- **[Travel Nuclear Medicine Technologist - Upland, CA](https://www.linkedin.com/jobs/view/travel-nuclear-medicine-technologist-upland-ca-at-soliant-4422163787?trk=bingjobs)** — Soliant  
+  Upland, California · score 48
+- **[Nuclear Medicine Technologist](https://www.vivian.com/job/780-1304040/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  El Centro, CA · $3,540/week · score 25
+- **[Nuclear Medicine Technologist](https://www.vivian.com/job/773-3570056/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  Encinitas, CA · $3,536/week · score 25
 
-**Still open (not new, still apply-able):** 37 permanent (5 outpatient PET/CT) · 38 travel — see the dashboard.
+**Still open (not new, still apply-able):** 38 permanent (5 outpatient PET/CT) · 38 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
