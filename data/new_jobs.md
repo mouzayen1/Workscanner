@@ -1,16 +1,14 @@
-### 19 new position(s) found — 2026-09-26
+### 21 new position(s) found — 2026-09-27
 
 
-#### Outpatient Nuclear Med (3)
+#### Outpatient Nuclear Med (2)
 
 - **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/4ecd522bd7ur-5db2046-c2151-f04e26c2b65b1059-2401)** — PIH Health  
   Anaheim, California · score 75
-- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/vdbvd0np4nrv-b685466df-b9d3fc5b-62a5f126-a11ec86)** — PIH Health  
-  Fullerton, California · score 75
 - **[Senior Nuclear Medicine Technologist - Imaging Admin](https://bebee.com/us/jobs/senior-nuclear-medicine-technologist-imaging-admin-providence-corona-ca--a4qa-5863143463)** — Providence  
   Corona, California · score 75
 
-#### Hospital / Other (10)
+#### Hospital / Other (13)
 
 - **[Nuclear Medicine Technologist PRN - Now Hiring](https://www.snagajob.com/jobs/1270561921)** — Riverside Community Hospital  
   Riverside, California · `PET` `per-diem` · score 65
@@ -24,12 +22,18 @@
   Irvine, California · score 55
 - **[Nuclear Medicine Technologist](https://jobs.womenforhire.com/job/usa/laguna-niguel-ca/nuclear-medicine-technologist-418250/)** — Providence  
   Laguna Niguel, California · score 55
-- **[Nuclear Medicine Technologist - Nuclear Medicine](https://www.adzuna.com/land/ad/5898364499?se=sN1HT9O58RGGQ9u1mQKVdw&utm_medium=api&utm_source=23a30878&v=A3530F87850695769FC766A1A58A3D89E2AF5803)** — Providence  
-  Torrance, Los Angeles County · $117,862–$117,862/yr · `good-schedule` · score 53
+- **[Nuclear Medicine Technologist - Nuclear](https://www.adzuna.com/land/ad/5899957570?se=sBNAAxS68RGSuIdP2R56sA&utm_medium=api&utm_source=23a30878&v=6647987356343854C1B52EFD0A0599B52C58DB8B)** — Providence  
+  Santa Ana, Orange County · $129,710–$129,710/yr · `good-schedule` `per-diem` · score 52
 - **[Nuclear Medicine Technologist - Nuclear](https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-santa-ana-ca--55eb725f-2299-496b-8a57-687d7d346caa)** — Providence  
   Santa Ana, California · `good-schedule` `per-diem` · score 52
+- **[Nuclear Medicine Technologist (NMT)](https://www.adzuna.com/details/5856330448?utm_medium=api&utm_source=23a30878)** — Ansible Government Solutions  
+  Loma Linda, San Bernardino County · $101,362–$101,362/yr · score 48
 - **[Nuclear Medicine Technologist](https://jooble.org/jdp/-6828131359161759316)** — Corona Regional Medical Center  
   Corona, California · `per-diem` · score 47
+- **[Nuclear Medicine Technologist, Nuclear Medicine](https://simplify.jobs/p/51a7ab33-6647-424f-8b55-94109313aaf1/Nuclear-Medicine-Technologist)** — University of California - Irvine  
+  Fountain Valley, California · `SPECT` · score 41
+- **[Nuclear Medicine Technician](https://us.trabajo.org/job-3991-df3dcc896b78491f14bc871581503b29)** — Universal Health Services  
+  Corona, California · score 41
 - **[Nuclear Medicine Technologist - Per Diem](https://www.indeed.com/viewjob?jk=07db90b92bc20391)** — Corona Regional Medical Center  
   Corona, California · `per-diem` · score 33
 
@@ -48,7 +52,7 @@
 - **[Travel Nuclear Medicine Tech - $2,237 to $2,390 per week in Upland, CA - Now Hiring](https://www.snagajob.com/jobs/1278690581)** — AlliedTravelCareers  
   Upland, California · score 41
 
-**Still open (not new, still apply-able):** 62 permanent (6 outpatient PET/CT) · 47 travel — see the dashboard.
+**Still open (not new, still apply-able):** 63 permanent (6 outpatient PET/CT) · 50 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
