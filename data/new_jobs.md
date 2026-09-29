@@ -1,14 +1,14 @@
-### 18 new position(s) found — 2026-09-28
+### 19 new position(s) found — 2026-09-29
 
 
 #### Outpatient Nuclear Med (5)
 
-- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/76svmolda9zg-877eae59ed452-c6415b-b271894923-2eb)** — PIH Health  
-  Seal Beach, California · score 75
 - **[Senior Nuclear Medicine Tech — Full-Time 10-Hour Shifts](https://us.jobrapido.com/jobpreview/5836002453010513920)** — Providence  
   Garden Grove, California · score 75
-- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/n5f9ldaxj3dt-3acbb4a2681bc385be-f1c-6a7bde1-84c2)** — PIH Health  
-  La Habra, California · score 75
+- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/mtrh920e6cb6-75046c6e-24906bd1a6-2e94e176481-888)** — PIH Health  
+  Garden Grove, California · score 75
+- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/76svmolda9zg-877eae59ed452-c6415b-b271894923-2eb)** — PIH Health  
+  Seal Beach, California · score 75
 - **[Senior Nuclear Medicine Technologist - Imaging Admin](https://bebee.com/us/jobs/senior-nuclear-medicine-technologist-imaging-admin-providence-corona-ca--a4qa-5863143463)** — Providence  
   Corona, California · score 75
 - **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/ecrodm865y6b-71a0596b439-e8237-7d3040498f8-86c35)** — PIH Health  
@@ -35,7 +35,7 @@
 - **[Nuclear Medicine Technician](https://us.trabajo.org/job-3991-df3dcc896b78491f14bc871581503b29)** — Universal Health Services  
   Corona, California · score 41
 
-#### Travel / Contract (4)
+#### Travel / Contract (5)
 
 - **[$2,970 to $3,060 per week for Travel Nuclear Medicine Tech in Los Alamitos, CA](https://www.alliedtravelcareers.com/job/12384799/nuclear-medicine-technologist-nuclear-med-tech)** — AMN Healthcare Allied  
   Los Alamitos, California · `PET` · score 93
@@ -45,8 +45,10 @@
   Irvine, California · score 55
 - **[Travel Nuclear Medicine Tech Job in Corona, CA](https://us.trabajo.org/job-2998-724b87a8d050c226145bb6943d1bd2a8)** — Vetted Health  
   Corona, California · score 55
+- **[Travel Nuclear Medicine Technologist](https://www.vivian.com/job/1233-854878/#algflw=SEO%20Page%20-%20Main%20Results&)** — via Vivian  
+  La Mesa, CA · $3,554/week · score 25
 
-**Still open (not new, still apply-able):** 61 permanent (6 outpatient PET/CT) · 45 travel — see the dashboard.
+**Still open (not new, still apply-able):** 61 permanent (6 outpatient PET/CT) · 46 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
