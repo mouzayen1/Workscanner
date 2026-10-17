@@ -696,7 +696,7 @@
    "url": "https://www.adzuna.com/land/ad/5895306524?se=sN1HT9O58RGGQ9u1mQKVdw&utm_medium=api&utm_source=23a30878&v=5FBFA00291A802ED287340B7FE5A5E0F6306C848"
   },
   "02dd54eef42907d6": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Jackson HealthPros",
@@ -1701,7 +1701,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: Concentric Healthcare Staffing Pay: Competitive weekly pay (inquire for details) Shift Information: 10 hours Contract Duration: 13 Weeks Start Date: ASAP About the Position Job Title Nuclear Medicine Technologist Location Apple Valley, CA | Acute Care Hospital Schedule / Job Type Contract | Days | 4x10 or 5x8 | Variable start times (6:00 AM or 7:30 AM) | Weekend call required Key Responsibilities Perform nuclear medicine procedures with a…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "0735deeee64cd8c2",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -1840,7 +1840,7 @@
    "url": "https://www.linkedin.com/jobs/view/travel-nuclear-medicine-tech-make-%243-336-%243-521-week-at-aya-healthcare-4476968522"
   },
   "0815fa1be44cbbb4": {
-   "active": true,
+   "active": false,
    "category": "outpatient-pet",
    "city": "Whittier",
    "company": "PIH Health Hospital",
@@ -1920,7 +1920,7 @@
    "description": "Job Summary and Responsibilities As our Nuclear Med Tech, you will be a specialized healthcare professional, vital in providing diagnostic and therapeutic services through the precise application of radionuclides. Every day, you will expertly perform Nuclear Medicine procedures, utilizing radionuclides to produce high-quality images and data for licensed practitioners. You'll ensure appropriate patient care, recognize conditions essential for successful procedures, administer radiopharmaceutica…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "097348d58df54ee6",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.15998,
    "location_raw": "Glendale, Los Angeles County",
    "location_tier": 2,
@@ -1933,7 +1933,7 @@
    "state": null,
    "tags": [],
    "title": "Nuclear Medicine Tech",
-   "url": "https://www.adzuna.com/land/ad/5930392696?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=907A4D6B17837AD8959A65A931F650C45B82861A"
+   "url": "https://www.adzuna.com/land/ad/5930392696?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=907A4D6B17837AD8959A65A931F650C45B82861A"
   },
   "09ac8e02a884742a": {
    "active": false,
@@ -2273,7 +2273,7 @@
    "url": "https://www.theladders.com/job/pet-ct-technologist-float-pet-cet-technologist-south-los-angeles-shared-imaging-downey-ca_88315320"
   },
   "0b2faa9c0c7a2c91": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Riverside",
    "company": "Riverside Community Hospital",
@@ -2322,14 +2322,14 @@
    "url": "https://www.adzuna.com/land/ad/5870366424?se=KGNLxsao8RG9iYX5pAv8UA&utm_medium=api&utm_source=23a30878&v=6DD0E3D2D6F12BC20B52F64DEFF04F506BF86515"
   },
   "0b4ac7b0f828dc97": {
-   "active": false,
+   "active": true,
    "category": "travel",
    "city": null,
    "company": "Voyage Health",
    "description": "Job Description Job Description Looking to level up your career and boost your income? At Voyage Healthcare, we help connect nurses, therapists, and allied health pros with high-paying travel jobs at top-rated facilities across the U.S. With thousands of openings nationwide, you can earn up to $3,500 per week (depending on your specialty, location, housing, and benefits)—all while making a real impact on the communities that need you most. Let your next adventure start with us! Position: ALLIED…",
    "first_seen": "2026-10-10T18:47:36Z",
    "key": "0b4ac7b0f828dc97",
-   "last_seen": "2026-10-11T02:03:06Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.829187,
    "location_raw": "Torrance, Los Angeles County",
    "location_tier": 2,
@@ -2342,10 +2342,10 @@
    "state": null,
    "tags": [],
    "title": "Travel ALLIED-NMT-Nuclear Medicine Technologist in Torrance, California",
-   "url": "https://www.adzuna.com/land/ad/5922471609?se=7j3IzBfF8RGRs48L_-pA7w&utm_medium=api&utm_source=23a30878&v=990DF580A2C91FDD25CC6F8214264E2B31E93E24"
+   "url": "https://www.adzuna.com/details/5922471609?utm_medium=api&utm_source=23a30878"
   },
   "0bd16a32dc453be2": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Irvine",
    "company": "University of California - Irvine Health",
@@ -3731,7 +3731,7 @@
    "description": "",
    "first_seen": "2026-09-25T01:41:39Z",
    "key": "1271259d8cd59972",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Encinitas, CA",
    "location_tier": 0,
@@ -4068,7 +4068,7 @@
    "description": "",
    "first_seen": "2026-10-08T02:49:02Z",
    "key": "139e19270a022d6c",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Lakewood, CA",
    "location_tier": 2,
@@ -4197,6 +4197,31 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Tech - $2,594 per week in Mission Viejo, CA",
    "url": "https://www.adzuna.com/details/5860896063?utm_medium=api&utm_source=23a30878"
+  },
+  "141763b93e8b1154": {
+   "active": true,
+   "category": "hospital-other",
+   "city": null,
+   "company": "RadNet",
+   "description": "Job Description Job Description Responsibilities Sign-On Bonus: $20,000.00 or ask us about our Student Loan Payment Program! Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Leading Radiology Forward . With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine / PET Technolo…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "141763b93e8b1154",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.81778,
+   "location_raw": "Orange, Orange County",
+   "location_tier": 1,
+   "longitude": -117.810627,
+   "posted_at": "2026-10-16T14:11:32Z",
+   "salary_raw": "$175,613–$175,613/yr",
+   "score": 80,
+   "source": "adzuna",
+   "source_job_id": "5931047091",
+   "state": null,
+   "tags": [
+    "PET"
+   ],
+   "title": "Nuclear Medicine/PET Technolog",
+   "url": "https://www.adzuna.com/details/5931047091?utm_medium=api&utm_source=23a30878"
   },
   "143d89493f025777": {
    "active": false,
@@ -5081,7 +5106,7 @@
    "url": "https://www.theladders.com/job/nuclear-medicine-pet-technologist-paid-relocation-up-to-20-000-ra-dot-net-riverside-ca_89039516"
   },
   "18566e51d1f6db20": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": "Corona",
    "company": "Prime Time Healthcare",
@@ -5392,6 +5417,29 @@
    "title": "Nuclear Medicine Technologist - Nuclear Medicine",
    "url": "https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-huntington-park-ca--749f2266-7791-4145-9b83-c98a7020e28d"
   },
+  "1a07d8d4d558dca4": {
+   "active": true,
+   "category": "outpatient-nm",
+   "city": null,
+   "company": "MEMORIAL HEALTH SERVICES",
+   "description": "Title: Nuclear Medicine Technologist Location: Long Beach Medical Center Department: Nuclear Medicine Status: Full Time Shift: Days (8hr) Pay Range*: $60.00/hr - $87.00/hr $5,000.00 signing bonus available to external hires new to MHS employment, contingent upon satisfaction of employment requirements. MemorialCare is a nonprofit integrated health system that includes four leading hospitals, award-winning medical groups – consisting of over 200 sites of care, and more than 2,000 physicians thro…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "1a07d8d4d558dca4",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.8232,
+   "location_raw": "Long Beach, Los Angeles County",
+   "location_tier": 2,
+   "longitude": -118.25851,
+   "posted_at": "2026-10-16T14:31:12Z",
+   "salary_raw": "$229,011–$229,011/yr",
+   "score": 68,
+   "source": "adzuna",
+   "source_job_id": "5931063519",
+   "state": null,
+   "tags": [],
+   "title": "Nuclear Medicine Technologist",
+   "url": "https://www.adzuna.com/details/5931063519?utm_medium=api&utm_source=23a30878"
+  },
   "1a096dee0c12d3ce": {
    "active": false,
    "category": "outpatient-nm",
@@ -5663,7 +5711,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: GetMed Staffing Pay: $2,788 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/17/2026 About the Position GetMed Staffing is searching for a strong Nuclear Medicine Tech to assist our traveler-friendly client. A minimum of 1-2 years of experience is required. Traveling with GetMed Staffing offers the unique opportunity to gain diverse experiences, both personally and professionally. Gain exper…",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "1ab57de7779d32e2",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -6029,7 +6077,7 @@
    "description": "",
    "first_seen": "2026-10-16T01:33:20Z",
    "key": "1ca00f55fbe584d8",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Mission Viejo, CA",
    "location_tier": 1,
@@ -6286,7 +6334,7 @@
    "url": "https://www.glassdoor.com/job-listing/travel-nuclear-medicine-technologist-nuclear-medicine-american-traveler-JV_IC1146843_KO0,53_KE54,71.htm?jl=1010201901776&trk=bingjobs"
   },
   "1d78db28b21a83c2": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Corona",
    "company": "Providence",
@@ -6461,7 +6509,7 @@
    "description": "Shared Imaging is a privately held organization that has been committed to growing organically and has doubled our revenue in the past 10 years and is committed to having the best technology possible to help support our clients. We pride ourselves on our \"White Glove\" service model by delivering the best patient experience possible. Shared Imaging is currently looking to hire a Full Time PET/CT Technologist in the Fontana, CA and Riverside, CA area offering a $20,000 sign-on bonus. Work Schedul…",
    "first_seen": "2026-09-19T01:22:19Z",
    "key": "1eca44830fe1c190",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.806246,
    "location_raw": "Nuevo, Riverside County",
    "location_tier": 2,
@@ -6845,7 +6893,7 @@
    "description": "",
    "first_seen": "2026-08-01T00:12:20Z",
    "key": "20b9a795a2a9e5ca",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Fountain Valley, CA",
    "location_tier": 1,
@@ -7257,7 +7305,7 @@
    "description": "Responsibilities Sign-On Bonus: $20,000.00 or ask us about our Student Loan Payment Program! Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Leading Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine / PET Technologist you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You W…",
    "first_seen": "2026-09-12T01:20:10Z",
    "key": "22dc122f25d3edd3",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Orange, California",
    "location_tier": 1,
@@ -7319,6 +7367,32 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Tech - $2,237 to $2,390 per week in Upland, CA - Now Hiring",
    "url": "https://www.snagajob.com/jobs/1278690581"
+  },
+  "23721a50acc3a2ca": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Irvine",
+   "company": "City of Hope",
+   "description": "Nuclear Medicine Technologist II\n\nJoin the transformative team at City of Hope, where we're changing lives and making a real difference in the fight against cancer, diabetes, and other life-threatening illnesses. City of Hope's growing national system includes its Los Angeles campus, a network of clinical care locations across Southern California, a new cancer center in Orange County, California, and treatment facilities in Atlanta, Chicago and Phoenix.\n\nOur dedicated and compassionate employees are driven by a common mission: To deliver the cures of tomorrow to the people who need them today. Join our team as a Nuclear Medicine Technologist II, where you will be responsible for performing a…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "23721a50acc3a2ca",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6845673,
+   "location_raw": "Irvine, California",
+   "location_tier": 1,
+   "longitude": -117.82650489999999,
+   "posted_at": "2026-09-28T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 80,
+   "source": "jsearch",
+   "source_job_id": "ZFBxSEd5LTJGR0F2SHE4eUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBURlkwWTFSWWNUQXhNRFpFYTI5VmVtWndlbVpsUlRGVVRuSlVXRmhEY1RSeVVHUnpNV2hoYlhCNmNsVk9jRTFQVXpCMGNWaGxZbmRpVGpocGVpMXFiMjUwZWxCd2JYcDRaRVJUZUVWTlgwOXlZM1ZMVlV4VExVNTJjVzlXZVdoU1pEUkJOVFJaYzNacWNuRjBNSEZGU1Zaa1ZXTnZkMU5HVTFGRVRGUjBaRUpCZHkxV09VTVNGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxGSVlUazBSMmRZTURVMGVreExSRTVoUkV4SmVqTkJZVk5uV2tF",
+   "state": "CA",
+   "tags": [
+    "PET",
+    "SPECT"
+   ],
+   "title": "Nuclear Medicine Technologist II",
+   "url": "https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-irvine--lifeworq-9344c25b-7897-4766-ae8f-cc3f429e5b02"
   },
   "237f027058824d19": {
    "active": false,
@@ -7641,7 +7715,7 @@
    "description": "Overview: Position: Nuclear Medicine Technologist Location: Victorville, Ca Department: Nuclear Medicine Shifts Available: Days Pay: up to $3,040– $3,520 gross per week; equivalent to $76.00-$88.00 per hour. Assignment Length: 12 weeks Premiere Healthcare Staffing is here to help you on your career journey! We place talented candidates with our partner healthcare facilities with the shared goal of providing exceptional, compassionate care. Paid Weekly Award-winning hospital partners across the …",
    "first_seen": "2026-10-14T02:02:45Z",
    "key": "2539dedc292f7340",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.41853,
    "location_raw": "Hesperia, San Bernardino County",
    "location_tier": 0,
@@ -7654,7 +7728,7 @@
    "state": null,
    "tags": [],
    "title": "Nuclear Medicine Technologist",
-   "url": "https://www.adzuna.com/land/ad/5924065426?se=0lK8xI3J8RG7j-LjAKnCRA&utm_medium=api&utm_source=23a30878&v=2A0599518A45F1F7D666100396A11A1E92745272"
+   "url": "https://www.adzuna.com/land/ad/5924065426?se=NCv6asnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=2A0599518A45F1F7D666100396A11A1E92745272"
   },
   "2548c5e99e1028e7": {
    "active": false,
@@ -7703,7 +7777,7 @@
    "url": "https://www.adzuna.com/land/ad/5903668369?se=tofwn8--8RGjOfDKwMOsrQ&utm_medium=api&utm_source=23a30878&v=C2C63A2BF71E9DC5EE2658FD136645002BF3CAB4"
   },
   "25708a95a81de029": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Laguna Woods",
    "company": "Rinvio Recruitment",
@@ -8167,7 +8241,7 @@
    "url": "https://www.adzuna.com/details/5880833299?utm_medium=api&utm_source=23a30878"
   },
   "2817efd7b230e7df": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Temescal Valley",
    "company": "Providence",
@@ -8271,7 +8345,7 @@
    "description": "Overview Ansible Government Solutions, LLC (Ansible) seeks a certified and licensed Nuclear Medicine Technologists (NMT) to support operations at the VA Loma Linda Healthcare System at 11201 Benton St., Loma Linda, CA 92357. The NMT will perform most examinations independently. They will also be subject to the same quality assurance standards to meet or exceed current recognized national standards established by the American College of Radiology (ACR). Schedule: TBD. Full-time and PRN opportuni…",
    "first_seen": "2026-10-10T18:47:36Z",
    "key": "28844f9e0fe74ae3",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.053138,
    "location_raw": "Loma Linda, San Bernardino County",
    "location_tier": 2,
@@ -8541,7 +8615,7 @@
    "description": "Job Description The Imaging Core is seeking a Nuclear Medicine Technologist II to join the team The Imaging Core of the Biomedical Imaging Research Institute is an advanced imaging center that provides comprehensive imaging services for the basic and clinical research community at Cedars-Sinai. Designed for human and animal research subjects, this state-of-the-art imaging facility exists to support researchers addressing important questions in cardiovascular diseases, cancer, neuroscience, rege…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "29f04907e8d5f430",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.047977,
    "location_raw": "Pico Heights, Los Angeles County",
    "location_tier": 2,
@@ -8554,7 +8628,7 @@
    "state": null,
    "tags": [],
    "title": "Nuclear Medicine Technologist II - Imaging Core",
-   "url": "https://www.adzuna.com/land/ad/5930383145?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=925EF375503D3B8362ACE4D5E55F4D8B78B5ADBB"
+   "url": "https://www.adzuna.com/land/ad/5930383145?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=925EF375503D3B8362ACE4D5E55F4D8B78B5ADBB"
   },
   "29f2fef78bb1601d": {
    "active": false,
@@ -8997,7 +9071,7 @@
    "description": "Founded in 1926, Dignity Health - Glendale Memorial Hospital and Health Center is a 334-bed, acute care, nonprofit hospital. Serving over 70,000 patients annually, the hospital offers a full complement of services including a Level III NICU, heart care, wound care and surgical services. Additionally, Glendale Memorial Hospital has been recognized as an LGBTQ Healthcare Equality High Performer by the Human Rights Campaign Foundation. It is a Joint Commission-certified Thrombectomy-Capable Stroke…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "2c855419138be17e",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.134298,
    "location_raw": "Griffith, Los Angeles County",
    "location_tier": 2,
@@ -9020,7 +9094,7 @@
    "description": "",
    "first_seen": "2026-10-12T22:12:45Z",
    "key": "2caf062c7a791c0f",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Santa Maria, CA",
    "location_tier": 0,
@@ -9956,6 +10030,29 @@
    "title": "Nuclear Medicine Technologist - Nuclear Medicine",
    "url": "https://www.careerbuilder.com/job-details/nuclear-medicine-technologist-nuclear-medicine-walnut-park-ca--e5f28d24-e717-4827-9e8a-8e1d8febd821"
   },
+  "31959316c1e65601": {
+   "active": true,
+   "category": "travel",
+   "city": "Los Alamitos",
+   "company": "GHR Healthcare",
+   "description": "We're hiring a Nuclear | Nuclear Medicine Technologist in Los Alamitos, CA, specializing in Nuclear. This is a Travel role with shifts available: Mids, Nights, Days offering a competitive salary between $2710 and $2920. Apply now to join our dedicated team.",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "31959316c1e65601",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.8032009,
+   "location_raw": "Los Alamitos, California",
+   "location_tier": 1,
+   "longitude": -118.07188939999999,
+   "posted_at": "2026-10-16T15:00:00.000Z",
+   "salary_raw": "",
+   "score": 55,
+   "source": "jsearch",
+   "source_job_id": "eTFOMVlWbUUxc25XLUFLTUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTamxTVWw5UWRHVk1XVTV3T1Rnd01XUlBSMnRMVlhWd2RuQXdiVmhXY0VKNWJrOVZXbUkyVTI1NWFsWjVTV056TW5aTVlUVnFhamxEZDFONlRqSkJNbk41U21wUGNEaFhXbTFZZFVsUE1rbG5UMnRNUldFNGRGWTNaVEpuVDBSMmNtY3dXRkUxUzNGRVZVaHNXbUp5WDBjMU5rZERaWGx4Um1NMWRGQlFRakIyUTBkV1ozWVNGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daUlYyWkZVMUExVTNSclV6UktkMHBmWnpWMlYwOHljMGRuZVZGUg",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear | Nuclear Medicine Technologist | 13-Week Travel Contract – Los Alamitos, CA",
+   "url": "https://jobs.ghrhealthcare.com/jobs/nuclear-nuclear-medicine-technologist-los-alamitos-ca-529580"
+  },
   "31a1329c6d4bb254": {
    "active": false,
    "category": "outpatient-nm",
@@ -10062,7 +10159,7 @@
    "description": "Nuclear Medicine Technologist - PET/CT Location Mission Viejo, CA Assignment Duration This is a 13-week contract position. Schedule Day 4x10-Hour Shift (07:00 - 17:30) Job Description We are seeking an experienced Nuclear Medicine Technologist with PET/CT expertise to join our dynamic team. This role involves performing nuclear medicine procedures and troubleshooting imaging equipment while ensuring patient safety and care. Responsibilities Perform nuclear medicine imaging and PET/CT scans. Ass…",
    "first_seen": "2026-10-10T18:47:36Z",
    "key": "322fc208a1d4ed88",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -11114,6 +11211,29 @@
    "title": "Nuclear Medicine Technologist I: Nuclear Medicine",
    "url": "https://www.adzuna.com/details/5882273110?utm_medium=api&utm_source=23a30878"
   },
+  "3649cd6da7d1d89d": {
+   "active": true,
+   "category": "hospital-other",
+   "city": null,
+   "company": "KAISER",
+   "description": "Job Summary: Under direct supervision, assists doctors and Nuclear Medicine Technologist with patient handling and Radiology accessories. Supervision is received from Department Administrator, Assistant Department Administrator, and/or Radiology Technologist. Essential Responsibilities: Essential Functions: Transport patients to and from the Radiology Department by wheelchair, gurney, or mobilize. Process a variety of exposed film by inserting into the automatic developer and re-load cassette. …",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "3649cd6da7d1d89d",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878638,
+   "location_raw": "Moreno Valley, Riverside County",
+   "location_tier": 2,
+   "longitude": -117.226457,
+   "posted_at": "2026-10-16T14:31:20Z",
+   "salary_raw": "$70,101–$70,101/yr",
+   "score": 48,
+   "source": "adzuna",
+   "source_job_id": "5931063854",
+   "state": null,
+   "tags": [],
+   "title": "Radiology Assistant",
+   "url": "https://www.adzuna.com/details/5931063854?utm_medium=api&utm_source=23a30878"
+  },
   "3658e93fb232bf1d": {
    "active": false,
    "category": "outpatient-nm",
@@ -11498,6 +11618,29 @@
    "title": "Nuclear Medicine Technologist — Day Shift",
    "url": "https://www.learn4good.com/jobs/orange/california/healthcare/5547245633/e/"
   },
+  "395610d3803efff5": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Corona",
+   "company": "Universal Health Services",
+   "description": "Responsibilities\n\nCome Join the Team!\n\nNuclear Medicine Technician (Med Tech) position\n\nThis is a Part Time position located at Corona Regional Medical Center in Corona, CA\n\nReporting to the Director of Diagnostic Imaging this positions operates all nuclear equipment leading to the diagnosis of designated portions of the body as ordered by physician. The technologist then instructs the patient of all nuclear medicine procedures, protocols, as well as preps. The technologist is responsible for proper computer operation and computer knowledge, use of gamma and SPEC T software, and provides the best patient care possible to enhance quality and professionalism in their tasks.\n\nThe tradition of c…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "395610d3803efff5",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878774199999995,
+   "location_raw": "Corona, California",
+   "location_tier": 1,
+   "longitude": -117.5760323,
+   "posted_at": "2026-10-10T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 41,
+   "source": "jsearch",
+   "source_job_id": "TGlUSXA0b0lOTWxoZ3NTS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVlJFWW1oYVVqVTVaVXQxVEMxck9FRnRURFU1VFZwbFFVZE9YMmhUYUZJeGVuRlNjbnBSVm1VdFUyVlpkRU5PVVhod1dtZEhVVGs0TUdwVFluaENUREY2VGxJMGFIZEphWGRKVlVGMVRVVnNXRFJCUldacWFHWkpSMnBIUW5KcGQwRkdXbUpsYVRocE1saGFjRmg1V0haVU0wVXRkMGgyZUc1SlEwTkNYMlZ4TVZGVFVYY1NGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daUlZEWTJUamxRVERsaFdsOTNlVkJwUXpCVFFUZHhWMmMxZDBGMw",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Technician - Part Time",
+   "url": "https://bebee.com/us/jobs/nuclear-medicine-technician-part-time-universal-health-services-corona--lifeworq-16f1d9e8-bd09-48e0-87e1-7220af37326f"
+  },
   "396950d2ee998e64": {
    "active": false,
    "category": "travel",
@@ -11718,7 +11861,7 @@
    "url": "https://www.vivian.com/job/1170-P-740607/#algflw=SEO%20Page%20-%20Main%20Results&"
   },
   "3a3a965a61dfe158": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Healthforce",
@@ -12998,7 +13141,7 @@
    "description": "Overview Ansible Government Solutions, LLC (Ansible) is currently recruiting for Nuclear Medicine Technologists (NMT) - PET/CTs to support the VA Long Beach Healthcare System (Tibor Rubin VA Medical Center) located at 5901 East 7th St, Long Beach, CA 90822. Available shift schedules include days, evenings, and nights. If you accept employment with Ansible, you must also acknowledge that any assigned schedule is subject to change at the direction of either Ansible or its customers. Ansible Gover…",
    "first_seen": "2026-10-15T01:37:53Z",
    "key": "40514bd03c3c7189",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.8232,
    "location_raw": "Long Beach, Los Angeles County",
    "location_tier": 2,
@@ -13016,7 +13159,7 @@
    "url": "https://www.adzuna.com/details/5928016711?utm_medium=api&utm_source=23a30878"
   },
   "4058d449c6b79853": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Coast Medical Service",
@@ -13299,6 +13442,32 @@
    "title": "Nuclear Medicine Technologist - Nuclear",
    "url": "https://www.monster.com/job-openings/nuclear-medicine-technologist-nuclear-santa-ana-ca--7c4e025b-2e19-47eb-b00d-ac192dd109ce"
   },
+  "414c69c0fe25d9a3": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Riverside",
+   "company": "Riverside Community Hospital",
+   "description": "Hourly Wage Estimate: $70.23 - $82.71 / hour\nLearn more about the for this job.\n\nThe estimate displayed represents the typical wage range of candidates hired. Factors that may be used to determine your actual salary may include your specific skills, how many years of experience you have and comparison to other employees already in this role. The typical candidate is hired below midpoint of the range.\n\nLast year our HCA Healthcare colleagues invested over 156,000 hours volunteering in our communities. As a Nuclear Medicine Technologist PRN with Riverside Community Hospital you can be a part of an organization that is devoted to giving back!\n\nJob Summary and Qualifications\n\nSummary:\n\nUnder the…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "414c69c0fe25d9a3",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.9825358,
+   "location_raw": "Riverside, California",
+   "location_tier": 2,
+   "longitude": -117.3757665,
+   "posted_at": "2026-10-15T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 65,
+   "source": "jsearch",
+   "source_job_id": "NEp6QmFoOWowRGs3cDlIN0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTazFWWDBSNGFucFNWRVoyVTNVMGVtdFZlbTFUUkZsU2NGSllSRzVpZFRKTE0wWkVibFoyUzIxMFJsQTJNbUpOVjFSTU0wWlhNSFF4VFZOcmNqWm5NMWw0U2xWVVpVTklPSGhxWVVKdFRURlpjR2x5U1ZsMlNUUnlSVTVxVVZwQ1UzVkZVRFpYYjNRMFYwb3hRamg2ZGpaVFRURTBOM0JUU0hGb09YUTVWblp6YzBSblIxUVNGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daU09XeEdVVVo0Ykd0V1YyaDBNVmhzUW1jeVUyNXhkMlJwVld4Ug",
+   "state": "CA",
+   "tags": [
+    "PET",
+    "per-diem"
+   ],
+   "title": "Nuclear Medicine Technologist PRN - Now Hiring",
+   "url": "https://www.snagajob.com/jobs/1270561921"
+  },
   "419e0c09066f291e": {
    "active": false,
    "category": "hospital-other",
@@ -13333,7 +13502,7 @@
    "description": "Responsibilities Sign-On Bonus: $20,000.00 or ask us about our Student Loan Payment Program! Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Leading Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine / PET Technologist you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You W…",
    "first_seen": "2026-09-24T18:35:21Z",
    "key": "41a37e1073862330",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Newport Beach, California",
    "location_tier": 1,
@@ -13418,6 +13587,31 @@
    "tags": [],
    "title": "Nuclear Medicine Technologist Long Beach Main Campus",
    "url": "https://www.adzuna.com/land/ad/5896399885?se=jJBpN4K48RGxU70hUOOFdQ&utm_medium=api&utm_source=23a30878&v=5075E0A2955382DB2449626A010358C8FD822622"
+  },
+  "4269ba8a5606a81f": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Irvine",
+   "company": "University of California - Irvine Health",
+   "description": "University of California - Irvine Health is seeking a Nuclear Medicine and PET supervisor responsible for direct supervision of all Nuclear Medicine and PET personnel, ensuring quality patient care, timely throughput of patients, and adherence to department policies.\n\nThe incumbent will perform advanced exams as a performing technologist, train staff in equipment usage and safety, supervise workflow, and contribute to policy development with review from the Division Chief, Radiation Safety, and\n\nWe are currently recruiting a Lead Nuclear Medicine & PET/CT Imaging for our team in Irvine, CA, United States.\n\nThe position is based in Irvine, CA, United States.\n\nThis opportunity is part of our w…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "4269ba8a5606a81f",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6845673,
+   "location_raw": "Irvine, California",
+   "location_tier": 1,
+   "longitude": -117.82650489999999,
+   "posted_at": "2026-10-06T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 80,
+   "source": "jsearch",
+   "source_job_id": "MktoeGRCQ1VvdG1SSVJFQkFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTVlZxUlRkdkxVMU9NMXA1U0dkNFFXWlJkR2RaZWxWQlpFSTNhSFUwVm5jNU5GRXlhRkJ4ZW1GVWNIaEhZM05pY2xkWFJuUTBaRjlEYVVSSldXNDBabTVJY21wclYybzVlazVCY0RGV1YzWm5iMDVEVW1WeFluaEhkREZGVFY5NmVWSjBkMFpTZWpkblMySTRVa2QwZEVKMFUydExlR2hqUVd4VWNVSmtTbWhLVEZWWk0zUVNGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxGbFdWbzJNRFYwY0ZBdGNYZFdWa1pLVDBoak4xaGpRVEpmYm1j",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Lead Nuclear Medicine & PET​/CT Imaging",
+   "url": "https://www.learn4good.com/jobs/irvine/california/healthcare/5526556135/e/"
   },
   "428f52c9b2a2dd66": {
    "active": true,
@@ -13905,6 +14099,31 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Tech",
    "url": "https://www.adzuna.com/land/ad/5876879817?se=mKPRpzKx8RG80dqbAPfRRQ&utm_medium=api&utm_source=23a30878&v=C0C2586CD81C149E2899956A87D5996AA90C2E1F"
+  },
+  "443169319403f145": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Orange",
+   "company": "Precision Scans Inc",
+   "description": "Precision Scans is seeking a Nuclear Medicine Technologist for an ongoing assignment in Orange County, CA. The role runs on a 6am-2:30pm shift, with pay at $100-$105 per hour.\n\nYou will perform nuclear medicine imaging in a hospital-based setting, upholding patient safety and image quality. The ideal candidate will be a graduate of an accredited Nuclear Medicine Technology program, hold ARRT(N) and/or NMTCB certification, have a CA license, and possess a current BLS from the AHA.\n\nWe have an opening for a Nuclear Medicine Technologist — Day Shift, Orange County in Irvine, CA, United States within Bio & Pharmacology & Health.\n\nFor the Nuclear Medicine Technologist — Day Shift, Orange County p…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "443169319403f145",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.7879085,
+   "location_raw": "Orange, California",
+   "location_tier": 1,
+   "longitude": -117.85528099999999,
+   "posted_at": "2026-10-15T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 60,
+   "source": "jsearch",
+   "source_job_id": "ejdrVjk0OEdEaWNTZGthZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekJhTFVkcmIxbHBWRzl2WlZWNlRUTktlSFpCTUhsZk5FbENNVUkwU2pkWk9VTTJUMmhWZDB0aFNXUjVlSGxhUTJ0cVgwaHNiRXRSYkdaVWJHUTJTblF4TkVFeVEyUXpWRmhtWmt4T2RtVkVSMjA1WVZKdlRsQnVhRFF6VUdGeFpqWklkVXRhYVhodk5ESkdXV00xWm1OT1MwWlJXRGhmVUVoMGRraFpPR0ZPUm01Q1ZVb1NGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daVVNtZFFiSEJLTkhoSlpYWTNXV0puYWt0VU1FYzBRMEphYkdabg",
+   "state": "CA",
+   "tags": [
+    "good-schedule"
+   ],
+   "title": "Nuclear Medicine Technologist — Day Shift",
+   "url": "https://www.learn4good.com/jobs/orange/california/healthcare/5547245633/e/"
   },
   "443628cac815e445": {
    "active": false,
@@ -14662,7 +14881,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: Coast Medical Service Pay: $2,737 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/3/2026 About the Position Coast Medical Service is a nationwide travel nursing & allied healthcare staffing agency dedicated to providing an elite traveler experience for the experienced or first-time traveler. Coast is featured on Blue Pipes' 2023 Best Travel Agencies and named a 2022 Top Rated Healthcare Staf…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "47ff490966571766",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -14933,7 +15152,7 @@
    "description": "Akumin is a leading provider of outpatient radiology and oncology services, partnering with top hospitals and health systems nationwide to deliver advanced diagnostic imaging and exceptional patient care close to home. With a national footprint, cutting-edge technology, and a strong commitment to innovation and patient-centered care, our teams play a vital role in improving outcomes for millions of patients each year. We are currently hiring for a PET-CT Technologist at our Arizona facilities. …",
    "first_seen": "2026-10-11T19:07:07Z",
    "key": "4a55c2ffcea52228",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.097142,
    "location_raw": "San Bernardino, San Bernardino County",
    "location_tier": 2,
@@ -15443,6 +15662,31 @@
    "title": "Travel Nuclear Medicine Technologist",
    "url": "https://www.vivian.com/job/jp-62457517/#algflw=SEO%20Page%20-%20Main%20Results&"
   },
+  "4d0a40de1fcb9cdd": {
+   "active": true,
+   "category": "travel",
+   "city": "Mission Viejo",
+   "company": "Triage Staffing",
+   "description": "Triage Staffing is seeking a Nuclear Medicine Tech in Mission Viejo, CA. Shift: 10H Days (7:00 AM-5:30 PM). Length: 13 Weeks. Weekly Hours: 40. Start Date: 11/3/2026. Weekly gross pay: $2,655. Facility Type: Short Term Acute Care Hospital.\n\nPosition requires ARRT certification and 1+ year acute care experience; 2+ years in the specialty is preferred. A dedicated recruiter will assist throughout the assignment.",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "4d0a40de1fcb9cdd",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.596891299999996,
+   "location_raw": "Mission Viejo, California",
+   "location_tier": 1,
+   "longitude": -117.6581562,
+   "posted_at": "2026-10-11T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 46,
+   "source": "jsearch",
+   "source_job_id": "WTdKREM0dlZKSUJCQjFndUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVGw2WDI1NFQwZGZWblZPUWxsNmQyaDFaRlJsV2t0S1NFbG1hM05IV0d0dWNuQlVlVzlDWlVKeVUyaDRjR3hqWjBGWVRETlpjVTlRZWpZMlRWaFJlbDl4ZVVKclUzUkdXVkoyY1U5WldqSnFSMUZvYms5QmNrZHBWRWgzY0dkclEyNXdOalJuUkdOVWFIcEdVbkZGTkVNeGNGazRkSEZwVUhaVlUwcFlNSE5VUkY5MFdtc1NGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daVWFGQkNTSEpXWDFaVE5IRmhSM1JZZURSUlJXSjJjRVUwUWpGMw",
+   "state": "CA",
+   "tags": [
+    "good-schedule"
+   ],
+   "title": "Nuclear Medicine Technologist – 10-Hour Day Shifts (13 Weeks)",
+   "url": "https://www.jobleads.com/us/job/nuclear-medicine-technologist-10-hour-day-shifts-13-weeks--mission-viejo--ed0a5328b7f9a9c2176a4201a5961990a"
+  },
   "4d1ea5268e88e78e": {
    "active": false,
    "category": "travel",
@@ -15689,7 +15933,7 @@
    "description": "Coast Medical Service is a nationwide travel nursing & allied healthcare staffing agency dedicated to providing an elite traveler experience for the experienced or first-time traveler. Coast is featured on Blue Pipes' 2023 Best Travel Agencies and named a 2022 Top Rated Healthcare Staffing Firm & 2023 First Half Top Rated Healthcare Staffing Firm by Great Recruiters. Please note that pay rate may differ for locally based candidates. Please apply here or contact a recruiter directly to learn mor…",
    "first_seen": "2026-10-11T19:07:07Z",
    "key": "4e2dc75cb0fe9d7f",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.741717,
    "location_raw": "San Pedro, Los Angeles County",
    "location_tier": 2,
@@ -15902,6 +16146,31 @@
    ],
    "title": "Nuclear Medicine Technologist II",
    "url": "https://bebee.com/us/jobs/nuclear-medicine-technologist-ii-city-of-hope-duarte--lensa-2365_ee704e464144a3c852b5605537ba3b15471f18fce3edec8eec4e510450bbf2e4"
+  },
+  "4f809f1bcc8c7e27": {
+   "active": true,
+   "category": "travel",
+   "city": "Los Alamitos",
+   "company": "AMN Healthcare Allied",
+   "description": "Job Description & Requirements\n\nNuclear Medicine Technologist - (Nuclear Med Tech)\n\nStartDate: ASAP\nAvailable Shifts: 8 D\nPay Rate: $2950.00 - $3039.00\n\nTravel Nuclear Med Tech jobs in Los Alamitos, CA with AMN Healthcare let you perform diagnostic imaging using radioactive tracers to evaluate organ function and provide high-quality patient care in an outpatient imaging environment[1]. You will administer radiopharmaceuticals, maintain radiation safety standards, start and maintain IVs, and perform a variety of nuclear medicine and PET imaging procedures[2]. Required qualifications include 2 years of experience in nuclear medicine, BLS certification, and an active California license[3]. Outp…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "4f809f1bcc8c7e27",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.8032009,
+   "location_raw": "Los Alamitos, California",
+   "location_tier": 1,
+   "longitude": -118.07188939999999,
+   "posted_at": "2026-09-26T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 93,
+   "source": "jsearch",
+   "source_job_id": "Y3ExV1lnbmp1aEE0d1lxWUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWEZ2WW5kd1ZUUTVPVzVrUW1kcWFVMDFOa0ZYUWw5T1NtOXBiemhvYzJkdGIySnlTRWxrY0doT01qbEpSV1ZqTUdNd2VqRlBZVk5uU1hsSGVFTnlOSE5HVjBsamVteFdla2hZZEV0SVJUTjRNVU5ZUldONk5sRlhXbk4xZFhWaVRWTnBXa050UVhCbU5uZEhWbFZKZW1aTlFqVm9jMWh5U0hOQ1gxTkpjSGhOWm1ZNGFFTVNGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daU1dHWkhVSEp0TVMxcWEyWXdUMk5zTVdGTmNWUk5kWG96WWpCMw",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Travel Nuclear Medicine Tech - $2,950 to $3,039 per week in Los Alamitos, CA",
+   "url": "https://www.monster.com/job-openings/travel-nuclear-medicine-tech-2-950-to-3-039-per-week-in-los-alamitos-ca-los-alamitos-ca--2335344e-6be2-4ee8-979f-873fa666bb3d"
   },
   "4f823f0b624e2dab": {
    "active": false,
@@ -16272,7 +16541,7 @@
    "description": "Description Primary Duties and Responsibilities The Nuclear Medicine Technologists of the Nuclear Medicine and/or Molecular Imaging & Therapy departments are state and nationally registered professionals who possesses the required skills and judgement necessary to obtain quality nuclear medicine studies. The technologist II will work under the supervision of the Technical Supervisor and the Nuclear Medicine Radiologist to perform routine and advanced nuclear medicine procedures. Nuclear Medicin…",
    "first_seen": "2026-09-10T17:49:21Z",
    "key": "50cb64fbe3ac5703",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.751486,
    "location_raw": "Irvine, Orange County",
    "location_tier": 1,
@@ -17626,7 +17895,7 @@
    "url": "https://www.adzuna.com/land/ad/5871496912?se=sKaZtY-p8RGgKaSQAHNwUQ&utm_medium=api&utm_source=23a30878&v=A441A315695B3A1F70430F3E0410E044CA57EAEB"
   },
   "56f543fea8847fbf": {
-   "active": true,
+   "active": false,
    "category": "outpatient-nm",
    "city": null,
    "company": "Modern Nuclear, Inc.",
@@ -18252,7 +18521,7 @@
    "description": "",
    "first_seen": "2026-10-08T20:03:13Z",
    "key": "593405bed3b1ebd9",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Mission Viejo, CA",
    "location_tier": 1,
@@ -18769,7 +19038,7 @@
    "url": "https://us.jobrapido.com/jobpreview/6444158655209144320"
   },
   "5b624ea97099e56f": {
-   "active": true,
+   "active": false,
    "category": "outpatient-nm",
    "city": "La Habra",
    "company": "PIH Health",
@@ -19341,7 +19610,7 @@
    "url": "https://bebee.com/us/jobs/nuclear-medicine-technologist-corona-regional-medical-center-corona--pureheal-28528_25300_b790f62ed4c78f564eb55a15e8cb95e3"
   },
   "5e39b1f94df72900": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Orange",
    "company": "Precision Scans Inc",
@@ -19364,6 +19633,29 @@
    ],
    "title": "Nuclear Medicine Technologist — Day Shift",
    "url": "https://www.learn4good.com/jobs/orange/california/healthcare/5547245633/e/"
+  },
+  "5e3a0c0e3fd3deb6": {
+   "active": true,
+   "category": "outpatient-nm",
+   "city": "Corona",
+   "company": "PIH Health",
+   "description": "Job Description\n\nPerforms nuclear medicine and PET exams maintaining maximal patient safety and comfort. Exams include all parts of the vasculature structures and organ systems.\n\nPIH Health is a nonprofit, regional healthcare network that serves approximately 3 million residents in the Los Angeles County, Orange County and San Gabriel Valley region. The fully integrated network is comprised of PIH Health Downey Hospital, PIH Health Good Samaritan Hospital, PIH Health Whittier Hospital, 37 outpatient medical office buildings, a multispecialty medical (physician) group, home healthcare services and hospice care, as well as heart, cancer, digestive health, orthopedics, women's health, urgent ca…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "5e3a0c0e3fd3deb6",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878774199999995,
+   "location_raw": "Corona, California",
+   "location_tier": 1,
+   "longitude": -117.5760323,
+   "posted_at": "2026-10-13T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 75,
+   "source": "jsearch",
+   "source_job_id": "TnJYNWZZSFZDQTZObkZwcEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURXBZY1doV1YwcDJMVTh6UzA5aFlqVkZla3BRZEZCTWJrdFhVMUl4TVdkUVJEVm5XbWN5YVZGSWNWSnpkR2RDV0VnMlFUVlJVRGhKVTBrMU1uWnJjazVJZDJFM2FVdHllbGxyY1dKWVEzSlNhRGR6TFRJeVJqbG1aVnBZZGs1TmVtbzFSVUpIYUhCSWFVNXNiRlF4VlRaRmVXeFdkRmwxZG1sVlNXWk5NbHBvZVRoa1NVY1NGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daVVR5MVRNbkF6TkdrM1J5MURVRUkwZEc0MlFWODFSMmhxYVd4Qg",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Med Technologist",
+   "url": "https://nursingjobs.vitalhiremed.com/joblistingpage/ecrodm865y6b-71a0596b439-e8237-7d3040498f8-86c35"
   },
   "5e3c67ad78d4c70d": {
    "active": false,
@@ -19602,6 +19894,31 @@
    "title": "Nuclear Medicine Technologist",
    "url": "https://www.monster.com/job-openings/nuclear-medicine-technologist-aliso-viejo-ca--48f485c3-294b-45c9-b25a-a55fd96e59f9"
   },
+  "5f2c253af469b35a": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Laguna Woods",
+   "company": "Rinvio Recruitment",
+   "description": "A healthcare recruitment agency seeks a Nuclear Medicine PET/CT Technologist to perform diagnostic tests using cutting-edge technology. Responsibilities include patient interaction, conducting tests, and ensuring quality imaging results. Candidates should have relevant certifications and at least 2 years of radiology experience. Join an environment focused on advanced imaging techniques and patient care.\nJ-18808-Ljbffr",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "5f2c253af469b35a",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6101702,
+   "location_raw": "Laguna Woods, California",
+   "location_tier": 1,
+   "longitude": -117.72511619999999,
+   "posted_at": "2026-10-07T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 80,
+   "source": "jsearch",
+   "source_job_id": "bXdreUtXMUJlc1gxYXVxU0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTV3haUW1SSFpVY3diSEZOY21oR1ZHbE9SMHRYT0ZObU4wTkRWbXRaTFZSdFYwMVBaVUZ1TkROWVRYcHhhSFZUVWxReWJtOXpYM1pqVFhCUFNERkdSMlpvZWs5bE5rMTZaaTF6UzBGT09YWjVSbVo0WkhKbExWWlVNRUpIWDNwclozSmlPRFJuUXkxTFNraG9ibXhXU1hKMVFXcGhVRzlZV0VKWWFFeHlaMVJNVmtWNWQzUVNGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxGeWJtVnRUemhHTlROa1Z6WklZMWxCTjFGMWFIZDBWWFpyWmtF",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Nuclear Medicine PET/CT Imaging Technologist",
+   "url": "https://us.trabajo.org/job-28643-888b5762e369daef0788c5592b66ffb2"
+  },
   "5f34a246893a802b": {
    "active": false,
    "category": "hospital-other",
@@ -19758,7 +20075,7 @@
    "description": "",
    "first_seen": "2026-08-14T15:23:24Z",
    "key": "5ffb14adace1a9c9",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Riverside, CA, Onsite, Regular, Per Diem, Variable shift, 1 hours",
    "location_tier": 2,
@@ -20004,7 +20321,7 @@
    "description": "POSITION SUMMARY Minimum of one year in acute hospital base experience. Under the supervision of the Nuclear Medicine Physician, prepares, calibrates, logs, and administers radioactive isotopes to patients undergoing a variety of nuclear medicine procedures. Operates Gamma Camera imaging equipment, computers, and other isotope sensitive equipment to obtain a visual representation or measurement or isotope concentration in specific body areas/organs. Applies good interpersonal and communication …",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "61313e0926a868b9",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.139729,
    "location_raw": "Arcadia, Los Angeles County",
    "location_tier": 2,
@@ -20149,7 +20466,7 @@
    "description": "Deliver diagnostic excellence—performing advanced Nuclear Medicine and PET/CT exams with precision, safety, and compassion while keeping patients at the center of every procedure.\nAt SimonMed, diagnostic quality starts with you. Our Nuclear Medicine / PET-CT Technologists are essential to delivering the advanced outpatient imaging our patients and referring physicians depend on. From oncology PET/CT and amyloid imaging to cardiac studies and the latest dual-energy CT protocols, this role sits at the intersection of cutting-edge technology and meaningful patient care—and it requires a technologist who takes both seriously.\nWe are looking for a tech who takes pride in precise, diagnostically c…",
    "first_seen": "2026-08-27T23:53:29Z",
    "key": "618c6b8342e57df5",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Arizona",
    "location_tier": 0,
@@ -20514,7 +20831,7 @@
    "description": "Overview Nuclear Medicine Technologist travel assignment in California, United States. Start date: 11/02/2026 for a 12-week contract. Weekly pay range: 3,514 to 3,725 per week. Shift: 4x10-hour days (40 hours per week). Work setting: hospital. This is a travel - temporary assignment supported by Healthforce Healthcare LLC. Key Highlights - Weekly pay: 3,514–3,725 per week - Contract duration: 12 weeks - Shift: 4x10-hour days - Start date: 11/02/2026 - Location: California, United States - Assig…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "62e5d8a5a3d2b3b7",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.162991,
    "location_raw": "Glendale, Los Angeles County",
    "location_tier": 0,
@@ -20780,7 +21097,7 @@
    "description": "",
    "first_seen": "2026-10-07T20:05:46Z",
    "key": "64907ae423a5eb19",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Orange, CA",
    "location_tier": 1,
@@ -21285,7 +21602,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: Infojini Healthcare Pay: $3,041 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: ASAP About the Position Nuclear Medicine Technologist travel Radiology/Imaging needed in Apple Valley, California",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "6722ea15261c36ae",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -21769,7 +22086,7 @@
    "description": "Coast Medical Service is a nationwide travel nursing & allied healthcare staffing agency dedicated to providing an elite traveler experience for the experienced or first-time traveler. Coast is featured on Blue Pipes' 2023 Best Travel Agencies and named a 2022 Top Rated Healthcare Staffing Firm & 2023 First Half Top Rated Healthcare Staffing Firm by Great Recruiters. Please note that pay rate may differ for locally based candidates. Please apply here or contact a recruiter directly to learn mor…",
    "first_seen": "2026-10-12T22:12:45Z",
    "key": "68c6a6468b8a147b",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -21838,7 +22155,7 @@
    "description": "",
    "first_seen": "2026-09-29T19:35:04Z",
    "key": "68ec0e9797cdddc8",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "San Francisco, CA",
    "location_tier": 0,
@@ -22584,7 +22901,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a Nuclear Medicine Technologist, you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Performs high quality nuclear medicine and/or positron emission tomography/computed …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "6cea43cef7dafdc5",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Orange, California",
    "location_tier": 1,
@@ -23109,7 +23426,7 @@
    "url": "https://www.adzuna.com/land/ad/5895650629?se=CERFELi38RGP0qQ_3oqDJw&utm_medium=api&utm_source=23a30878&v=3D5B9FD8EC0FFADE6349BD346A7883A1D9D02B80"
   },
   "6ed1b9512af56f88": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "Lancesoft INC",
@@ -23183,7 +23500,7 @@
    "url": "https://jobmesh.io/job/29fb396f-8739-4f99-98cc-5b7d4f8dad5f"
   },
   "6f0141f602a3b83e": {
-   "active": true,
+   "active": false,
    "category": "outpatient-pet",
    "city": "San Bernardino",
    "company": "Akumin®",
@@ -23290,7 +23607,7 @@
    "description": "",
    "first_seen": "2026-10-14T02:02:45Z",
    "key": "6f5a4d9781ce52e6",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Apple Valley, CA",
    "location_tier": 0,
@@ -24098,7 +24415,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Concentric Healthcare Staffing Pay: Competitive weekly pay (inquire for details) Shift Information: 10 hours Contract Duration: 13 Weeks Start Date: ASAP About the Position Job Title Nuclear Medicine Technologist – PET/CT Location Mission Viejo, CA | Acute Care Schedule / Job Type Contract | Days | 4x10-Hour Shifts | 7:00 AM – 5:30 PM Key Responsibilities Perform nuclear medicine imaging procedures, including PET/CT studies, in an acute …",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "7345cf2ae2440143",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -24115,6 +24432,29 @@
    ],
    "title": "Travel Nuclear Medicine Tech in Mission Viejo, CA",
    "url": "https://www.adzuna.com/details/5920380192?utm_medium=api&utm_source=23a30878"
+  },
+  "7374f36cf795ad2e": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Trabuco Canyon",
+   "company": "Providence Service",
+   "description": "Description\n\nUnder minimal supervision, performs and documents quality nuclear medicine procedures (invasive and noninvasive) on neonate, pediatric, adult, and geriatric patients in a timely manner as ordered by the physician. Supports supervisor and radiologist in carrying out their duties that in turn contribute to an effective an efficient Nuclear Medicine department. Promotes positive working relationships with patients, families, physicians, and other employees demonstrating teamwork to ensure excellent patient care, esprit de corps, and positive comments from all concerned parties.\n\nProvidence caregivers are not simply valued – they’re invaluable. Join our team at Mission Hospital Regi…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "7374f36cf795ad2e",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6777564,
+   "location_raw": "Trabuco Canyon, California",
+   "location_tier": 2,
+   "longitude": -117.5906715,
+   "posted_at": "2026-10-12T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 48,
+   "source": "jsearch",
+   "source_job_id": "V0JuZlJucmV6UjduM3JnSkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVVl6ZFVJMFIyWnNNVzB5VUY5Nk5WSnNPSE5rVG5NdFpVcHdZMHRJVUc1SWJUaEpObDlSYUd4dFRqUTNVVlJGUjBwQ1NrTjBhMHBKT1hkT1JIUXphV3RTV0dseFlqazFZMUpPWWtWR01uZHlSbkp2TUVSdGJrSkJPRkpHV0hGRVptTXdNM2RMUm1oRGRVTmxSV0pwTms1c2IwSXdOMU54YzB4T2VIaHVabXd4ZVVOblJqTVNGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daUk4xWkRZVjlTVlhGNVpuVXlRbk5UWW5CRVVUUnBjbEJRVEROMw",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Technologist",
+   "url": "https://lensa.com/job-v1/providence-service/trabuco-canyon-ca/nuclear-medicine-technologist/469a1275ec0b961d3023f8b450305de4"
   },
   "739c6650238b0ab4": {
    "active": false,
@@ -24406,7 +24746,7 @@
    "url": "https://us.jobrapido.com/jobpreview/6444158655209144320"
   },
   "74f79204383b2853": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Irvine",
    "company": "Precision Scans INC",
@@ -24873,7 +25213,7 @@
    "description": "Job Description: Nuclear Medicine Technologist Position Summary: A Nuclear Medicine Technologist (NMT) prepares and administers radiopharmaceuticals, operates imaging equipment, and works closely with physicians to diagnose and treat diseases. This role combines technical expertise with patient care and safety practices. Key Responsibilities: Patient Preparation: Interview and screen patients prior to procedures Explain test procedures and ensure informed consent Position patients correctly for…",
    "first_seen": "2026-10-11T19:07:07Z",
    "key": "765bffd3e174cccf",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -24991,7 +25331,7 @@
    "description": "",
    "first_seen": "2026-09-24T01:34:35Z",
    "key": "76f3334b3c921b55",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Los Angeles, CA",
    "location_tier": 0,
@@ -25154,7 +25494,7 @@
    "description": "",
    "first_seen": "2026-08-01T00:12:20Z",
    "key": "780b8860cf530651",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Whittier, California",
    "location_tier": 2,
@@ -26277,7 +26617,7 @@
    "description": "",
    "first_seen": "2026-08-01T00:12:20Z",
    "key": "7d280514566693fc",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Long Beach, CA",
    "location_tier": 2,
@@ -29586,6 +29926,31 @@
    "title": "Nuclear Medicine Technologist: Advanced Imaging & Patient Care",
    "url": "https://us.jobrapido.com/jobpreview/6444158655209144320"
   },
+  "8bb3ff7938515bb3": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Corona",
+   "company": "Universal Health Services",
+   "description": "Corona Regional Medical Center in Corona, CA is seeking a Nuclear Medicine Technician (per diem) to support diagnostic imaging services. The role requires operating nuclear medicine equipment, guiding physicians' orders, and delivering compassionate patient care in a fast-paced hospital setting.\n\nYou will participate in quality-improvement initiatives and ensure accurate documentation. Reporting to the Director of Diagnostic Imaging, you will prep patients, instruct them on procedures, and handle",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "8bb3ff7938515bb3",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878774199999995,
+   "location_raw": "Corona, California",
+   "location_tier": 1,
+   "longitude": -117.5760323,
+   "posted_at": "2026-10-14T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 47,
+   "source": "jsearch",
+   "source_job_id": "LW42SWFOMFZackVIZzZIRkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0owWTJWdlVFSkxXRkJJZFVGWVIxOVlVVTUzWmtGYWIzRlhlRVo2TWtRelNXUjJRa2Q2VEZWM1QwczNjblpQT0RWVlpreEpabkF3ZVZwb1pVSlZUWEZ2TUhZMk0xZEdhSFF6YzNGWlZUVmtSREpxZVRCdVRuVktRMVpwTjFGVmRISmpYMGR1UlU1dWEwSmFiVEJ0ZURORFdHRXhlalJhY25sVmVWcDVNR0ZtUm1WbVJqa1NGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daU1RWZFJUR3BGV1hwdE5IaGpRMU5uVlU4NWRqVjZWMlpJVUdSQg",
+   "state": "CA",
+   "tags": [
+    "per-diem"
+   ],
+   "title": "Nuclear Medicine Tech Per Diem",
+   "url": "https://bebee.com/us/jobs/nuclear-medicine-tech-per-diem-universal-health-services-corona-ca-united-states--appcast-7428_03bad4aa1ae33071417d637682504d5788b8302df00167e7086237aca98bdcc2"
+  },
   "8bbd4813f7a4e904": {
    "active": false,
    "category": "hospital-other",
@@ -29875,7 +30240,7 @@
    "url": "https://jobs.womenforhire.com/job/usa/anaheim-ca/nuclear-med-technologist-full-time-32-hours-days-988219/"
   },
   "8d59c9f598d4b20f": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "Amergis",
@@ -29953,7 +30318,7 @@
    "description": "Medical Solutions Allied is seeking a travel Nuclear Medicine Technologist for a travel job in Mission Viejo, California. Job Description & Requirements Specialty: Nuclear Medicine Technologist Discipline: Allied Health Professional Duration: 13 weeks 40 hours per week Shift: 10 hours, days Employment Type: Travel We’re seeking talented healthcare professionals whose adventure game is as strong as their clinical game. Those that want flexibility and high pay, we have the positions for you! Some…",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "8d9067437930f909",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.61154,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -29966,7 +30331,7 @@
    "state": null,
    "tags": [],
    "title": "Travel Nuclear Medicine Tech - $3,224 per week",
-   "url": "https://www.adzuna.com/land/ad/5921112472?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=736461AC5E2BF596FABBB8D89033FAE60E4DFAB4"
+   "url": "https://www.adzuna.com/land/ad/5921112472?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=736461AC5E2BF596FABBB8D89033FAE60E4DFAB4"
   },
   "8ddb3d39dd4146a4": {
    "active": false,
@@ -30022,7 +30387,7 @@
    "description": "Exciting Opportunity for Nuclear Medicine Technologists - Join a dynamic team as a Nuclear Medicine Technologist specializing in PET/CT! - Location: Beautiful area with a vibrant healthcare community. - Role: Work in a high-paced environment performing essential imaging procedures. - Shift: Day shift with 4x10-hour shifts from 07:00 to 17:30. Key Requirements: - 1 year of experience required; first-timers are welcome to apply! - Certifications needed: - BLS - ARRT (N) or NMTCB/CA License - Adva…",
    "first_seen": "2026-10-11T19:07:07Z",
    "key": "8e4548f298a1b3b5",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -30233,7 +30598,7 @@
    "url": "https://lensa.com/job-v1/energy-jobline-zr/huntington-beach-ca/nuclear-medicine-technologist/9fe2788c46e8eade7bc528034b1d8bc6"
   },
   "8ec23ba4b68ce0dd": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": "Mission Viejo",
    "company": "Triage Staffing",
@@ -30527,8 +30892,31 @@
    "title": "Travel Nuclear Medicine Technologist - $3,209 per week",
    "url": "https://www.adzuna.com/land/ad/5846092266?se=5qJOozmj8RGxSf1iGXKoQA&utm_medium=api&utm_source=23a30878&v=A6B8A52800516F467E9B85EC71B4B9644FB1A211"
   },
-  "91069f4721729f7b": {
+  "90f0d87a797e8a4f": {
    "active": true,
+   "category": "outpatient-nm",
+   "city": "Mission Viejo",
+   "company": "Providence Health & Service",
+   "description": "Description\n\nSenior Nuclear Medicine Technologist at Mission Hospital Mission Viejo. This position is Full time and will work 10-hour Variable Shifts.\n\nUnder minimal supervision, performs and documents quality nuclear medicine procedures (invasive andnoninvasive) on neonate, pediatric, adult, and geriatric patients in a timely manner as ordered by the physician. Supports supervisor and radiologist in carrying out their duties that in turn contribute to an effective an efficient Nuclear Medicine department. Promotes positive working relationships with patients, families, physicians, and other employees demonstrating teamwork to ensure excellent patient care, esprit de corps, and positive comm…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "90f0d87a797e8a4f",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.596891299999996,
+   "location_raw": "Mission Viejo, California",
+   "location_tier": 1,
+   "longitude": -117.6581562,
+   "posted_at": "2026-10-08T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 75,
+   "source": "jsearch",
+   "source_job_id": "OXYwU1VKdUxRUmxZQV9WcEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbmxzYmpSV09YTjJja0UzY2xwS2RXbDJSSGt0YkdsUExUbGtSMjVzT0c5aFMyRTFOMVJNWTAxaVNuRklZakUyUzJKeVV6bHRaVEZDZFUwek1FZzFUVnBtVm5kd1VUYzVWa0ptTVhCcllXcFlTR2R0Um1SbVVYTnVSblpqUVZsUWVUTmpkRmR6ZG1keWQydzRMVEJuWW5kTWNrZzRNV2czWW14eGF6UlRla3hLTFhoQ09Fc1NGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daUmJrVktSRVpDUkRCNlFuVjBUM05uTTNkTGMxaEhRVFozTFZKbg",
+   "state": "CA",
+   "tags": [],
+   "title": "Senior Nuclear Medicine Technologist - Imaging Admin",
+   "url": "https://www.monster.com/job-openings/senior-nuclear-medicine-technologist-imaging-admin-mission-viejo-ca--5cd7dc7f-5c97-4b3d-a6b7-97493869ef66"
+  },
+  "91069f4721729f7b": {
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Coast Medical Service",
@@ -31046,7 +31434,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: GetMed Staffing Pay: $2,747 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/3/2026 About the Position GetMed Staffing is searching for a strong Nuclear Medicine Tech to assist our traveler-friendly client. A minimum of 1-2 years of experience is required. Traveling with GetMed Staffing offers the unique opportunity to gain diverse experiences, both personally and professionally. Gain experie…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "93b9ff3fbe5070d2",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -31152,6 +31540,31 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Tech",
    "url": "https://www.ayahealthcare.com/travel-nursing-job/3428825/"
+  },
+  "9428af671b263e0a": {
+   "active": true,
+   "category": "outpatient-pet",
+   "city": "Whittier",
+   "company": "PIH Health Hospital",
+   "description": "Position: Nuclear Medicine Tech (PET/CT) – Precision & Patient Care\n\nPerforms nuclear medicine and PET exams maintaining maximal patient safety and comfort. Exams include all parts of the vasculature structures and organ systems.\n\nPIH Health is a nonprofit, regional healthcare network that serves approximately 3 million residents in the Los Angeles County, Orange County and San Gabriel Valley region. The fully integrated network is comprised of PIH Health Downey Hospital, PIH Health Good Samaritan Hospital, PIH Health Whittier Hospital, 37 outpatient medical office buildings, a multispecialty medical (physician) group, home healthcare services and hospice care, as well as heart, cancer, dige…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "9428af671b263e0a",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.9754423,
+   "location_raw": "Whittier, California",
+   "location_tier": 2,
+   "longitude": -118.0326781,
+   "posted_at": "2026-10-13T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 93,
+   "source": "jsearch",
+   "source_job_id": "dGMxam9PcXNtdFJpTEJQSUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBURVZSY2s1V01GQTRkMHN5VEVwT1QwRmZkMFJvYkZZMlVHWlBWRmhSY1RKRFMzTlVTbEJ3VjBodmFWQkhVbXQwVjBFM1VIUkJUMWx3UWs0eFJubEdUVXR4U0ROVk5HSjVSMHROTjB4dGEwbFVTV2hpTVU0NVVUUnRUMDVLVTFZeFYyOTFXbkF6UmpoNllXUkJlVlpxTVcxbVVsaGlVV0ZvUzFsQ1ZHNDNUV1ZEYW10eE5GZ1NGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxSc1IycFNWWGRWUjJnelowZENSVXBQVG5SR1NsbEJRVVZMVVVF",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Nuclear Medicine Tech; PET​/CT Precision & Patient Care",
+   "url": "https://www.learn4good.com/jobs/whittier/california/healthcare/5543982500/e/"
   },
   "942f21d0eada2d95": {
    "active": false,
@@ -31419,6 +31832,32 @@
    ],
    "title": "Nuclear Medicine Technologist II PET/CT Imaging Specialist",
    "url": "https://us.trabajo.org/job-3991-f7fba3c7ba34f8a283170ae6dddb2af0"
+  },
+  "9619b4960fd1f9e7": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Orange",
+   "company": "Providence",
+   "description": "Description\n\nNuclear Medicine Technologist at St Joseph Hospital-Orange. This position is Per Diem and will work 8-hour Day Shifts.\n\nUnder general supervision of the Supervisor, and guidance of the Lead Technologist, the Nuclear Medicine Technologist will perform all necessary duties and functions related to: (1) planning, organizing and performing diagnostic and therapeutic nuclear medicine procedures and (2) fulfill all duties required by the department quality assurance, Federal, State and JCAHO Standards.\n\nProvidence caregivers are not simply valued – they’re invaluable. Join our team at St. Joseph Hospital Of Orange and thrive in our culture of patient-focused, whole-person care built o…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "9619b4960fd1f9e7",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.7879085,
+   "location_raw": "Orange, California",
+   "location_tier": 1,
+   "longitude": -117.85528099999999,
+   "posted_at": "2026-10-16T05:00:00.000Z",
+   "salary_raw": "",
+   "score": 52,
+   "source": "jsearch",
+   "source_job_id": "RkxNWDlCQm80MzNVc0V1ZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURWQxUVhGNWFtZEZVRkIxWDBZMFVHUmpka3hvYUZkNFdYaFhVazVGUTNobVdsOTZXaTFuZFdoVlMybDZOakpLVGpsdlNWYzJjMXBNUTJodE56QkRTbll4VjI1WmRISTViMnBJWm5NNWVVeDNjbWQxTW04MllVWlhXazVsUXpsYVNtVkJiRWN5VWt0NVpqa3pORFIzTWpsdlRHcGhia3RPTlY5bmIwRXhTRUpzZVRkUk1uY1NGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daVWFFbGxUVlZoTjFwbFkzSnJjMmM1VERoVU56QkVZbnBuUkMxMw",
+   "state": "CA",
+   "tags": [
+    "good-schedule",
+    "per-diem"
+   ],
+   "title": "Nuclear Medicine Technologist - Nuclear - Now Hiring",
+   "url": "https://www.snagajob.com/jobs/1300697913"
   },
   "961f02b8185cdedf": {
    "active": false,
@@ -31890,7 +32329,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Fusion Medical Staffing Pay: $2,338 to $2,687 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/17/2026 About the Position Travel Nuclear Medicine Tech Company: Fusion Medical Staffing Location: Facility in Mission Viejo, CA Job Details Fusion Medical Staffing is seeking a skilled Nuclear Medicine Tech for a 13-week travel assignment in Mission Viejo, CA. As a member of our team, you'll have …",
    "first_seen": "2026-10-10T18:47:36Z",
    "key": "97c0a4bc49803cd5",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -32319,7 +32758,7 @@
    "description": "Job Summary: The Nuclear Medicine Technologist specializing in Radiology and Cardiology is responsible for performing nuclear medicine procedures including PET/CT scans, ensuring high-quality imaging and patient care. This role involves working across multiple acute care hospital locations, providing diagnostic imaging services, and collaborating with clinical teams to support patient diagnosis and treatment. The technologist must be skilled in nuclear medicine technology, adhere to safety prot…",
    "first_seen": "2026-10-10T02:30:48Z",
    "key": "993edd791e639a64",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -33245,7 +33684,7 @@
    "url": "https://www.adzuna.com/details/5906152897?utm_medium=api&utm_source=23a30878"
   },
   "9ed9252ff5a72fbc": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Corona",
    "company": "Universal Health Services",
@@ -33837,7 +34276,7 @@
    "description": "Job Description Job Description The Nuclear Medicine Technologist in Costa Mesa, CA, specializes in brain SPECT imaging within a high-volume outpatient brain and mental health clinic. This role offers a Monday–Friday schedule with no nights or weekends, competitive pay of $65–$72/hour, and participation in an Employee Stock Ownership Plan (ESOP), enabling staff to share in company ownership. Schedule: Monday–Friday Hours: No nights or weekends Setting: High-volume outpatient brain and mental he…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "a2cc694f726711e4",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.683414,
    "location_raw": "Costa Mesa, Orange County",
    "location_tier": 1,
@@ -33853,7 +34292,7 @@
     "good-schedule"
    ],
    "title": "Nuclear Medicine Technologist | No Nights/Weekends | Great Benefits",
-   "url": "https://www.adzuna.com/land/ad/5930552434?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=7B8F701CA45FF42EC5522661A2DF1DFD45C7F6BF"
+   "url": "https://www.adzuna.com/land/ad/5930552434?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=7B8F701CA45FF42EC5522661A2DF1DFD45C7F6BF"
   },
   "a2d0703ce11a0c05": {
    "active": false,
@@ -34245,14 +34684,14 @@
    "url": "https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-nuclear-at-providence-4472506646"
   },
   "a3f906a7625993eb": {
-   "active": false,
+   "active": true,
    "category": "hospital-other",
    "city": null,
    "company": "Astrana Health, Inc.",
    "description": "Job Description Job Description Description Astrana Health is seeking a skilled and compassionate PET/CT Technologist to join our team on a per diem basis at Pacific Medical Imaging and Oncology Center (PMIOC) in Alhambra, CA The ideal candidate will perform cardiac procedures, ensure patient safety, and maintain compliance with regulatory standards. This role requires strong technical knowledge, attention to detail, and a commitment to high-quality patient care. Our Values: Put Patients First …",
    "first_seen": "2026-10-13T20:19:19Z",
    "key": "a3f906a7625993eb",
-   "last_seen": "2026-10-14T02:02:45Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.083796,
    "location_raw": "Alhambra, Los Angeles County",
    "location_tier": 2,
@@ -34268,7 +34707,7 @@
     "per-diem"
    ],
    "title": "Nuclear Medicine Technologist - PET/CT (Per Diem)",
-   "url": "https://www.adzuna.com/land/ad/5926121177?se=2o6BRnPH8RGxtphCbCU5Bg&utm_medium=api&utm_source=23a30878&v=08619DAF4ABD3F3B107566B8179E2A08CB673FA6"
+   "url": "https://www.adzuna.com/details/5926121177?utm_medium=api&utm_source=23a30878"
   },
   "a406bbe5545ba372": {
    "active": false,
@@ -34538,7 +34977,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: Fusion Medical Staffing Pay: $2,316 to $2,662 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/3/2026 About the Position Travel Nuclear Medicine Tech Company: Fusion Medical Staffing Location: Facility in Apple Valley, CA Job Details Fusion Medical Staffing is seeking a skilled Nuclear Medicine Tech for a 13-week travel assignment in Apple Valley, CA. As a member of our team, you'll have the …",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "a4e7d90433ad5f91",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -35551,7 +35990,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Cynet Health Pay: $3,117 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/17/2026 About the Position Job Title: Nuclear Medicine Technologist Profession: Radiology / Cardiology Specialty: Nuclear Medicine Tech Duration: 13 weeks Shift: Day Hours per Shift: 10 hours Experience: Minimum of 1 year required License: Valid state license required Certifications: BLS, ARRT (N) or NMTCB/CA License r…",
    "first_seen": "2026-10-13T20:19:19Z",
    "key": "aa2885a23be7db7e",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -36117,7 +36556,7 @@
    "description": "Responsibilities Come Join the Team! Nuclear Medicine Technician (Med Tech) position This is a per diem position located at Corona Regional Medical Center in Corona, CA Reporting to the Director of Diagnostic Imaging this positions operates all nuclear equipment leading to the diagnosis of designated portions of the body as ordered by physician. The technologist then instructs the patient of all nuclear medicine procedures, protocols, as well as preps. The technologist is responsible for proper computer operation and computer knowledge, use of gamma and SPEC T software, and provides the best patient care possible to enhance quality and professionalism in their tasks. The tradition of caring …",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "ad4d47354fc8e6cb",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "CORONA, California",
    "location_tier": 1,
@@ -36351,7 +36790,7 @@
    "url": "https://www.adzuna.com/land/ad/5869842600?se=rPIbTK-r8RGzD_gtUNDNoQ&utm_medium=api&utm_source=23a30878&v=2273451F34BF6097948EF0B3B449CBA0C2802DF6"
   },
   "ae8f5f62c962f9c4": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": "Tustin",
    "company": "AlliedTravelCareers",
@@ -36446,6 +36885,29 @@
    ],
    "title": "Cardiac PET​/CT Technologist — Weekdays, No Nights​/Weekends",
    "url": "https://www.learn4good.com/jobs/newport-beach/california/healthcare/5542103680/e/"
+  },
+  "af788ee5319e6b02": {
+   "active": true,
+   "category": "travel",
+   "city": "Corona",
+   "company": "Prime Time Healthcare",
+   "description": "Prime Time Healthcare is seeking a travel Nuclear Medicine Technologist for a travel job in Orange, California.\nJob Description & Requirements\n• Specialty: Nuclear Medicine Technologist\n• Discipline: Allied Health Professional\n• Start Date: 10/26/2026\n• Duration: 13 weeks\n• 40 hours per week\n• Shift: 8 hours, days\n• Employment Type: Travel\nAbout Prime Time Healthcare\n\nPrime Time Healthcare is a leading provider of traveling healthcare professionals nationwide. Our agency specializes in the placement of RNs, LPNs, CNAs, and Allied Health professionals. Join the fun and experience why healthcare professionals and client facilities are joining the Prime Time TEAM.\n\nBenefits\n• 401k retirement pl…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "af788ee5319e6b02",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878774199999995,
+   "location_raw": "Corona, California",
+   "location_tier": 1,
+   "longitude": -117.5760323,
+   "posted_at": "2026-10-07T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 55,
+   "source": "jsearch",
+   "source_job_id": "Ri0yMnBPVzRuU0w3VTlMR0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURU4yZW10MmIzQlhYMWRCWW1wTWRXWkllR1UzVVd4eGIxVlhjVlZIZDBwWFIyOUZTamQ0T1Y5aVIwcG1PSE5wVVdoSExVUlRWVzVCY1dSVVVHNU1TMVZJTVUxSFRVSkxSMFV5VFRSNVVrRTJWMWhTU0ZoNWJVRTNNbWxvT1RjeFgwZGZkbEkwZFhaVGVVdzRhelJCTWtWaWVtd3dTbmg2TkY5TmVtMXNkVkZFZFZCeWFWOFNGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daVFRFUkZURlV4UlZaNUxWbE1RWFJLTTFveWVtNDJRblo2TWtGbg",
+   "state": "CA",
+   "tags": [],
+   "title": "Travel Nuclear Medicine Technologist - $2,502 per week",
+   "url": "https://jobs.womenforhire.com/job/usa/corona-ca/travel-nuclear-medicine-technologist-2-502-per-week-626641/"
   },
   "af8c1911c6b4c25e": {
    "active": false,
@@ -36699,7 +37161,7 @@
    "description": "Nuclear Medicine Tech Location: Apple Valley, CA Agency: Infojini Healthcare Pay: $2,756 per week Shift Information: Days - 5 days x 8 hours Contract Duration: 13 Weeks Start Date: ASAP About the Position Nuclear Medicine Technologist travel Radiology/Imaging needed in Apple Valley, California",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "b05a6deb4cda00f8",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -36933,7 +37395,7 @@
    "url": "https://www.linkedin.com/jobs/view/nuclear-medicine-technologist-regional-staffing-manager-at-cdl-nuclear-technologies-4453126503"
   },
   "b183702fcfed60a5": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "KAISER",
@@ -37820,7 +38282,7 @@
    "description": "",
    "first_seen": "2026-08-04T16:28:40Z",
    "key": "b58cbb5b9927200f",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Los Angeles, CA",
    "location_tier": 0,
@@ -37907,7 +38369,7 @@
    "url": "https://www.adzuna.com/land/ad/5902565259?se=QIGnoc--8RGjOfDKwMOsrQ&utm_medium=api&utm_source=23a30878&v=3FF000BD4A98A6C6C02DD72BD6600A14614AB639"
   },
   "b5e2692538d76d13": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "Lancesoft INC",
@@ -38081,7 +38543,7 @@
    "description": "Responsibilities Come Join the Team! Nuclear Medicine Technician (Med Tech) position This is a Part Time position located at Corona Regional Medical Center in Corona, CA Reporting to the Director of Diagnostic Imaging this positions operates all nuclear equipment leading to the diagnosis of designated portions of the body as ordered by physician. The technologist then instructs the patient of all nuclear medicine procedures, protocols, as well as preps. The technologist is responsible for proper computer operation and computer knowledge, use of gamma and SPEC T software, and provides the best patient care possible to enhance quality and professionalism in their tasks. The tradition of caring…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "b6eb29cff4b8aaac",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "CORONA, California",
    "location_tier": 1,
@@ -38793,7 +39255,7 @@
    "url": "https://www.adzuna.com/details/5864100702?utm_medium=api&utm_source=23a30878"
   },
   "ba8a390301302a31": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Seal Beach",
    "company": "Providence",
@@ -39055,6 +39517,31 @@
    "title": "Nuclear Medical Technician - Nuclear Med Technician / Radiology",
    "url": "https://www.adzuna.com/details/5909723109"
   },
+  "bc62344948036d21": {
+   "active": true,
+   "category": "travel",
+   "city": "Orange",
+   "company": "Aya Healthcare",
+   "description": "Aya Healthcare has an immediate opening for the following position: Nuclear Medicine Tech in Orange, CA.\n\nWe’ll work with you to build the healthcare career of your dreams. Whether you want a job close to home or across the country, we’ve got you.\n\nJob Details\n\n• Profession: Radiology / Cardiology\n• Pay: $3336 to $3521 weekly\n• Assignment Length: 13 weeks\n• Shift: Days\n• Schedule: 5, 8-Hour 08:00 - 16:30\n• Openings: 1\n• Start Date: 11/02/2026\n• Charting System: Epic\n\nRequirements\n\n• Experience: 1 Year\n• Required Certifications & Skills\n• Skills: GE, Isolation Precautions/PPE, Limited, Philips, 3 Phase, Adenosine infusion, Adult, Bone, Brain, Cancer Survey, Captopril, Clinic, Drawing Venous B…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "bc62344948036d21",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.7879085,
+   "location_raw": "Orange, California",
+   "location_tier": 1,
+   "longitude": -117.85528099999999,
+   "posted_at": "2026-10-08T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 73,
+   "source": "jsearch",
+   "source_job_id": "TXlheXNnZlVyMXRORmlXWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURGh4YzB4aGJEQkhSek42Um5BeFZITXliakl0TUhGd05tZGZZbkZCWmpZMldESjBka3hqTmpGelVrcDNVR2xEUlZseU4xaFpha1IzZWt0V01GUnFZVVpSYVhOeFJVeHNUbVZKTkZwNmJHUm5VVk5RVUZOU1ZtbFVjWFZsU0hJNE9YRnJiRmxqTjI1T05FOVRNVk10V21SWGRsSnBaRmROTlZWa0xVbFBabWxFTjNOVWRXRVNGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daUllraE5UbEZzU1ZOR2RXTTJWa0pFVFU5UFFrZEtkMmR4ZG14Ug",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Travel Nuclear Medicine Tech - Make $3,336 - $3,521/week",
+   "url": "https://www.linkedin.com/jobs/view/travel-nuclear-medicine-tech-make-%243-336-%243-521-week-at-aya-healthcare-4476968522"
+  },
   "bc73a775e1cd9ec2": {
    "active": false,
    "category": "hospital-other",
@@ -39137,7 +39624,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Infojini Healthcare Pay: $3,135 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/16/2026 About the Position Nuclear Medicine Technologist travel Radiology/Imaging needed in Mission Viejo, California",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "bc8e179f45284a3e",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -39355,7 +39842,7 @@
    "description": "Responsibilities *This job is located in California (see specific locations below) with a sign on bonus or relocation assistance up to $20,000* Locations with Openings: Anaheim Bakersfield Beverly Hills Inglewood Lancaster Los Angeles Murrieta Newport Beach Orange Oxnard Pasadena Rancho Cucamonga Tarzana Temecula Thousand Oaks Santa Clarita Signal Hill Simi Valley Ventura Shifts Available: Full-Time, Part-Time and Per-Diem You Will: Perform high quality nuclear medicine and/or positron emission tomography/computed tomography images on patients while providing excellent care. Follow company established nuclear medicine protocols and procedures. Under the direction of the radiologist, administ…",
    "first_seen": "2026-08-01T00:12:20Z",
    "key": "bdc29f4d82173f6c",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Beverly Hills, California; Bakersfield, California; Riverside, California; Murrieta, California; Victorville, California; Santa Ana, California; Thousand Oaks, California",
    "location_tier": 1,
@@ -40151,7 +40638,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Coast Medical Service Pay: $2,776 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/17/2026 About the Position Coast Medical Service is a nationwide travel nursing & allied healthcare staffing agency dedicated to providing an elite traveler experience for the experienced or first-time traveler. Coast is featured on Blue Pipes' 2023 Best Travel Agencies and named a 2022 Top Rated Healthcare St…",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "c297f502539a3d9f",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -40190,7 +40677,7 @@
    "url": "https://nursingjobs.vitalhiremed.com/joblistingpage/ecrodm865y6b-71a0596b439-e8237-7d3040498f8-86c35"
   },
   "c2d1ecaf297663ed": {
-   "active": true,
+   "active": false,
    "category": "outpatient-nm",
    "city": "Mission Viejo",
    "company": "Providence Health & Service",
@@ -40449,7 +40936,7 @@
    "url": "https://simplify.jobs/p/20cc6f42-547b-4555-8b11-608158f11ee2/Nuclear-Medicine-Technician"
   },
   "c47b13a4663ce8ef": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Santa Ana",
    "company": "Providence",
@@ -40564,7 +41051,7 @@
    "url": "https://us.trabajo.org/job-2998-23ccd1bf7e836315ebf06385fc1996f0"
   },
   "c531e85c301be76f": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Jackson HealthPros",
@@ -40669,7 +41156,7 @@
    "description": "Nuclear Medicine Tech Location: Mission Viejo, CA Agency: Infojini Healthcare Pay: $2,372 per week Shift Information: Days - 4 days x 10 hours Contract Duration: 13 Weeks Start Date: 11/16/2026 About the Position Nuclear Medicine Technologist travel Radiology/Imaging needed in Mission Viejo, California",
    "first_seen": "2026-10-09T19:39:03Z",
    "key": "c5c0059f420aad0e",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.6099,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -40803,6 +41290,31 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Technologist",
    "url": "https://www.vivian.com/job/386-9607019-92081/#algflw=SEO%20Page%20-%20Main%20Results&"
+  },
+  "c6606fcfa7b9f769": {
+   "active": true,
+   "category": "outpatient-pet",
+   "city": "San Bernardino",
+   "company": "Akumin®",
+   "description": "Sign On Bonus of $10,000 provided!\n\nAkumin is a leading provider of outpatient radiology and oncology services, partnering with top hospitals and health systems nationwide to deliver advanced diagnostic imaging and exceptional patient care close to home. With a national footprint, cutting-edge technology, and a strong commitment to innovation and patient-centered care, our teams play a vital role in improving outcomes for millions of patients each year.\n\nMobile PET/CT Technologist (Multi-Site Role With Competitive Travel Compensation)\n\nAkumin is seeking a Full-Time PET/CT Technologist to support multiple locations throughout the greater Los Angeles area, including Thousand Oaks, San Bernardi…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "c6606fcfa7b9f769",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 34.1045589,
+   "location_raw": "San Bernardino, California",
+   "location_tier": 2,
+   "longitude": -117.29186899999999,
+   "posted_at": "2026-10-16T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 93,
+   "source": "jsearch",
+   "source_job_id": "RTVtS0w2cV9KemVEZkhaU0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTbU5WVmtneFltMXhXVUl6ZURGNVdsOWFNSFl5TVhVNFRHbHNMWEp0ZEhOelpWY3dZVVZaV2tSZlEyeDVXVU5sVDNCbGFGbFVNa3gxYkZaUmN6aHhURkJNYW5wNFYyMHRPRWN3WkhGR1NUUjBlVmx4ZW5Selp6VnZkbW93UkVWaWJtY3hlV2RuWkdwak1EVXpVRUpLTWpjMVVVSTBXWFJQYkZGb1lucHdkbFU0YkRCV2VIVVNGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxNeGNXVmhjWFl5YjFKNU9IbHVhbGMyZVUxblVuaFlPSGcwZUZF",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "PET/CT Technologist",
+   "url": "https://www.linkedin.com/jobs/view/pet-ct-technologist-at-akumin%C2%AE-4478008735"
   },
   "c683ace99ea315db": {
    "active": false,
@@ -42244,7 +42756,7 @@
    "description": "Position: Nuclear Medicine Technologist - Travel Location: San Pedro, CA Arise CareStaff is hiring an experienced Nuclear Medicine Technologist to work for our client healthcare facility in San Pedro, CA Position Details: Shift: Day 5x8-Hour (07:00 - 15:30) Type of Assignment: Travel Job Duration: 13 weeks Computer Charting: Epic Pay Range: $2,920.00 - $3,215.00 per week Requirements: Current California State License Current BLS certification by American Heart Association ARRT (N) Certification…",
    "first_seen": "2026-10-13T20:19:19Z",
    "key": "cbaf653923cdf9e9",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.736062,
    "location_raw": "San Pedro, Los Angeles County",
    "location_tier": 2,
@@ -42757,7 +43269,7 @@
    "url": "https://www.ayahealthcare.com/travel-nursing-job/3340348/"
   },
   "ce76c13b55604842": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "GetMed Staffing",
@@ -42853,7 +43365,7 @@
    "url": "https://www.learn4good.com/jobs/newport-beach/california/healthcare/5544857509/e/"
   },
   "cec0f4a3eb64fcf6": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": null,
    "company": "Medical Solutions Allied",
@@ -42908,7 +43420,7 @@
    "description": "Responsibilities Southwest Healthcare Inland Valley Hospital in Wildomar, California, is a licensed 122-bed facility accredited by the Joint Commission. It is Southwest Riverside County's only designated Trauma Center and a county-designated Paramedic Base Station. The hospital performs more than 4,000 surgeries a year, and has an average of 4,000 Emergency Department visits per month. The hospital features a Bariatric Weight-Loss Surgery Center of Excellence and the region’s only Total Joint Center. Southwest Healthcare Rancho Springs Hospital in Murrieta, California, is a 120 bed acute-care hospital with the region's only Pediatric Emergency Services team (for children 14 and under) provid…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "ceed7fd4a4c4415b",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "MURRIETA, California",
    "location_tier": 2,
@@ -43436,7 +43948,7 @@
    "description": "Position: Nuclear Medicine Technologist - Travel Location: Apple Valley, CA Arise CareStaff is hiring an experienced Nuclear Medicine Technologist to work for our client healthcare facility in Apple Valley, CA Position Details: Shift: Day 4x10-Hour (06:00 - 16:30) Type of Assignment: Travel Job Duration: 13 weeks Computer Charting: Epic Pay Range: $2,552.00 - $2,848.00 per week Requirements: Current California State License Current BLS certification by American Heart Association ARRT (N) Certif…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "d23cf273b6bf368f",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.602626,
    "location_raw": "Apple Valley, San Bernardino County",
    "location_tier": 0,
@@ -43628,7 +44140,7 @@
    "description": "Job Summary: Under indirect supervision and as prescribed by a physician performs the full range of diagnostic imaging procedures and in vitro therapeutic procedures utilizing radiopharmaceuticals that are used by physicians in the diagnosis and/or treatment of disease processes and pathological conditions. Following prescribed procedures and protocols, utilizes a variety of equipment to obtain maximum scan quality. Essential Responsibilities:  Upholds Kaiser Permanentes Policies and Procedures…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "d2d8a85e2d974254",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.941342,
    "location_raw": "Downey, Los Angeles County",
    "location_tier": 2,
@@ -43641,7 +44153,7 @@
    "state": null,
    "tags": [],
    "title": "Nuclear Medical Technologist",
-   "url": "https://www.adzuna.com/land/ad/5928818606?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=048D900847883DD4F7EB1791191091A9FDBE4F02"
+   "url": "https://www.adzuna.com/land/ad/5928818606?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=048D900847883DD4F7EB1791191091A9FDBE4F02"
   },
   "d2ebcd9fc8b0ad7e": {
    "active": false,
@@ -43764,6 +44276,29 @@
    "title": "Nuclear Med Technologist",
    "url": "https://nursingjobs.vitalhiremed.com/joblistingpage/togmccga2ed4-e3783254b0a-010fb-d043e-c94f0950e56"
   },
+  "d3674b3b32c366c2": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Irvine",
+   "company": "Precision Scans INC",
+   "description": "Job Description Job Description JOBID: M00909 Position: Nuclear Medicine Technologist Shift Notes: 6am-2:30pm Location: Orange County, CA 92612 Salary :$100-$105 per hour Start dat e: ASAP Job Type : Ongoing assignment Qualifications: Education: Graduate of an accredited Nuclear Medicine Technology program.\n\nCertification: Current ARRT(N) and/or NMTCB certification required. State of CA Nuclear Medicine Technologist License Current BLS certification through the American Heart Association (AHA) required.\n\nExperience: Minimum 1 year of recent hospital-based nuclear medicine experience.\n\nPrecision\n\nScans is an equal opportunity employer, committed to cultural diversity.\n\nPrecision\n\nScans will p…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "d3674b3b32c366c2",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6845673,
+   "location_raw": "Irvine, California",
+   "location_tier": 1,
+   "longitude": -117.82650489999999,
+   "posted_at": "2026-10-15T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 55,
+   "source": "jsearch",
+   "source_job_id": "MkRvZGpKNXBvYm9faTVWMkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR2wwY0ZRdFlWWjNVRU5uY2tSM2QxcGphbU5WV0VWTFNrMVNTVEJqVFRKMlJXRjJOekpYVXpZMGJtNWZiRXgyUlc5Wk56RkhZMmxKY0ZaeGJ6TlVaa0ZJVkRGSFZHZ3Ria05pVWxkRVRVSnJiMEZTWlZwdFpXRm9ZV1ZQYVVwM1FqZElPRGwyV0hweFR6bHBOVzgxV1RGWWFYSjBjVU5aWVhwWU5IbEZXRUpoZHpWWlowd1NGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daVWVURkROVUZSWVVOM05td3RkREZoTTFWT1VVVkVSamcyWTNOUg",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Tech (Nuclear Medicine Technologist #)",
+   "url": "https://bebee.com/us/jobs/nuclear-medicine-tech-nuclear-medicine-technologist-precision-scans-inc-irvine-ca--jooble--1155022981808225015--ddb6b01907cef86be9151d8cf9a15248"
+  },
   "d376820acfb058a1": {
    "active": true,
    "category": "hospital-other",
@@ -43772,7 +44307,7 @@
    "description": "About the Position Specialty: Nuclear Medicine Technologist Experience: 1 year preferred in a clinical setting License: ARRT or NMTCB Certification Certifications: BLS Certification required Must-Have: Expertise in nuclear imaging procedures, radiopharmaceutical preparation, radiation safety, and imaging equipment operation Description: The Nuclear Medicine Technologist is responsible for preparing and administering radiopharmaceuticals and conducting nuclear imaging procedures for diagnostic p…",
    "first_seen": "2026-10-14T18:49:25Z",
    "key": "d376820acfb058a1",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.61154,
    "location_raw": "Mission Viejo, Orange County",
    "location_tier": 1,
@@ -43962,7 +44497,7 @@
    "description": "Coast Medical Service is a nationwide travel nursing & allied healthcare staffing agency dedicated to providing an elite traveler experience for the experienced or first-time traveler. Coast is featured on Blue Pipes' 2023 Best Travel Agencies and named a 2022 Top Rated Healthcare Staffing Firm & 2023 First Half Top Rated Healthcare Staffing Firm by Great Recruiters. Please note that pay rate may differ for locally based candidates. Please apply here or contact a recruiter directly to learn mor…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "d4d5a81f1721deeb",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.7968,
    "location_raw": "Los Alamitos, Orange County",
    "location_tier": 1,
@@ -44610,7 +45145,7 @@
    "description": "Responsibilities Artificial Intelligence; Advanced Technology; The very best in patient care. With decades of expertise, we are Radiology Forward. With dynamic cross-training and advancement opportunities in a team-focused environment, the core of our success is its people with the commitment to a better healthcare experience. When you join us as a PET/ CT Technologist, you will be joining a dedicated team of professionals who deliver quality, value, and access in the 21st century and align all stakeholders- patients, providers, payors, and regulators to achieve the best clinical outcomes. You Will: Perform high quality nuclear medicine and/or positron emission tomography/computed tomography…",
    "first_seen": "2026-07-31T23:57:02Z",
    "key": "d889d672c8866993",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": null,
    "location_raw": "Riverside, California",
    "location_tier": 2,
@@ -44974,7 +45509,7 @@
    "url": "https://us.trabajo.org/job-4023-54a607c2176b03a1d2d5b4e56e920ee0"
   },
   "da28e4f9188e3565": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Trabuco Canyon",
    "company": "Providence Service",
@@ -45411,7 +45946,7 @@
    "url": "https://www.monster.com/job-openings/travel-nuclear-medicine-tech-2-950-to-3-039-per-week-in-los-alamitos-ca-los-alamitos-ca--2335344e-6be2-4ee8-979f-873fa666bb3d"
   },
   "dcce9f0b3c9b14cb": {
-   "active": true,
+   "active": false,
    "category": "outpatient-nm",
    "city": "Corona",
    "company": "PIH Health",
@@ -45597,7 +46132,7 @@
    "url": "https://oncologyvoicenetwork.com/jobs/nuclear-med-technologist-34"
   },
   "ddfc4aba881fd6b7": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": "Newport Beach",
    "company": "RadNet",
@@ -45948,6 +46483,31 @@
    "tags": [],
    "title": "Travel Nuclear Medicine Tech - $2,613 per week in Apple Valley, CA",
    "url": "https://www.adzuna.com/details/5925585338?utm_medium=api&utm_source=23a30878"
+  },
+  "e0379d63ceca8bbe": {
+   "active": true,
+   "category": "hospital-other",
+   "city": "Newport Beach",
+   "company": "RadNet",
+   "description": "Position: Nuclear Medicine & PET Technologist — $20K Sign-On Bonus\n\nHmixray is seeking a Nuclear Medicine / PET Technologist in the United States. You will perform PET/CT imaging, follow nuclear medicine protocols, and administer radiopharmaceuticals under radiologist supervision. The role emphasizes patient care, safety, and compliance with privacy and medication handling policies.\n\nIdeal candidates hold ARRT(N) or NMTCB certification, a State Nuclear Medicine License, venipuncture and BLS, with at least one year of imaging experience preferred.\n\nOur group is growing, and we are hiring a Nuclear Medicine & PET Technologist — $20K Sign-On Bonus in Newport Beach, CA, United States.\n\nWe are cu…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "e0379d63ceca8bbe",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.6099342,
+   "location_raw": "Newport Beach, California",
+   "location_tier": 1,
+   "longitude": -117.87264689999999,
+   "posted_at": "2026-10-13T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 80,
+   "source": "jsearch",
+   "source_job_id": "eWRNd296MEgxNWJOVTF3VEFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTM0J6Vm5wWE1XY3dUMmhXTFZSc1RHOU9iV0kwVTFkZk1UZzRjVlp0TnpWcVl6ZzVaR3h4WW5FeFNFTkZWalZGTlZFMlIxVkRTMDlsZVUxUmVVaG1WVWQxVTNCMUxWTmlTbUozWWxwU1ptNXZiWGhhWldwQk1tZHJOMDVZT0Rsc1kzVmZSbTB6ZUU4M1JsZzFVemxOTlRGR1kyTXlSbnBTTFZWUE9HMVBkVGhGY1hOcloxa1NGbEJqTjFOaGRYSjVTWEIxZURWT2IxQnZjRXhHWTBFYUlrRkVjM0k1WmxGemRWaE9jekIzZHpoaFJXcFFPWGRCTmkwNVZITTBhMDl6UmxF",
+   "state": "CA",
+   "tags": [
+    "PET"
+   ],
+   "title": "Nuclear Medicine & PET Technologist",
+   "url": "https://www.learn4good.com/jobs/newport-beach/california/healthcare/5544857509/e/"
   },
   "e056f7a8a5304473": {
    "active": false,
@@ -47763,8 +48323,31 @@
    "title": "Nuc Med Tech",
    "url": "https://us.trabajo.org/job-4023-b2d5d100490ec7e80990b72c1859f806"
   },
-  "e943e6e995a13e7a": {
+  "e942b277705dcd20": {
    "active": true,
+   "category": "hospital-other",
+   "city": "Corona",
+   "company": "Providence",
+   "description": "Description\n\nUnder minimal supervision, performs and documents quality nuclear medicine procedures (invasive and noninvasive) on neonate, pediatric, adult, and geriatric patients in a timely manner as ordered by the physician. Supports supervisor and radiologist in carrying out their duties that in turn contribute to an effective an efficient Nuclear Medicine department. Promotes positive working relationships with patients, families, physicians, and other employees demonstrating teamwork to ensure excellent patient care, esprit de corps, and positive comments from all concerned parties.\n\nProvidence caregivers are not simply valued – they’re invaluable. Join our team at Mission Hospital Regi…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "e942b277705dcd20",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.878774199999995,
+   "location_raw": "Corona, California",
+   "location_tier": 1,
+   "longitude": -117.5760323,
+   "posted_at": "2026-10-13T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 55,
+   "source": "jsearch",
+   "source_job_id": "em1XZlk4YjYzUUtETWF1d0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzVtWTJ3NVNXMXFTRU5QVjJFMVpEazRaV05XZGxaWFoxWjBXRGhrYW1Kc1FXUm5hMkZmVW5KRlpuZHVTRk5TWDJkVVVXYzRVSFJJU1dSeFUxbFlNWEJSUVRGUU1uUnVTWFZUWVhaS2EySjFjRVV3U2s0emFrbGlUREp4TlZORldYWjJYekJCV1VGU1lXZHlaVWsxZVhvM1ZYbG9XSGhXY0hGVmJtczVPVlJ4YjNSNVh5MFNGMWR6TjFOaGNuVldRbVJUYjJoMlkxQm9ZMlpMTWxFd0dpSkJSSE55T1daUmRFMHhOVkZqYkVKbk4yeEpiRlpwVlRscFkwdG5hRkI2WW5SQg",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medicine Technologist",
+   "url": "https://www.monster.com/job-openings/nuclear-medicine-technologist-corona-ca--e0e7e253-82d2-4870-806b-7a7c9de2d2b7"
+  },
+  "e943e6e995a13e7a": {
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "Westways",
@@ -48039,7 +48622,7 @@
    "description": "Job Description Job Description College Medical Center Long Beach is proud to be part of College Hospitals. We are dedicated to providing the highest quality of customer service, delivered with warmth, friendliness, and organizational pride. Join a team that values respect, flexibility, a tight-knit work environment, and the autonomy to utilize your knowledge and experience. Job Summary: College Medical Center is seeking a full-time Nuclear Medicine Technologist. This position supports the Miss…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "ea5b8da478b7af31",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.8232,
    "location_raw": "Long Beach, Los Angeles County",
    "location_tier": 2,
@@ -48052,7 +48635,7 @@
    "state": null,
    "tags": [],
    "title": "Nuclear Medicine Technologist",
-   "url": "https://www.adzuna.com/land/ad/5931035419?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=1D56A26F242D8E3A89620E289FE04CA21EA1EA80"
+   "url": "https://www.adzuna.com/details/5931035419?utm_medium=api&utm_source=23a30878"
   },
   "ea792545583e286f": {
    "active": false,
@@ -48493,7 +49076,7 @@
    "url": "https://www.vivian.com/job/v/axqk75qlwmH22X7oaoy/#algflw=SEO%20Page%20-%20Main%20Results&"
   },
   "ec333b694930f485": {
-   "active": true,
+   "active": false,
    "category": "travel",
    "city": "Orange",
    "company": "Aya Healthcare",
@@ -49644,7 +50227,7 @@
    "description": "```html Location Not specified Assignment Duration This is a 13-week contract position. Schedule / Shift Day shifts available: 4x10-hour shifts starting at 06:00 and 07:30. Job Description We are seeking a Nuclear Medicine Technologist to perform basic nuclear medicine studies, primarily stress tests, in an acute care hospital setting. The ideal candidate will have at least one year of experience, with consideration given to first-time travelers. This position requires participation in weekend …",
    "first_seen": "2026-10-15T18:31:32Z",
    "key": "f29c93250f56b6d5",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 34.53023,
    "location_raw": "Spring Valley Lake, San Bernardino County",
    "location_tier": 0,
@@ -50145,7 +50728,7 @@
    "description": "Job Description Job Description United Medical Imaging About the Role: We are seeking a highly skilled Nuclear PET CT Technician to join our team in the Health Care Services industry. As a Nuclear PET CT Technician, you will be responsible for performing diagnostic imaging procedures using specialized equipment to produce images of a patient's body for diagnostic purposes. You will work closely with physicians and other healthcare professionals to ensure accurate and timely diagnoses. Your role…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "f4c6a67ac76c2607",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.957411,
    "location_raw": "Downey, Los Angeles County",
    "location_tier": 2,
@@ -50160,7 +50743,30 @@
     "PET"
    ],
    "title": "Nuclear PET CT Technician",
-   "url": "https://www.adzuna.com/land/ad/5931039983?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=323DB50430380A79CCC8503C97A8B7EE98CA93C5"
+   "url": "https://www.adzuna.com/details/5931039983?utm_medium=api&utm_source=23a30878"
+  },
+  "f4c7851d41302e7d": {
+   "active": true,
+   "category": "travel",
+   "city": "Mission Viejo",
+   "company": "Lark Medical Staffing",
+   "description": "Join the Lark Medical Staffing Traveler Tribe today!\n\nWe are looking for a Rad Tech - Nuclear Med for our client in Mission Viejo, California. They need a clinician to work 10hr Days, 40 hrs per week. The position starts on 11/03/2026 and lasts for 13 weeks.\n\nAssignment Details:\n\nTitle: Rad Tech - Nuclear Med\n\nShift: 10hr Days, 40 hrs per week\n\nStart Date: 11/03/2026\n\nDuration: 13 weeks\n\nLocation: Mission Viejo, California\n\nFacility: Providence Mission Hospital Mission Viejo\n\nPay Details:\n\nPay Rate: $0.00/hr\n\nLodging Weekly: $1393.00/wk\n\nM&IE Weekly: $602.00/wk\n\nGross Weekly Pay: $3150.00/wk\n\nOther Benefits:\n\n• Weekly Pay\n\n• Free Professional Liability Insurance\n\n• Pre-Tax Per Diem Allowance…",
+   "first_seen": "2026-10-17T01:24:47Z",
+   "key": "f4c7851d41302e7d",
+   "last_seen": "2026-10-17T01:24:47Z",
+   "latitude": 33.596891299999996,
+   "location_raw": "Mission Viejo, California",
+   "location_tier": 1,
+   "longitude": -117.6581562,
+   "posted_at": "2026-10-03T00:00:00.000Z",
+   "salary_raw": "",
+   "score": 55,
+   "source": "jsearch",
+   "source_job_id": "MFpRaDBDQTlEckVNZXJybEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMnRZTm1OaVkxYzBPWEl6Y0RaWWRpMVVNMnM0UTJaRldXcHpkSGh2WTFrMWQxTTViVzVxVW1VMmQxWkRSV1JPTTBGcFNVaHRXVTFsVTJ4TExUaHlXWEpmWWxFdExWRkRaRVZ2ZVhoaVFXTnVSMkYxUjJvdFpHZDJiMmQxWlRNeE5XNUxiMFpoYW0xRVRXRnNTVzUzWjBGSWFHTlhVbGhHZWtSNE1rUkJOVGQwVDNSWmNXNFNGMDVOTjFOaGNqSXRUbGxVVXpWT2IxQmZXbmwzWjBGSkdpSkJSSE55T1daVFZUaEVZblp5UkZCUVpubExWVFZuVUd3MFZVdEdkVWRQUlhWUg",
+   "state": "CA",
+   "tags": [],
+   "title": "Nuclear Medical Technician - Nuclear Med Technician / Radiology",
+   "url": "https://www.adzuna.com/details/5909723109"
   },
   "f4d6c9b1239f68da": {
    "active": false,
@@ -50943,7 +51549,7 @@
    "description": "Shared Imaging is a privately held organization that has been committed to growing organically and has doubled our revenue in the past 10 years and is committed to having the best technology possible to help support our clients. We pride ourselves on our \"White Glove\" service model by delivering the best patient experience possible. Shared Imaging is currently looking to hire a Full Time Traveling PET/CT Technologist in the Southern Los Angeles, CA area, offering a $20,000 sign-on bonus. Locati…",
    "first_seen": "2026-09-23T01:38:31Z",
    "key": "f914c94e0cfb5a7a",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.924668,
    "location_raw": "Paramount, Los Angeles County",
    "location_tier": 2,
@@ -52180,7 +52786,7 @@
    "url": "https://us.jobrapido.com/jobpreview/6273418002792710144"
   },
   "ff8ffb6be3bf2b80": {
-   "active": true,
+   "active": false,
    "category": "hospital-other",
    "city": null,
    "company": "San Pedro",
@@ -52281,7 +52887,7 @@
    "description": "Job Description Job Description Job description: Nuclear Medicine Technologist – Full-Time | Costa Mesa, CA Overview: Provide diagnostic imaging services with a focus on brain SPECT scans and related quality assurance procedures. This role requires efficiency, compassion, and the ability to work in a fast‐paced, high‐volume clinic environment with both pediatric and adult patients. Key Responsibilities: Perform brain SPECT scans and process images daily Prepare patients, start IVs, administer d…",
    "first_seen": "2026-10-16T18:17:13Z",
    "key": "fff77013b0fca2bb",
-   "last_seen": "2026-10-16T18:17:13Z",
+   "last_seen": "2026-10-17T01:24:47Z",
    "latitude": 33.683414,
    "location_raw": "Costa Mesa, Orange County",
    "location_tier": 1,
@@ -52296,45 +52902,37 @@
     "SPECT"
    ],
    "title": "Nuclear Medicine Technologist",
-   "url": "https://www.adzuna.com/land/ad/5930862761?se=0Cbcw43J8RGjutuTSb6jOA&utm_medium=api&utm_source=23a30878&v=86F71EB62C313C60DDCBEAE9629301909B819D80"
+   "url": "https://www.adzuna.com/land/ad/5930862761?se=uCcRasnJ8RGpRLyXfrhWXQ&utm_medium=api&utm_source=23a30878&v=86F71EB62C313C60DDCBEAE9629301909B819D80"
   }
  },
  "misses": {
-  "02dd54eef42907d6": 1,
-  "0815fa1be44cbbb4": 1,
-  "0b2faa9c0c7a2c91": 1,
-  "0bd16a32dc453be2": 1,
-  "18566e51d1f6db20": 1,
-  "1d78db28b21a83c2": 1,
-  "25708a95a81de029": 1,
-  "2817efd7b230e7df": 1,
-  "3a3a965a61dfe158": 1,
-  "4058d449c6b79853": 1,
-  "56f543fea8847fbf": 1,
-  "5b624ea97099e56f": 1,
-  "5e39b1f94df72900": 1,
-  "6ed1b9512af56f88": 1,
-  "6f0141f602a3b83e": 1,
-  "74f79204383b2853": 1,
-  "8d59c9f598d4b20f": 1,
-  "8ec23ba4b68ce0dd": 1,
-  "91069f4721729f7b": 1,
-  "9ed9252ff5a72fbc": 1,
-  "ae8f5f62c962f9c4": 1,
-  "b183702fcfed60a5": 1,
-  "b5e2692538d76d13": 1,
-  "ba8a390301302a31": 1,
-  "c2d1ecaf297663ed": 1,
-  "c47b13a4663ce8ef": 1,
-  "c531e85c301be76f": 1,
-  "ce76c13b55604842": 1,
-  "cec0f4a3eb64fcf6": 1,
-  "da28e4f9188e3565": 1,
-  "dcce9f0b3c9b14cb": 1,
-  "ddfc4aba881fd6b7": 1,
-  "e943e6e995a13e7a": 1,
-  "ec333b694930f485": 1,
-  "ff8ffb6be3bf2b80": 1
+  "01eb7e359eff21cd": 1,
+  "0e00d0fbe80adba3": 1,
+  "12572338e691e838": 1,
+  "15af289e06d6f529": 1,
+  "1a3e786c5f04b5a6": 1,
+  "2284bf266dde2104": 1,
+  "26dd5c0041a53932": 1,
+  "34b25424f2480032": 1,
+  "38f141fd4d597dbf": 1,
+  "4069e2ff480663cb": 1,
+  "428f52c9b2a2dd66": 1,
+  "507de1b0546b8a47": 1,
+  "6aeff4ddfb4c6752": 1,
+  "963a6f0863436b66": 1,
+  "965f4894be6ac033": 1,
+  "96a05607434c1950": 1,
+  "9848bfe648a1c689": 1,
+  "ae218eab19bdeed9": 1,
+  "c8b918186ffae46e": 1,
+  "cebc30b5ae25a400": 1,
+  "d6113870ed7db54d": 1,
+  "d68e9cef4862f34e": 1,
+  "dd7717e922d812b6": 1,
+  "e1814b0b5b1e6631": 1,
+  "e5b54cc19340f5ac": 1,
+  "f1c4e91907c031af": 1,
+  "f58063e8d8e3da67": 1
  },
- "updated": "2026-10-16T18:17:13Z"
+ "updated": "2026-10-17T01:24:47Z"
 }
