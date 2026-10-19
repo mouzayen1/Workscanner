@@ -1,4 +1,4 @@
-### 17 new position(s) found — 2026-10-19
+### 16 new position(s) found — 2026-10-19
 
 
 #### Outpatient PET/CT (2)
@@ -10,17 +10,15 @@
 
 #### Outpatient Nuclear Med (2)
 
-- **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/47a2cxt6uuvl-167-824678c62cc-c6f314f-699e33f4eb2)** — PIH Health  
-  Yorba Linda, California · score 75
+- **[Senior Nuclear Medicine Technologist - Imaging Admin](https://www.monster.com/job-openings/senior-nuclear-medicine-technologist-imaging-admin-mission-viejo-ca--5cd7dc7f-5c97-4b3d-a6b7-97493869ef66)** — Providence Health & Service  
+  Mission Viejo, California · score 75
 - **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/ecrodm865y6b-71a0596b439-e8237-7d3040498f8-86c35)** — PIH Health  
   Corona, California · score 75
 
-#### Hospital / Other (9)
+#### Hospital / Other (8)
 
 - **[Nuclear Medicine PET/CT Imaging Technologist](https://us.trabajo.org/job-28643-888b5762e369daef0788c5592b66ffb2)** — Rinvio Recruitment  
   Laguna Woods, California · `PET` · score 80
-- **[Nuclear Medicine & PET Technologist](https://www.learn4good.com/jobs/newport-beach/california/healthcare/5544857509/e/)** — RadNet  
-  Newport Beach, California · `PET` · score 80
 - **[Lead Nuclear Medicine & PET​/CT Imaging](https://www.learn4good.com/jobs/irvine/california/healthcare/5526556135/e/)** — University of California - Irvine Health  
   Irvine, California · `PET` · score 80
 - **[Nuclear Medicine Technologist PRN - Now Hiring](https://www.snagajob.com/jobs/1270561921)** — Riverside Community Hospital  
@@ -29,8 +27,8 @@
   Orange, California · `good-schedule` · score 60
 - **[Sr. Nuclear Medicine Technologist - Nuclear Medicine IP - FT - Day](https://jobs.digitalhire.com/job-listing/opening/64dKXe0nENNXrVF5rhNuAS)** — University of California, Irvine  
   Orange, California · `PET` `SPECT` · score 60
-- **[Nuclear Medicine Technologist - Nuclear - Now Hiring](https://www.snagajob.com/jobs/1300697913)** — Providence  
-  Orange, California · `good-schedule` `per-diem` · score 52
+- **[Nuclear Medicine Technologist](https://www.monster.com/job-openings/nuclear-medicine-technologist-temescal-valley-ca--d056edab-eade-4912-b920-43b93a0923bd)** — Providence  
+  Temescal Valley, California · score 48
 - **[Nuclear Medicine Technologist](https://lensa.com/job-v1/providence-service/trabuco-canyon-ca/nuclear-medicine-technologist/469a1275ec0b961d3023f8b450305de4)** — Providence Service  
   Trabuco Canyon, California · score 48
 - **[Nuclear Medicine Tech Per Diem](https://bebee.com/us/jobs/nuclear-medicine-tech-per-diem-universal-health-services-corona-ca-united-states--appcast-7428_03bad4aa1ae33071417d637682504d5788b8302df00167e7086237aca98bdcc2)** — Universal Health Services  
@@ -47,7 +45,7 @@
 - **[Nuclear | Nuclear Medicine Technologist](https://refer.ghrhealthcare.com/j/1808940?s=jc)** — GHR Healthcare  
   Los Alamitos, California · score 55
 
-**Still open (not new, still apply-able):** 56 permanent (11 outpatient PET/CT) · 41 travel — see the dashboard.
+**Still open (not new, still apply-able):** 55 permanent (11 outpatient PET/CT) · 41 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
