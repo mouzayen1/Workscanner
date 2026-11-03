@@ -1,17 +1,15 @@
-### 21 new position(s) found — 2026-11-03
+### 23 new position(s) found — 2026-11-03
 
 
-#### Outpatient PET/CT (1)
+#### Outpatient PET/CT (2)
 
+- **[Nuclear Medicine Technician II](https://us.trabajo.org/job-28646-a13167be0aa328ebf616360f2d81fee1)** — Hoag Memorial Hospital Presbyterian  
+  Irvine, California · `PET` · score 100
 - **[PET​/CT Technologist](https://www.learn4good.com/jobs/anaheim/california/healthcare/5574813283/e/)** — Akumin Inc.  
   Anaheim, California · `PET` · score 93
 
-#### Outpatient Nuclear Med (5)
+#### Outpatient Nuclear Med (3)
 
-- **[Nuclear Medicine Technologist- Costa Mesa, CA](https://www.adzuna.com/land/ad/5948330323?se=rMcn1zrX8RGHooA_aA2usg&utm_medium=api&utm_source=23a30878&v=664B204ABF697DC5AA655261B3894448DFFD3659)** — Protouch Staffing  
-  Costa Mesa, Orange County · $166,400–$187,200/yr · `SPECT` `good-schedule` · score 80
-- **[Hoag Health System is hiring: Nuclear Medicine Technologist I: Nuclear Medicine in Newport Beach](https://davidcareers.com/jobs/ef4edd7f49b704f2c9e342d6)** — Hoag Health System  
-  Newport Beach, California · score 75
 - **[Nuclear Med Technologist, Full Time, 32 Hours, Days](https://jobs.womenforhire.com/job/usa/garden-grove-ca/nuclear-med-technologist-full-time-32-hours-days-690703/)** — PIH Health  
   Garden Grove, California · score 75
 - **[Nuclear Med Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/ecrodm865y6b-71a0596b439-e8237-7d3040498f8-86c35)** — PIH Health  
@@ -19,14 +17,16 @@
 - **[Nuclear Medicine Technologist](https://nursingjobs.vitalhiremed.com/joblistingpage/ldaf7i6rab07-556-98b2-bcab8-fa240e27238793a5acc6)** — PIH Health  
   Commerce, California · score 68
 
-#### Hospital / Other (11)
+#### Hospital / Other (14)
 
-- **[Nuclear Medicine Technologist at Precision Scans Inc. Orange County, CA](https://golfbusinesstechnologyconference.com/library/job/nuclear-medicine-technologist-at-precision-scans-inc-orange-county-ca-QzRTUXIyZEpCaktKUi9jaUJCVGF5MEw5OGc9PQ==)** — Precision Scans Inc.  
-  Orange, California · `PET` `SPECT` · score 80
 - **[Pediatric Nuclear Medicine Tech II; PET​/CT](https://www.learn4good.com/jobs/anaheim/california/healthcare/5577508482/e/)** — Valley Children’s Healthcare  
   Anaheim, California · `PET` · score 80
+- **[Nuclear Medicine Technologist at Precision Scans Inc. Orange County, CA](https://golfbusinesstechnologyconference.com/library/job/nuclear-medicine-technologist-at-precision-scans-inc-orange-county-ca-QzRTUXIyZEpCaktKUi9jaUJCVGF5MEw5OGc9PQ==)** — Precision Scans Inc.  
+  Orange, California · `PET` `SPECT` · score 80
 - **[Nuclear Med Tech](https://recruitmednow.com/joblistings/6n0dbay8wfdr-fe9802f541e-a65290cf4fe-bd461fa-c8e)** — HCA Healthcare  
   Corona, California · `PET` · score 80
+- **[Nuclear Medicine Technologist — $10K Sign-On Bonus](https://trabajos.univision.com/job/23-14660_4DBDC644743AAC8EC67028A44B9E7B0A)** — UC Irvine  
+  Los Alamitos, California · score 55
 - **[Nuclear Medicine Tech Sign-On Bonus](https://us.trabajo.org/job-28643-b9976cf0e6cf47f6a79129aa759be3c1)** — Rinvio Recruitment  
   Orange, California · score 55
 - **[Nuclear Medicine Tech — Patient-Focused Imaging Specialist](https://us.jobrapido.com/jobpreview/2546006448924524544)** — UC Irvine  
@@ -35,8 +35,12 @@
   Anaheim, California · score 55
 - **[Nuclear Medicine (MITS) Technologist - Main Campus ($15K bonus for new hires!) (11368)](https://jobmesh.io/job/00ef3962-b94b-4c9e-ba3c-cea9231e6869)** — Memorial Sloan Kettering Cancer Center  
   Corona, California · score 55
-- **[Nuclear Medicine Technologist - Nuclear](https://jobs.womenforhire.com/job/usa/lake-forest-ca/nuclear-medicine-technologist-nuclear-495368/)** — Providence  
-  Lake Forest, California · `good-schedule` `per-diem` · score 52
+- **[Nuclear Medicine Technologist - Nuclear](https://www.adzuna.com/land/ad/5949874981?se=8BzE98XX8RGtDZBIyhV77A&utm_medium=api&utm_source=23a30878&v=31BCFC48FC966FA495D2E89E37BB1DD4E6B82C21)** — Providence  
+  Santa Ana, Orange County · $138,788–$138,788/yr · `good-schedule` `per-diem` · score 52
+- **[Nuclear Medicine Technologist](https://jobs.womenforhire.com/job/usa/trabuco-canyon-ca/nuclear-medicine-technologist-740714/)** — Providence  
+  Trabuco Canyon, California · score 48
+- **[Nuclear Medicine Technologist](https://jooble.org/jdp/8216061195800190056)** — Corona Regional Medical Center  
+  Corona, California · `per-diem` · score 47
 - **[Nuclear Medicine Tech — Per Diem](https://bebee.com/us/jobs/nuclear-medicine-tech-per-diem-universal-health-services-corona--pureheal-28528_25200_f30a0a09c72615ed063d85cc78161403)** — Universal Health Services  
   Corona, California · `per-diem` · score 47
 - **[Part-Time Nuclear Medicine Tech — Diagnostic Imaging Specialist](https://www.jobleads.com/us/job/part-time-nuclear-medicine-tech-diagnostic-imaging-specialist--corona--e392856d811113754f4a9a9b1ab0f9c16)** — Universal Health Services  
@@ -55,7 +59,7 @@
 - **[Travel Nuclear Medicine Tech - $2,720 per week](https://www.linkedin.com/jobs/view/travel-nuclear-medicine-tech-%242-720-per-week-at-assured-nursing-inc-4482800985)** — Assured Nursing Inc  
   Los Angeles, California · score 48
 
-**Still open (not new, still apply-able):** 69 permanent (9 outpatient PET/CT) · 45 travel — see the dashboard.
+**Still open (not new, still apply-able):** 71 permanent (10 outpatient PET/CT) · 53 travel — see the dashboard.
 
 > ⚠️ **Coverage gap:** jooble, usajobs are switched off (no API key configured), so postings that only appear on Indeed/Google Jobs — e.g. small doctor-office jobs — are NOT being scanned. Fix: README → 'add 2 free API keys'.
 
